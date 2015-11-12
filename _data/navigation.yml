@@ -7,13 +7,13 @@
   url: /articles/
 
 - title: Blog
-  url: /blog/
+  url: /
 
-- title: Theme Setup
-  url: /theme-setup/
+- title: Tags
+  url: /tags/
 
-- title: Made Mistakes
-  url: http://mademistakes.com
+- title: Copyright
+  url: /copyright/
 
 - title: Search
   url: /search/

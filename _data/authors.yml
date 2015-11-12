@@ -1,20 +1,20 @@
 # Authors
 
-billy_rick:
-  name: Billy Rick
-  web: http://thewhip.com
-  email: billy@rick.com
-  bio: "What do you want, jewels? I am a very extravagant man."
-  avatar: bio-photo-2.jpg
-  twitter: extravagantman
+milmazz:
+  name: Milton Mazzarri
+  web: http://milmazz.uno
+  email: me@milmazz.uno
+  bio: ""
+  avatar: milmazz.png
+  twitter: milmazz
   google:
-    plus: BillyRick
+    plus: MiltonMazzarri
 
-cornelius_fiddlebone:
-  name: Cornelius Fiddlebone
-  email: cornelius@thewhip.com
-  bio: "I ordered what?"
+chantanito:
+  name: Santiago Lunar
+  email: santiago.lunar@gmail.com
+  bio: ""
   avatar: bio-photo.jpg
-  twitter: rhymeswithsackit
+  twitter: srlunxr
   google:
-    plus: CorneliusFiddlebone
+    plus: SantiagoLunar

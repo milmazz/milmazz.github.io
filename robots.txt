@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /images/
+Sitemap: http://milmazz.com.ve/sitemap.xml

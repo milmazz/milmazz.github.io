@@ -1,26 +1,29 @@
 ---
 layout: page
-title: About the Jekyll Theme
-excerpt: "So Simple is a responsive Jekyll theme for your words and images."
-modified: 2014-08-08T19:44:38.564948-04:00
-image:
-  feature: so-simple-sample-image-4.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+title: About
+excerpt: "Information about this blog."
+redirect_from: /acerca/
 ---
 
-Looking for a simple, responsive, theme for your Jekyll powered blog? Well look no further. Here be **So Simple Theme**, the follow up to [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes) --- by designer slash illustrator [Michael Rose](http://mademistakes.com).
+Hello, my name is Milton Mazzarri (a.k.a. milmazz), I'm a Systems Engineer and
+an enthusiast of the philosophy behind the Free/Libre Open Source Software.
+Some years ago I left my homeland (Venezuela) and began to explore other
+opportunities around the world, I lived for some years in Mexico and now I
+work in the United States of America. If you want to know about what I'm working
+on you can check my [LinkedIn][] and [Github][] accounts.
 
-## So Simple Theme is all about:
+Among the things that I like the most are reading science-fiction or technical
+books, sharing some time with friends, also playing tennis, going for a bike
+ride, playing soccer or just running near my home. Of course, I'm also passionate
+about Computer Science and Programming Languages.
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 9+ and all modern browsers.
-* Minimal embellishments and subtle animations.
-* Optional large feature images for posts and pages.
-* [Custom 404 page]({{ site.url }}/404.html) to get you started.
-* [Simple site search](https://github.com/christian-fei/Simple-Jekyll-Search)
-* Support for Disqus Comments
+I will share through this _blog_ my experiences as a programmer and
+write about a variety of topics about different technologies. In the past I was
+a system administrator, so, maybe I'll include some articles about that as well.
 
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install So Simple Theme</a>
+If you prefer you can contact me on my personal e-mail: `me at milmaz.uno`
+or you can follow me on Twitter at [@milmazz][]
 
-[^1]: Example: *domain.com/category-name/post-title*
+[LinkedIn]: https://www.linkedin.com/in/milmazz
+[Github]: https://github.com/milmazz
+[@milmazz]: https://twitter.com/milmazz
