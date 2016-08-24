@@ -8,6 +8,7 @@ layout: post
 slug: grunt-javascript-task-manager
 title: 'Grunt: The Javascript Task Manager'
 description: When you play the Web Developer role, sometimes you may have to endure some repetitive tasks like minification, unit testing, compilation, linting, beautify or unpack JavaScript code and so on. To solve this problems, and in the meantime, try to keep your mental health in a good shape, you desperately need to find a way to automate this tasks. [Grunt][] offers you an easy way to accomplish this kind of automation.
+excerpt_separator: <!--more-->
 image:
   thumb: 'grunt/grunt-logo.png'
 tags:
@@ -16,9 +17,6 @@ tags:
 - programming
 ---
 
-![Grunt]({{ site.url }}/images/grunt/grunt-logo.png)
-{: .pull-right}
-
 When you play the Web Developer role, sometimes you may have to endure some
 repetitive tasks like minification, unit testing, compilation, linting,
 beautify or unpack Javascript code and so on. To solve this problems, and in
@@ -26,7 +24,7 @@ the meantime, try to keep your mental health in a good shape, you desperately
 need to find a way to automate this tasks. [Grunt][] offers you an easy way to
 accomplish this kind of automation.
 
-<!-- break -->
+<!--more-->
 
 In this article I'll try to explain how to automate some tasks with Grunt, but
 I recommend that you should take some time to read Grunt's documentation and

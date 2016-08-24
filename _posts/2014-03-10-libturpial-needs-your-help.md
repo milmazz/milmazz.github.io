@@ -14,7 +14,7 @@ tags:
 Do you want to begin to contribute into [libturpial][] codebase but you don't
 know where to start?, that's ok, it also happens to me sometimes, but today, the
 reality is that we need your help to fix some errors reported by our style
-checker ([flake8][]), this errors are:
+checker ([flake8][])<!--more-->, this errors are:
 
 * `E126`: continuation line over-indented for hanging indent
 * `E128`: continuation line under-indented for visual indent

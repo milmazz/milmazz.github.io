@@ -7,6 +7,7 @@ date: 2014-06-24T19:00:00-05:00
 layout: post
 slug: dont-repeat-yourself-principle
 title: 'The DRY principle'
+excerpt_separator: <!--more-->
 tags:
 - jquery
 - javascript
@@ -22,7 +23,7 @@ That said, it's almost clear that the DRY principle is against the code
 duplication, something that in the long-term affect the maintenance phase, it
 doesn't facilitate the improvement or code refactoring and, in some
 cases, it can generate some contradictions, among other problems.
-
+<!--more-->
 Recently I have inherited a project, and one of the things that I noticed in
 some part of the source code are the following:
 

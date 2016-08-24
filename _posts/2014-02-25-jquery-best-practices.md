@@ -7,13 +7,14 @@ date: 2014-02-25 00:20:00
 layout: post
 slug: jquery-best-practices
 title: 'jQuery best practices'
+excerpt_separator: <!--more-->
 tags:
 - jquery
 - javascript
 - programming
 ---
 
-After some time working with C programming language in a *NIX like operating
+After some time working with C programming language in a \*NIX like operating
 system, recently I came back again to Web Programming, mostly working with HTML,
 CSS and JavaScript in the client-side and other technologies in the backend
 area.
@@ -23,7 +24,7 @@ The current project I've been working on, heavily relies on [jQuery][] and
 beginning of the project my skills in the client-side were more than rusted, so,
 I began reading a lot of articles about new techniques and good practices to
 catch up very quickly, in the meantime, I start taking some notes about "best
-practices"[^1] that promotes a better use of jQuery[^2], I hope you find this
+practices"[^1] that promotes a better use of jQuery[^2]<!--more-->, I hope you find this
 information useful, if you have more tips or any doubt please leave your
 comments at the end of this article.
 
