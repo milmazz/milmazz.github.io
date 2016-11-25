@@ -5,7 +5,7 @@ locale: en_US
 description: "To teach is to learn twice. - Joseph Joubert"
 #logo: site-logo.png
 search: true
-url: http://milmazz.uno
+url: https://milmazz.uno
 
 # Jekyll configuration
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
