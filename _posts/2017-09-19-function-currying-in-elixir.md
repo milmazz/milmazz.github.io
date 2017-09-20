@@ -64,8 +64,7 @@ The main points in this `Curry` module are the following:
 
 * `Curry.curry/1` represents our entry point, this function use
   [`:erlang.func_info/2`][3] to know the arity (number of arguments) of the given
-  function `fun`. Then, we pass the control to the private function
-  `Curry.curry/3`
+  function `fun`. Then, we pass the control to the function `Curry.curry/3`
 * The recursive function `Curry.curry/3` will return _anonymous functions_ that
   only takes just one argument.
 * When the last required argument is given we will use [`Kernel.apply/2`][4] to
