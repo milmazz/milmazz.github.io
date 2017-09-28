@@ -6,7 +6,6 @@ date: 2006-04-25 15:04:46
 layout: post
 slug: debian-bienvenido-al-sistema-operativo-universal-parte-i
 title: 'Debian: Bienvenido al Sistema Operativo Universal (Parte I)'
-wordpress_id: 162
 categories:
 - debian
 tags:

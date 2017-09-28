@@ -5,7 +5,6 @@ date: 2006-04-05 23:57:48
 layout: post
 slug: lavado-de-cara-para-planeta-linux
 title: Lavado de cara para Planeta Linux
-wordpress_id: 159
 tags:
 - Anuncios
 - layout

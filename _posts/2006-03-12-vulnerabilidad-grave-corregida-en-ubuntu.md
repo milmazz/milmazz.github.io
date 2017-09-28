@@ -6,7 +6,6 @@ date: 2006-03-12 21:33:19
 layout: post
 slug: vulnerabilidad-grave-corregida-en-ubuntu
 title: Vulnerabilidad grave corregida en ubuntu
-wordpress_id: 150
 categories:
 - Seguridad
 - Ubuntu

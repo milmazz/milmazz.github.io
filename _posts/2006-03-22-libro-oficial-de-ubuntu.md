@@ -6,7 +6,6 @@ date: 2006-03-22 13:10:36
 layout: post
 slug: libro-oficial-de-ubuntu
 title: Libro oficial de Ubuntu
-wordpress_id: 155
 categories:
 - Ubuntu
 tags:

@@ -5,7 +5,6 @@ date: 2005-09-09 01:01:19
 layout: post
 slug: version-previa-a-kubuntu-breezy
 title: Versión Previa a Kubuntu Breezy
-wordpress_id: 74
 categories:
 - GNU/Linux
 tags:

@@ -5,7 +5,6 @@ date: 2005-09-11 13:59:23
 layout: post
 slug: maestro-es-windows-xp-un-virus
 title: Maestro, es Windows XP un virus?
-wordpress_id: 76
 categories:
 - Seguridad
 tags:

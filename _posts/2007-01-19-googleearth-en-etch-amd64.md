@@ -6,7 +6,6 @@ date: 2007-01-19 10:39:14
 layout: post
 slug: googleearth-en-etch-amd64
 title: GoogleEarth en Etch AMD64
-wordpress_id: 203
 tags:
 - General
 ---

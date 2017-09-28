@@ -6,7 +6,6 @@ date: 2005-12-02 08:50:22
 layout: post
 slug: videos-educacionales-de-ubuntu
 title: Videos educacionales de ubuntu
-wordpress_id: 113
 categories:
 - Ubuntu
 tags:

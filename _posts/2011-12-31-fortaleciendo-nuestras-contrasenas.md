@@ -6,7 +6,6 @@ date: 2011-12-31 02:53:55
 layout: post
 slug: fortaleciendo-nuestras-contrasenas
 title: Fortaleciendo nuestras contraseñas
-wordpress_id: 220
 categories:
 - debian
 - Seguridad
@@ -19,9 +18,15 @@ tags:
 - sysadmin
 ---
 
-Si una de las promesas que tiene para este cierre de año es fortalecer las contraseñas en sus equipos personales, cambiarlas mensualmente y no repetir la misma contraseña en al menos doce cambios. En este artículo se le explicará como hacerlo sin tener que invertir una uva en ello, todo esto gracias al paquete `libpam-cracklib` en Debian, el procedimiento mostrado debe aplicarse a otras distribuciones derivadas de Debian.
+Si una de las promesas que tiene para este cierre de año es fortalecer las
+contraseñas en sus equipos personales, cambiarlas mensualmente y no repetir la
+misma contraseña en al menos doce cambios. En este artículo se le explicará como
+hacerlo sin tener que invertir una uva en ello, todo esto gracias al paquete
+`libpam-cracklib` en Debian, el procedimiento mostrado debe aplicarse a otras
+distribuciones derivadas de Debian.
 
-Pareciese lógico que algunas de las mejores prácticas para el fortalecimiento de las contraseñas son las siguientes:
+Pareciese lógico que algunas de las mejores prácticas para el fortalecimiento de
+las contraseñas son las siguientes:
 
   * Cambiar las contraseñas periódicamente.
   * Establecer una longitud mínima en las contraseñas.
@@ -33,11 +38,15 @@ El primer paso es instalar el paquete `libpam-cracklib`
     
     # apt-get install libpam-cracklib
 
-A partir de la versión 1.0.1-6 de PAM se recomienda manejar la configuración vía `pam-auth-update`. Por lo tanto, por favor tome un momento y lea la sección 8 del manual del comando `pam-auth-update` para aclarar su uso y ventajas.
+A partir de la versión 1.0.1-6 de PAM se recomienda manejar la configuración vía
+`pam-auth-update`. Por lo tanto, por favor tome un momento y lea la sección 8
+del manual del comando `pam-auth-update` para aclarar su uso y ventajas.
 
     $ man 8 pam-auth-update
 
-Ahora establezca una configuración similar a la siguiente, vamos primero con la exigencia en la fortaleza de las contraseñas, para ello edite o cree el fichero `/usr/share/pam-configs/cracklib`.
+Ahora establezca una configuración similar a la siguiente, vamos primero con la
+exigencia en la fortaleza de las contraseñas, para ello edite o cree el fichero
+`/usr/share/pam-configs/cracklib`.
 
     Name: Cracklib password strength checking
     Default: yes
@@ -49,11 +58,16 @@ Ahora establezca una configuración similar a la siguiente, vamos primero con la
     Password-Initial:
     	requisite	pam_cracklib.so retry=3 minlen=8 difok=3
 
-**NOTA:** Le recomiendo leer la sección 8 del manual de `pam_cracklib` para encontrar un mayor numero de opciones de configuración. Esto es solo un ejemplo.
+**NOTA:** Le recomiendo leer la sección 8 del manual de `pam_cracklib` para
+encontrar un mayor numero de opciones de configuración. Esto es solo un ejemplo.
 
-En versiones previas el modulo `pam_cracklib` hacia uso del fichero `/etc/security/opasswd` para conocer si la propuesta de cambio de contraseña no había sido utilizada previamente. Dicha funcionalidad ahora corresponde al nuevo modulo `pam_pwhistory`
+En versiones previas el modulo `pam_cracklib` hacia uso del fichero
+`/etc/security/opasswd` para conocer si la propuesta de cambio de contraseña no
+había sido utilizada previamente. Dicha funcionalidad ahora corresponde al nuevo
+modulo `pam_pwhistory`
 
-Definamos el funcionamiento de `pam_pwhistory` a través del fichero `/usr/share/pam-configs/history`.
+Definamos el funcionamiento de `pam_pwhistory` a través del fichero
+`/usr/share/pam-configs/history`.
 
     Name: PAM module to remember last passwords
     Default: yes
@@ -64,15 +78,19 @@ Definamos el funcionamiento de `pam_pwhistory` a través del fichero `/usr/share
     Password-Initial:
     	requisite	pam_pwhistory.so use_authtok enforce_for_root remember=12 retry=3
 
-**NOTA:** Para mayor detalle de las opciones puede revisar la sección 8 del manual de `pam_pwhistory`
+**NOTA:** Para mayor detalle de las opciones puede revisar la sección 8 del
+manual de `pam_pwhistory`
 
 Seguidamente proceda a actualizar la configuración de PAM vía `pam-auth-update`.
 
 ![pam-auth-update][pam-auth-update]
 
-Una vez cubierta la fortaleza de las contraseñas nuevas y de evitar la reutilización de las ultimas 12, de acuerdo al ejemplo mostrado, resta cubrir la definición de los periodos de cambio de las contraseñas.
+Una vez cubierta la fortaleza de las contraseñas nuevas y de evitar la
+reutilización de las ultimas 12, de acuerdo al ejemplo mostrado, resta cubrir la
+definición de los periodos de cambio de las contraseñas.
 
-Para futuros usuarios debemos ajustar ciertos valores en el fichero `/etc/login.defs`
+Para futuros usuarios debemos ajustar ciertos valores en el fichero
+`/etc/login.defs`
 
     #
     # Password aging controls:
@@ -85,7 +103,8 @@ Para futuros usuarios debemos ajustar ciertos valores en el fichero `/etc/login.
     PASS_MIN_DAYS   0
     PASS_WARN_AGE   5
 
-Las reglas previas no aplicaran para los usuarios existentes, pero para este tipo de usuarios podremos hacer uso del comando `chage` de la siguiente manera:
+Las reglas previas no aplicaran para los usuarios existentes, pero para este
+tipo de usuarios podremos hacer uso del comando `chage` de la siguiente manera:
     
     # chage -m 0 -M 30 -W 5 ${user}
 

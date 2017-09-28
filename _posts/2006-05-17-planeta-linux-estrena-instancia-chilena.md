@@ -6,7 +6,6 @@ date: 2006-05-17 11:28:15
 layout: post
 slug: planeta-linux-estrena-instancia-chilena
 title: Planeta Linux estrena instancia Chilena
-wordpress_id: 170
 tags:
 - chile
 - Internet

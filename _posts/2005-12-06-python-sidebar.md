@@ -6,7 +6,6 @@ date: 2005-12-06 13:13:23
 layout: post
 slug: python-sidebar
 title: Python Sidebar
-wordpress_id: 115
 categories:
 - Python
 tags:

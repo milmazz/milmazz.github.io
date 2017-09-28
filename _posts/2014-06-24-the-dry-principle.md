@@ -17,7 +17,8 @@ tags:
 The [DRY][] (*Don't Repeat Yourself*) principle it basically consist in the
 following:
 
-> Every piece of knowledge must have a single, unambiguous, authoritative representation within a system.
+> Every piece of knowledge must have a single, unambiguous, authoritative
+> representation within a system.
 
 That said, it's almost clear that the DRY principle is against the code
 duplication, something that in the long-term affect the maintenance phase, it
@@ -56,9 +57,9 @@ Anyway, I wanted to share my experience in this case. Also, remark that we need
 to take care of some principles at the moment we develop software and avoid to
 reinvent the wheel or do *overengineering*.
 
-Last but not least, one way to read *offline* documentation that I tend to use is
-[Dash][] or [Zeal][], I can reach a bunch of documentation without the need of an
-Internet connection, give it a try!
+Last but not least, one way to read *offline* documentation that I tend to use
+is [Dash][] or [Zeal][], I can reach a bunch of documentation without the need
+of an Internet connection, give it a try!
 
 [DRY]: http://en.wikipedia.org/wiki/DRY_principle
 [jQuery]: http://jquery.com

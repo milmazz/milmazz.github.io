@@ -6,7 +6,6 @@ date: 2005-11-28 00:45:51
 layout: post
 slug: restaurando-la-vieja-barra-de-localizacion-en-nautilus
 title: Restaurando la vieja barra de localización en nautilus
-wordpress_id: 107
 categories:
 - Ubuntu
 tags:

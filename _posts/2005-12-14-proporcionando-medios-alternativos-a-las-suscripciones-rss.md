@@ -6,7 +6,6 @@ date: 2005-12-14 18:03:56
 layout: post
 slug: proporcionando-medios-alternativos-a-las-suscripciones-rss
 title: Proporcionando medios alternativos a las suscripciones RSS
-wordpress_id: 122
 tags:
 - Anuncios
 - Noticias

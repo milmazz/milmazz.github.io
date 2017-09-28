@@ -6,7 +6,6 @@ date: 2005-06-26 13:17:10
 layout: post
 slug: smeg-simple-editor-del-menu-para-gnome
 title: Smeg, simple editor del menú para GNOME
-wordpress_id: 53
 categories:
 - Ubuntu
 tags:

@@ -6,7 +6,6 @@ date: 2006-06-04 04:25:41
 layout: post
 slug: stardict-el-diccionario-que-buscaba
 title: 'StarDict: El diccionario que buscaba'
-wordpress_id: 178
 categories:
 - Software
 tags:

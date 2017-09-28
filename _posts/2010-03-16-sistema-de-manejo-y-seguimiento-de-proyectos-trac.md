@@ -6,7 +6,6 @@ date: 2010-03-16 01:24:43
 layout: post
 slug: sistema-de-manejo-y-seguimiento-de-proyectos-trac
 title: 'Sistema de manejo y seguimiento de proyectos: Trac'
-wordpress_id: 263
 categories:
 - Programación
 - Software

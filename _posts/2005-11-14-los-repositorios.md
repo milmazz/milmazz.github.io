@@ -6,7 +6,6 @@ date: 2005-11-14 14:33:59
 layout: post
 slug: los-repositorios
 title: Los Repositorios
-wordpress_id: 101
 categories:
 - debian
 - Ubuntu

@@ -15,15 +15,55 @@ share: true
 
 **NOTA: Este artículo originalmente lo escribí para [La Cara Oscura del Software](http://lacaraoscura.com/post/59947279510/elixir-primeras-impresiones), un *blog* colectivo dedicado a desarrollo de software.**
 
-![](http://media.tumblr.com/67428e8bd65cf2747d8a1b19f67bb3b6/tumblr_inline_msfr2tm7tU1qz4rgp.png) Durante el segundo *hangout* de [@rubyVE](http://www.twitter.com/Rubyve) escuché a [@edgar](http://www.twitter.com/edgar) comentar sobre [Elixir][] y en verdad me llamó la atención lo que indicaba, siempre me inquieta conocer al menos un poco sobre otros lenguajes de programación, siempre terminas aprendiendo algo, una buena lección es seguro, sobre todo por aquello de la filosofía del programador pragmático y la necesidad de invertir regularmente en tu [portafolio de conocimientos][pragmatictips].
+![](http://media.tumblr.com/67428e8bd65cf2747d8a1b19f67bb3b6/tumblr_inline_msfr2tm7tU1qz4rgp.png)
+Durante el segundo *hangout* de [@rubyVE](http://www.twitter.com/Rubyve) escuché
+a [@edgar](http://www.twitter.com/edgar) comentar sobre [Elixir][] y en verdad
+me llamó la atención lo que indicaba, siempre me inquieta conocer al menos un
+poco sobre otros lenguajes de programación, siempre terminas aprendiendo algo,
+una buena lección es seguro, sobre todo por aquello de la filosofía del
+programador pragmático y la necesidad de invertir regularmente en tu [portafolio
+de conocimientos][pragmatictips].
 
-Ahora bien, después de leer un artículo de [Joe Armstrong][], padre de [Erlang][], en donde afirmaba que tras una semana de haber usado Elixir estaba **completamente entusiasmado** por lo visto. Con esto era claro que se estaba presentando para mi una gran oportunidad para retomar la programación funcional con [Elixir][], inicié con [Haskell][] en la Universidad en la materia de *Compiladores* y la verdad es que no lo he vuelto a tocar. 
+Ahora bien, después de leer un artículo de [Joe Armstrong][], padre de
+[Erlang][], en donde afirmaba que tras una semana de haber usado Elixir estaba
+**completamente entusiasmado** por lo visto. Con esto era claro que se estaba
+presentando para mi una gran oportunidad para retomar la programación funcional
+con [Elixir][], inicié con [Haskell][] en la Universidad en la materia de
+*Compiladores* y la verdad es que no lo he vuelto a tocar. 
 
-[José Valim](http://www.twitter.com/josevalim) es un brasileño, parte del equipo [core committer](http://rubyonrails.org/core) de Rails. Después de sufrir [RSI][], en su afán por encontrar qué hacer en su reposo se puso a leer el libro: [Seven Languages in Seven Weeks: A Pragmatic Guide to Learning Programming Languages][7languages] y allí conoció [Erlang][] y su EVM (*Erlang Virtual Machine*), cierto tiempo después creo este nuevo lenguaje llamado Elixir, en donde uno de sus mayores activos es la EVM, tanto es así que de hecho no existe un costo de conversión al invocar Erlang desde Elixir y viceversa. Todo esto es seguramente es la respuesta de Valim a las limitantes físicas actuales en los procesadores o lo que se conoce también como: "[se nos acabó el almuerzo gratis][free-lunch-is-over]", sobre todo ahora con recientes anuncios de [Parallella][] y de Intel con los procesadores [Xeon Phi][].
+[José Valim](http://www.twitter.com/josevalim) es un brasileño, parte del equipo
+[core committer](http://rubyonrails.org/core) de Rails. Después de sufrir
+[RSI][], en su afán por encontrar qué hacer en su reposo se puso a leer el
+libro: [Seven Languages in Seven Weeks: A Pragmatic Guide to Learning
+Programming Languages][7languages] y allí conoció [Erlang][] y su EVM (*Erlang
+Virtual Machine*), cierto tiempo después creo este nuevo lenguaje llamado
+Elixir, en donde uno de sus mayores activos es la EVM, tanto es así que de hecho
+no existe un costo de conversión al invocar Erlang desde Elixir y viceversa.
+Todo esto es seguramente es la respuesta de Valim a las limitantes físicas
+actuales en los procesadores o lo que se conoce también como: "[se nos acabó el
+almuerzo gratis][free-lunch-is-over]", sobre todo ahora con recientes anuncios
+de [Parallella][] y de Intel con los procesadores [Xeon Phi][].
 
-A pesar de la horrible sintaxis de Erlang, o al menos después de leer a Damien Katz, autor original de [CouchDB](http://couchdb.apache.org/) en [What Sucks About Erlang](http://damienkatz.net/2008/03/what_sucks_abou.html) y a Tony Arcieri, autor de [Reia](http://reia-lang.org/) (otro lenguaje basado en BEAM), en su artículo [The Trouble with Erlang (or Erlang is a ghetto)](http://www.unlimitednovelty.com/2011/07/trouble-with-erlang-or-erlang-is-ghetto.html) es fácil concluir que la sintaxis no es la más amenas de todas. Sin embargo, las inmensas habilidades que brinda Erlang para establecer sistemas concurrentes (distribuidos, tolerantes a fallas y *code swapping*) ha permitido llegar a mantener hasta [2 millones de conexiones TCP en un solo nodo][2millions]. Es por ello que compañías como [Whatsapp][], [Facebook][], [Amazon][], [Ericsson][], [Motorola][], [Basho][] ([Riak][]) y [Heroku][] por mencionar algunas están usando Erlang para desarrollar sus sistemas.
+A pesar de la horrible sintaxis de Erlang, o al menos después de leer a Damien
+Katz, autor original de [CouchDB](http://couchdb.apache.org/) en [What Sucks
+About Erlang](http://damienkatz.net/2008/03/what_sucks_abou.html) y a Tony
+Arcieri, autor de [Reia](http://reia-lang.org/) (otro lenguaje basado en BEAM),
+en su artículo [The Trouble with Erlang (or Erlang is a
+ghetto)](http://www.unlimitednovelty.com/2011/07/trouble-with-erlang-or-erlang-is-ghetto.html)
+es fácil concluir que la sintaxis no es la más amenas de todas. Sin embargo, las
+inmensas habilidades que brinda Erlang para establecer sistemas concurrentes
+(distribuidos, tolerantes a fallas y *code swapping*) ha permitido llegar a
+mantener hasta [2 millones de conexiones TCP en un solo nodo][2millions]. Es por
+ello que compañías como [Whatsapp][], [Facebook][], [Amazon][], [Ericsson][],
+[Motorola][], [Basho][] ([Riak][]) y [Heroku][] por mencionar algunas están
+usando Erlang para desarrollar sus sistemas.
 
-Rápidamente quisiera compartirles mi felicidad por haber iniciado a explorar este lenguaje. Para iniciar tu proyecto tienes un magnífico utilitario llamado [mix][] (inspirado en [Leiningen][] de Clojure). Mix también permite manejar las tareas más comunes como administración de dependencias de tu proyecto, compilación, ejecución de pruebas, despliegue (pronto), entre otras. Incluso puedes programar nuevas tareas, simplemente asombroso, en fin, vamos a jugar:
+Rápidamente quisiera compartirles mi felicidad por haber iniciado a explorar
+este lenguaje. Para iniciar tu proyecto tienes un magnífico utilitario llamado
+[mix][] (inspirado en [Leiningen][] de Clojure). Mix también permite manejar las
+tareas más comunes como administración de dependencias de tu proyecto,
+compilación, ejecución de pruebas, despliegue (pronto), entre otras. Incluso
+puedes programar nuevas tareas, simplemente asombroso, en fin, vamos a jugar:
 
     $ mix help
     mix                 # Run the default task (current: mix run)
@@ -84,7 +124,12 @@ La estructura del proyecto creado por `mix` es como sigue:
 
     2 directories, 5 files
 
-En `mix.exs` encontramos la configuración del proyecto así como sus dependencias en caso de aplicar, en `lib/demo.ex` ubicamos la definición del módulo que nos ayudará a estructurar posteriormente nuestro código, en `test/test_demo.exs` encontramos un esqueleto base para los casos de pruebas asociadas al modulo. Finalmente en `test/test_helper.exs` radica inicialmente el arranque del *framework* [ExUnit][].
+En `mix.exs` encontramos la configuración del proyecto así como sus dependencias
+en caso de aplicar, en `lib/demo.ex` ubicamos la definición del módulo que nos
+ayudará a estructurar posteriormente nuestro código, en `test/test_demo.exs`
+encontramos un esqueleto base para los casos de pruebas asociadas al modulo.
+Finalmente en `test/test_helper.exs` radica inicialmente el arranque del
+*framework* [ExUnit][].
 
 Creemos un par de pruebas sencillas primero:
 
@@ -105,7 +150,8 @@ Creemos un par de pruebas sencillas primero:
       end
     end
 
-Evidentemente al hacer "mix test" todas las pruebas fallaran, vamos a comenzar a subsanar eso:
+Evidentemente al hacer "mix test" todas las pruebas fallaran, vamos a comenzar a
+subsanar eso:
 
     $ vim lib/demo.ex
     defmodule Demo do
@@ -120,7 +166,8 @@ Evidentemente al hacer "mix test" todas las pruebas fallaran, vamos a comenzar a
 
     end
 
-En el par de bloques de código mostrado previamente se cubren los dos casos posibles del factorial.
+En el par de bloques de código mostrado previamente se cubren los dos casos
+posibles del factorial.
 
 Volvamos a correr las pruebas:
 
@@ -138,7 +185,8 @@ Volvamos a correr las pruebas:
     Finished in 0.04 seconds (0.04s on load, 0.00s on tests)
     3 tests, 1 failures
 
-De las 3 pruebas programadas hemos superado dos, nada mal, continuemos, volvamos a editar nuestro módulo:
+De las 3 pruebas programadas hemos superado dos, nada mal, continuemos, volvamos
+a editar nuestro módulo:
 
     $ vim lib/demo.ex
     defmodule Demo do
@@ -159,9 +207,14 @@ De las 3 pruebas programadas hemos superado dos, nada mal, continuemos, volvamos
         end
     end
 
-En esta última versión se ha agregado la función `map`, básicamente esta función recibe una colección de datos y una función que se aplicará sobre cada uno de los elementos de la colección, para nuestros efectos prácticos la función que será pasada a `map` será el factorial.
+En esta última versión se ha agregado la función `map`, básicamente esta función
+recibe una colección de datos y una función que se aplicará sobre cada uno de
+los elementos de la colección, para nuestros efectos prácticos la función que
+será pasada a `map` será el factorial.
 
-Como nota adicional, los bloques de código vistos en el ejemplo anterior prefiero expresarlos de manera sucinta así, cuestión que también es posible en Elixir:
+Como nota adicional, los bloques de código vistos en el ejemplo anterior
+prefiero expresarlos de manera sucinta así, cuestión que también es posible en
+Elixir:
 
     $ vim lib/demo.ex
     defmodule Demo do
@@ -177,9 +230,13 @@ Como nota adicional, los bloques de código vistos en el ejemplo anterior prefie
         def map([head|tail], func), do: [func.(head) | map(tail, func)]
     end
 
-Acá se pueden apreciar conceptos como *pattern matching*, *guard clauses*, manejo de listas y *docstrings* (inspirado en Python). Atención, los *docstrings* soportan [MarkDown][], junto a [ExDoc][] es posible producir sitios estáticos que extraen los *docstrings* a partir del código fuente.
+Acá se pueden apreciar conceptos como *pattern matching*, *guard clauses*,
+manejo de listas y *docstrings* (inspirado en Python). Atención, los
+*docstrings* soportan [MarkDown][], junto a [ExDoc][] es posible producir sitios
+estáticos que extraen los *docstrings* a partir del código fuente.
 
-Comprobemos los casos desde la consola interactiva `iex` antes de pasar de nuevo al caso automatizado:
+Comprobemos los casos desde la consola interactiva `iex` antes de pasar de nuevo
+al caso automatizado:
 
     $ iex lib/demo.ex
     Erlang R16B01 (erts-5.10.2) [source] [64-bit] [smp:4:4] [async-threads:10] [hipe] [kernel-poll:false]
@@ -197,9 +254,14 @@ Comprobemos los casos desde la consola interactiva `iex` antes de pasar de nuevo
     iex(4)> Demo.map([6, 8, 10], Demo.factorial(&1))
     [720, 40320, 3628800]
     
-Lo previo es una *consola interactiva*, vimos la documentación e hicimos unas pruebas manuales.
+Lo previo es una *consola interactiva*, vimos la documentación e hicimos unas
+pruebas manuales.
 
-Seguro notaron que al final del ejemplo previo, al hacer el `map` he cambiado la forma en la que invoco a la función anónima la cual originalmente fue definida en las pruebas como `fn(n) -> Demo.factorial(n) end`, solamente he recurrido a un modo que permite Elixir y otros lenguajes funcionales para expresar este tipo de funciones de manera concisa, se le conoce como *Partials*.
+Seguro notaron que al final del ejemplo previo, al hacer el `map` he cambiado la
+forma en la que invoco a la función anónima la cual originalmente fue definida
+en las pruebas como `fn(n) -> Demo.factorial(n) end`, solamente he recurrido a
+un modo que permite Elixir y otros lenguajes funcionales para expresar este tipo
+de funciones de manera concisa, se le conoce como *Partials*.
 
 Ahora corramos las pruebas automatizadas de nuevo:
 
@@ -213,7 +275,9 @@ Ahora corramos las pruebas automatizadas de nuevo:
 
 Con eso hemos pasado los casos de pruebas.
 
-En este caso particular, prefiero que las pruebas sean autocontenidas en el módulo, además, no recurrimos a *fixtures* ni nada por el estilo, así que vamos a cambiar el código para que soporte *doctest*
+En este caso particular, prefiero que las pruebas sean autocontenidas en el
+módulo, además, no recurrimos a *fixtures* ni nada por el estilo, así que vamos
+a cambiar el código para que soporte *doctest*
 
     $ vim lib/demo.ex
     defmodule Demo do
@@ -242,7 +306,8 @@ En este caso particular, prefiero que las pruebas sean autocontenidas en el mód
         def map([head|tail], func), do: [func.(head) | map(tail, func)]
     end
 
-Dado lo anterior ya no es necesario tener las pruebas aparte, por lo que reduzco:
+Dado lo anterior ya no es necesario tener las pruebas aparte, por lo que
+reduzco:
 
     $ vim test/demo_test.exs
     defmodule DemoTest do
@@ -258,11 +323,24 @@ Comprobamos la equivalencia:
     Finished in 0.06 seconds (0.06s on load, 0.00s on tests)
     3 tests, 0 failures
 
-Simplemente hermoso, cabe resaltar que lo mencionado es solo rascar un poco la superficie de Elixir :-)
+Simplemente hermoso, cabe resaltar que lo mencionado es solo rascar un poco la
+superficie de Elixir :-)
 
-Ah, por cierto, ya para finalizar, José Valim está apuntando el desarrollo de Elixir y [Dynamo][] (framework) a la Web, lo ha dejado claro, por eso he visto que algunos programadores Rails están "echándole un ojo" a Elixir, al menos eso es lo que concluyo de los [elixir-issues][] en Github, el reciente screencast de [Peepcode][] (vale la pena comprarlo) y los libros que se avecinan de [Dave Thomas][PragProg] y [Simon St. Laurent][OReilly].
+Ah, por cierto, ya para finalizar, José Valim está apuntando el desarrollo de
+Elixir y [Dynamo][] (framework) a la Web, lo ha dejado claro, por eso he visto
+que algunos programadores Rails están "echándole un ojo" a Elixir, al menos eso
+es lo que concluyo de los [elixir-issues][] en Github, el reciente screencast de
+[Peepcode][] (vale la pena comprarlo) y los libros que se avecinan de [Dave
+Thomas][PragProg] y [Simon St. Laurent][OReilly].
 
-Quizá en una nueva oportunidad hablemos de Macros, pase de mensajes entre procesos, Protocolos (inspirados en [Clojure protocols](http://clojure.org/protocols)), Reducers (inspirados también en [Clojure Reducers](http://clojure.com/blog/2012/05/08/reducers-a-library-and-model-for-collection-processing.html)), HashDict, el hermoso y *nix like operador pipeline (`|>`), mejorar nuestra implementación de la función `map` para que haga los cálculos de manera concurrente, entre otros.
+Quizá en una nueva oportunidad hablemos de Macros, pase de mensajes entre
+procesos, Protocolos (inspirados en [Clojure
+protocols](http://clojure.org/protocols)), Reducers (inspirados también en
+[Clojure
+Reducers](http://clojure.com/blog/2012/05/08/reducers-a-library-and-model-for-collection-processing.html)),
+HashDict, el hermoso y *nix like operador pipeline (`|>`), mejorar nuestra
+implementación de la función `map` para que haga los cálculos de manera
+concurrente, entre otros.
 
 Espero hayan disfrutado la lectura, que este artículo sirva de abreboca y les anime a probar Elixir.
 

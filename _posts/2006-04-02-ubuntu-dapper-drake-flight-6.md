@@ -6,7 +6,6 @@ date: 2006-04-02 17:47:34
 layout: post
 slug: ubuntu-dapper-drake-flight-6
 title: Ubuntu Dapper Drake Flight 6
-wordpress_id: 157
 categories:
 - Ubuntu
 tags:

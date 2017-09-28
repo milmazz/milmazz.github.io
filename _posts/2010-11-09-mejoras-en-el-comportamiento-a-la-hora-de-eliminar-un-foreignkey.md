@@ -6,7 +6,6 @@ date: 2010-11-09 19:51:35
 layout: post
 slug: mejoras-en-el-comportamiento-a-la-hora-de-eliminar-un-foreignkey
 title: Mejoras en el comportamiento a la hora de eliminar un ForeignKey
-wordpress_id: 313
 categories:
 - django 
 tags:

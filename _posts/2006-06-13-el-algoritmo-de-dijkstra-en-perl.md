@@ -6,7 +6,6 @@ date: 2006-06-13 17:10:22
 layout: post
 slug: el-algoritmo-de-dijkstra-en-perl
 title: El algoritmo de Dijkstra en Perl
-wordpress_id: 187
 categories:
 - Perl
 tags:

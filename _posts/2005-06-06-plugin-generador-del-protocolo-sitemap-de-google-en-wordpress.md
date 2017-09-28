@@ -6,7 +6,6 @@ date: 2005-06-06 02:36:35
 layout: post
 slug: plugin-generador-del-protocolo-sitemap-de-google-en-wordpress
 title: Plugin generador del protocolo sitemap de Google en WordPress
-wordpress_id: 44
 categories:
 - WordPress
 tags:

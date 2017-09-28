@@ -6,7 +6,6 @@ date: 2005-11-21 22:56:44
 layout: post
 slug: ctrl-alt-supr-en-ubuntu
 title: Ctrl + Alt + Supr en Ubuntu
-wordpress_id: 103
 categories:
 - Ubuntu
 tags:

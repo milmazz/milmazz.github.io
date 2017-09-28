@@ -6,7 +6,6 @@ date: 2006-05-25 21:51:07
 layout: post
 slug: amigas-se-unen-a-la-blogocosa
 title: Amigas se unen a la blogocosa
-wordpress_id: 173
 categories:
 - Local
 - Personal

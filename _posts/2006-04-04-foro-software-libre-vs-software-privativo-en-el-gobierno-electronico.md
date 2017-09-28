@@ -6,7 +6,6 @@ date: 2006-04-04 02:21:24
 layout: post
 slug: foro-software-libre-vs-software-privativo-en-el-gobierno-electronico
 title: 'Foro: Software Libre vs. Software Privativo en el gobierno electrónico'
-wordpress_id: 158
 categories:
 - Local
 - Software

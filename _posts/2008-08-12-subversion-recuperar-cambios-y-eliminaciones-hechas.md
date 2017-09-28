@@ -6,7 +6,6 @@ date: 2008-08-12 01:05:42
 layout: post
 slug: subversion-recuperar-cambios-y-eliminaciones-hechas
 title: 'subversion: Recuperar cambios y eliminaciones hechas'
-wordpress_id: 232
 categories:
 - subversion
 tags:

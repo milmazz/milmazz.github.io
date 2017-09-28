@@ -6,7 +6,6 @@ date: 2006-02-02 18:54:51
 layout: post
 slug: goobuntu-google-y-los-rumores
 title: Goobuntu, Google y los rumores...
-wordpress_id: 136
 categories:
 - Ubuntu
 tags:

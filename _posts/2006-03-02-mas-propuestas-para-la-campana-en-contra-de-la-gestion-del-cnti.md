@@ -6,7 +6,6 @@ date: 2006-03-02 02:42:08
 layout: post
 slug: mas-propuestas-para-la-campana-en-contra-de-la-gestion-del-cnti
 title: Más propuestas para la campaña en contra de la gestión del CNTI
-wordpress_id: 149
 categories:
 - debian
 - Ubuntu

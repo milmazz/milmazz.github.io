@@ -6,7 +6,6 @@ date: 2010-03-12 01:48:02
 layout: post
 slug: consideraciones-para-el-envio-de-cambios-en-subversion
 title: Consideraciones para el envío de cambios en Subversion
-wordpress_id: 250
 categories:
 - Programación
 - subversion

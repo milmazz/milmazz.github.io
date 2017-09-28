@@ -6,7 +6,6 @@ date: 2005-12-13 01:50:29
 layout: post
 slug: vulnerabilidad-en-perl
 title: Vulnerabilidad en Perl
-wordpress_id: 120
 categories:
 - Seguridad
 - Ubuntu

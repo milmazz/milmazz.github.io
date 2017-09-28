@@ -6,7 +6,6 @@ date: 2006-05-24 04:02:32
 layout: post
 slug: 'maldito-spam-nos-invade'
 title: ¡Maldito Spam!, nos invade
-wordpress_id: 172
 categories:
 - WordPress
 tags:

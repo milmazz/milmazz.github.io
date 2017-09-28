@@ -6,7 +6,6 @@ date: 2010-12-02 14:04:39
 layout: post
 slug: construyendo-de-manera-efectiva-y-rapida-imagenes-iso-de-debian-con-jigdo
 title: Construyendo de manera efectiva y rápida imágenes ISO de Debian con jigdo
-wordpress_id: 378
 categories:
 - debian
 tags:
@@ -15,23 +14,44 @@ tags:
 - jigdo
 ---
 
-Si usted desea el conjunto de CD o DVD para instalar Debian, tiene muchas posibilidades, desde la [compra](http://www.debian.org/CD/vendors/) de los mismos, muchos de los vendedores contribuyen con Debian. También puede realizar descargas vía [HTTP/FTP](http://www.debian.org/CD/http-ftp/), vía [torrent](http://www.debian.org/CD/torrent-cd/) o [rsync](http://www.debian.org/CD/mirroring/rsync-mirrors). Pero en este artículo se discutirá sobre un método para construir las imágenes ISO de Debian de manera eficiente, sobretodo si cuenta con un repositorio local de paquetes, dicho método se conoce de manera abreviada como [jigdo](http://atterer.org/jigdo/) o _Jigsaw Download_.
+Si usted desea el conjunto de CD o DVD para instalar Debian, tiene muchas
+posibilidades, desde la [compra](http://www.debian.org/CD/vendors/) de los
+mismos, muchos de los vendedores contribuyen con Debian. También puede realizar
+descargas vía [HTTP/FTP](http://www.debian.org/CD/http-ftp/), vía
+[torrent](http://www.debian.org/CD/torrent-cd/) o
+[rsync](http://www.debian.org/CD/mirroring/rsync-mirrors). Pero en este artículo
+se discutirá sobre un método para construir las imágenes ISO de Debian de manera
+eficiente, sobretodo si cuenta con un repositorio local de paquetes, dicho
+método se conoce de manera abreviada como [jigdo](http://atterer.org/jigdo/) o
+_Jigsaw Download_.
 
-Las ventajas que ofrece [jigdo](http://www.debian.org/CD/jigdo-cd/) están bien claras en el portal de Debian, cito:
+Las ventajas que ofrece [jigdo](http://www.debian.org/CD/jigdo-cd/) están bien
+claras en el portal de Debian, cito:
 
 > ¿Por qué jigdo es mejor que una descarga directa?
 >
->¡Porque es más rápido! Por varias razones, hay muchas menos réplicas para imágenes de CDs que para el archivo «normal» de Debian. Consecuentemente, si descarga desde una réplica de imágenes de CD, esa réplica no sólo estará más lejos de su ubicación, además estará sobrecargada, especialmente justo después de una publicación.
+>¡Porque es más rápido! Por varias razones, hay muchas menos réplicas para
+>imágenes de CDs que para el archivo «normal» de Debian. Consecuentemente, si
+>descarga desde una réplica de imágenes de CD, esa réplica no sólo estará más
+>lejos de su ubicación, además estará sobrecargada, especialmente justo después
+>de una publicación.
 >
->Además, algunos tipos de imágenes no están disponibles para descarga completa como .iso porque no hay suficiente espacio en nuestros servidores para alojarlas.
+>Además, algunos tipos de imágenes no están disponibles para descarga completa
+>como .iso porque no hay suficiente espacio en nuestros servidores para
+>alojarlas.
 
-Considero que la pregunta pertinente ahora es: _¿Cómo descargo la imagen con jigdo?_.
+Considero que la pregunta pertinente ahora es: _¿Cómo descargo la imagen con
+jigdo?_.
 
 En primer lugar, instalamos el paquete `jigdo-file`.
 
 	# aptitude install jigdo-file
 
-Mi objetivo era generar los 2 primeros CD para Debian Lenny, para la fecha de publicación de este artículo la versión más reciente es la [5.0.7](http://www.debian.org/News/2010/20101127). La lista de imágenes oficiales para _jigdo_ las puede encontrar [acá](http://www.debian.org/CD/jigdo-cd/#which).
+Mi objetivo era generar los 2 primeros CD para Debian Lenny, para la fecha de
+publicación de este artículo la versión más reciente es la
+[5.0.7](http://www.debian.org/News/2010/20101127). La lista de imágenes
+oficiales para _jigdo_ las puede encontrar
+[acá](http://www.debian.org/CD/jigdo-cd/#which).
 
 	milmazz@manaslu /tmp $ cat files
 	http://cdimage.debian.org/debian-cd/5.0.7/i386/jigdo-cd/debian-507-i386-CD-1.jigdo
@@ -55,7 +75,8 @@ Mi objetivo era generar los 2 primeros CD para Debian Lenny, para la fecha de pu
 	milmazz@manaslu /tmp $ ls
 	debian-507-i386-CD-1.jigdo  debian-507-i386-CD-1.template  debian-507-i386-CD-2.jigdo  debian-507-i386-CD-2.template files
 
-Una vez descargados los ficheros necesarios, es hora de ejecutar el comando `jigdo-lite`, siga las instrucciones del asistente.
+Una vez descargados los ficheros necesarios, es hora de ejecutar el comando
+`jigdo-lite`, siga las instrucciones del asistente.
 
 	milmazz@manaslu ~ $ jigdo-lite debian-507-i386-CD-2.jigdo
 
@@ -81,7 +102,11 @@ Una vez descargados los ficheros necesarios, es hora de ejecutar el comando `jig
 	the remaining files.
 	Files to scan:
 
-El comando despliega información acerca de la imagen ISO que generará, en este caso particular, `debian-507-i386-CD-2.iso`. Además, `jigdo-lite` puede reutilizar ficheros que se encuentren en CD viejos y así no tener que descargarlos de nuevo. Sin embargo, este no era mi caso así que presione la tecla ENTER.
+El comando despliega información acerca de la imagen ISO que generará, en este
+caso particular, `debian-507-i386-CD-2.iso`. Además, `jigdo-lite` puede
+reutilizar ficheros que se encuentren en CD viejos y así no tener que
+descargarlos de nuevo. Sin embargo, este no era mi caso así que presione la
+tecla ENTER.
 
 	-----------------------------------------------------------------
 	The jigdo file refers to files stored on Debian mirrors. Please
@@ -93,9 +118,14 @@ El comando despliega información acerca de la imagen ISO que generará, en este
 	States', or a server name like `sunsite'.
 	Debian mirror [http://debian.example.com/debian/]:
 
-En esta fase `jigdo-lite` solicita la dirección **URL completa** de un repositorio, aproveche la oportunidad de utilizar su repositorio local si es que cuenta con uno. Luego de presionar la tecla ENTER es tiempo de relajarse y esperar que `jigdo` descargue todos y cada uno de los ficheros que componen la imagen ISO.
+En esta fase `jigdo-lite` solicita la dirección **URL completa** de un
+repositorio, aproveche la oportunidad de utilizar su repositorio local si es que
+cuenta con uno. Luego de presionar la tecla ENTER es tiempo de relajarse y
+esperar que `jigdo` descargue todos y cada uno de los ficheros que componen la
+imagen ISO.
 
-Luego de descargar los paquetes y realizar las operaciones necesarias para la construcción de la imagen ISO `jigdo` le informará los resultados.
+Luego de descargar los paquetes y realizar las operaciones necesarias para la
+construcción de la imagen ISO `jigdo` le informará los resultados.
 
 	FINISHED --2010-12-01 14:43:50--
 	Downloaded: 6 files, 2,5M in 1,8s (1,39 MB/s)
@@ -110,7 +140,9 @@ Luego de descargar los paquetes y realizar las operaciones necesarias para la co
 
 	OK: Checksums match, image is good!
 
-Ahora bien, haciendo uso de un repositorio local, es bueno preguntarse en cuanto tiempo aproximadamente puedes construir tu imagen ISO, en mi caso el tiempo de construcción de `debian-507-i386-CD-2.iso` fue de:
+Ahora bien, haciendo uso de un repositorio local, es bueno preguntarse en cuanto
+tiempo aproximadamente puedes construir tu imagen ISO, en mi caso el tiempo de
+construcción de `debian-507-i386-CD-2.iso` fue de:
 
 	milmazz@manaslu ~ $ time jigdo-lite debian-507-i386-CD-2.jigdo
 
@@ -122,7 +154,9 @@ Ahora bien, haciendo uso de un repositorio local, es bueno preguntarse en cuanto
 
 Nada mal, ¿no les parece?.
 
-Ahora bien, haciendo uso de un repositorio local, es bueno preguntarse en cuanto tiempo aproximadamente puedes construir tu imagen ISO, en mi caso el tiempo de construcción de `debian-507-i386-CD-2.iso` fue de:
+Ahora bien, haciendo uso de un repositorio local, es bueno preguntarse en cuanto
+tiempo aproximadamente puedes construir tu imagen ISO, en mi caso el tiempo de
+construcción de `debian-507-i386-CD-2.iso` fue de:
 
 ## Referencias
 

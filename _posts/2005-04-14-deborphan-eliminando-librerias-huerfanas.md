@@ -6,7 +6,6 @@ date: 2005-04-14 16:30:39
 layout: post
 slug: deborphan-eliminando-librerias-huerfanas
 title: deborphan, eliminando librerias huérfanas
-wordpress_id: 3
 categories:
 - GNU/Linux
 - Ubuntu

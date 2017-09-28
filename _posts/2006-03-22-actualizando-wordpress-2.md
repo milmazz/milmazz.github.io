@@ -6,7 +6,6 @@ date: 2006-03-22 12:06:22
 layout: post
 slug: actualizando-wordpress-2
 title: Actualizando WordPress
-wordpress_id: 154
 categories:
 - WordPress
 tags:

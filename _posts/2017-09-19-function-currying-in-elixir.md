@@ -18,10 +18,10 @@ In his article, Patrik Storm, shows how to implement _function currying_ in
 Elixir, which could be really neat in some situations. For those who haven't
 read Patrik's post, first, let us clarify what is _function currying_.
 
-*Currying* is the process of transforming a function that takes multiple arguments
-(_arity_) into a function that takes _only one_ argument and returns another
-function if any arguments are still required. When the last required argument is
-given, the function automatically executes and computes the result.
+*Currying* is the process of transforming a function that takes multiple
+arguments (_arity_) into a function that takes _only one_ argument and returns
+another function if any arguments are still required. When the last required
+argument is given, the function automatically executes and computes the result.
 
 As a first step, let us apply _function currying_ manually:
 
@@ -198,6 +198,87 @@ Finished in 0.2 seconds (0.2s on load, 0.00s on tests)
 Randomized with seed 561000
 ```
 
+## Do we need to apply curry to everything?
+
+No, it will always depend of your case, first, let's see how worse can be if
+apply _currying_ manually and then we will try to find another way to this whole
+process as a _data transformation workflow_.
+
+```elixir
+# file: manual_currying.exs
+defmodule ManualCurrying do
+  def match(term) do
+    fn what -> Regex.match?(term, what) end
+  end
+
+  def filter(f) do
+    fn list -> Enum.filter(list, f) end
+  end
+
+  def replace(what) do
+    fn replacement ->
+      fn word ->
+        Regex.replace(what, word, replacement)
+      end
+    end
+  end
+end
+```
+
+Our unit tests:
+
+```elixir
+# file manual_currying_test.exs
+ExUnit.start()
+
+Code.require_file("manual_currying.exs", __DIR__)
+
+defmodule MunualCurryingTest do
+  use ExUnit.Case
+  import ManualCurrying
+
+  test "applying all the params at once or one step at a time should produce same results" do
+    curried =
+      fn a ->
+        fn b -> 
+          fn c ->
+            fn d ->
+              a * b + div(c, d)
+            end
+          end
+        end
+      end
+
+    five_squared = curried.(5).(5)
+
+    assert five_squared.(10).(2) == curried.(5).(5).(10).(2)
+  end
+
+  test "curry allow to create composable functions" do
+    has_spaces = match(~r/\s+/)
+    sentences = filter(has_spaces)
+    disallowed = replace(~r/[jruesbtni]/)
+    censored = disallowed.("*")
+
+    allowed = sentences.(["justin bibier", "and sentences", "are", "allowed"])
+
+    assert "****** ******" == allowed |> hd() |> censored.()
+  end
+end
+```
+
+But, if you just one to execute this just one time, maybe we can do better
+thinking everything as a _data transformation workflow_, and actually this is
+the more succint way:
+
+```elixir
+"****** ******" ==
+  ["justin bibier", "and sentences", "are", "allowed"]
+  |> Enum.filter(&Regex.match?(~r/\s+/, &1))
+  |> hd()
+  |> String.replace(~r/[jruesbtni]/, "*")
+```
+
 ## Wrapping up
 
 _Function currying_ is an interesting technique that allow us to reuse
@@ -210,8 +291,8 @@ our decision will depend on the arguments that will change constantly, because
 we want to put those at the end of the execution path.
 
 As a final note, it could be a interesting exercise to implement `uncurry`,
-which is a function that converts a _curried function_ to a function with _arity_
-*n*, that way we can convert these two types in either direction.
+which is a function that converts a _curried function_ to a function with
+_arity_ *n*, that way we can convert these two types in either direction.
 
 ## References
 

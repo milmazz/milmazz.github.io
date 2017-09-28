@@ -6,7 +6,6 @@ date: 2008-09-20 02:34:32
 layout: post
 slug: configurando-nuestras-interfaces-de-red-con-ifupdown
 title: Configurando nuestras interfaces de red con ifupdown
-wordpress_id: 233
 categories:
 - GNU/Linux
 tags:

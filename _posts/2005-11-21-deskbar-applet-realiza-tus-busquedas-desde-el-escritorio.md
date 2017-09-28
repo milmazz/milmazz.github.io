@@ -6,7 +6,6 @@ date: 2005-11-21 02:33:19
 layout: post
 slug: deskbar-applet-realiza-tus-busquedas-desde-el-escritorio
 title: deskbar-applet, realiza tus búsquedas desde el escritorio
-wordpress_id: 102
 categories:
 - Software
 - Ubuntu

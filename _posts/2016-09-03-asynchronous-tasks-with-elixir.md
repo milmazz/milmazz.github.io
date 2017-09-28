@@ -11,7 +11,13 @@ tags:
 - programming
 ---
 
-One of my firsts contributions into [ExDoc][], the tool used to produce HTML documentation for Elixir projects, was to improve the documentation build process performance. My first approach for this was to build each module page concurrently, manually sending and receiving messages between processes. Then, as you can see in the Pull Request details, [Eric Meadows-Jönsson][@ericmj] pointed out that I should look at the [Task][] module. In this article, I'll try to show you the path that I followed to do that contribution.
+One of my firsts contributions into [ExDoc][], the tool used to produce HTML
+documentation for Elixir projects, was to improve the documentation build
+process performance. My first approach for this was to build each module page
+concurrently, manually sending and receiving messages between processes. Then,
+as you can see in the Pull Request details, [Eric Meadows-Jönsson][@ericmj]
+pointed out that I should look at the [Task][] module. In this article, I'll try
+to show you the path that I followed to do that contribution.
 
 The original source code was something like this:
 
@@ -34,9 +40,11 @@ defp generate_module_page(node, modules, output, config, has_readme) do
 end
 ```
 
-You can see that we can improve the build performance if we generate each module page concurrently. So, let's do that in a moment!
+You can see that we can improve the build performance if we generate each module
+page concurrently. So, let's do that in a moment!
 
-For the purposes of this article, let me simplify the example above. So, please assume that the following was the original piece of code:
+For the purposes of this article, let me simplify the example above. So, please
+assume that the following was the original piece of code:
 
 ```elixir
 # source: demo.exs
@@ -62,7 +70,8 @@ defmodule AsyncTaskDemo do
 end
 ```
 
-As a second step, lets set up our test suite, in this case, we want to test a single file `demo.exs`.
+As a second step, lets set up our test suite, in this case, we want to test a
+single file `demo.exs`.
 
 ```elixir
 # source: async_test.exs
@@ -103,7 +112,8 @@ Finished in 0.1 seconds (0.07s on load, 0.07s on tests)
 Randomized with seed 114000
 ```
 
-Ok, now it's time to introduce the concept of asynchronous tasks with [`Kernel.spawn/1`][spawn/1]:
+Ok, now it's time to introduce the concept of asynchronous tasks with
+[`Kernel.spawn/1`][spawn/1]:
 
 ```elixir
 defp generate_list(nodes, output) do
@@ -121,9 +131,15 @@ defp generate_module_page(node, output) do
 end
 ```
 
-At this point, you'll notice that now `generate_list/2` calls a new function that we named `generate_module_page_async/2`, this function will spawn new processes, each process will generate a module page.
+At this point, you'll notice that now `generate_list/2` calls a new function
+that we named `generate_module_page_async/2`, this function will spawn new
+processes, each process will generate a module page.
 
-One problem with the earlier approach is that our program is not waiting for the results of each invocation of the `generate_module_page/2` function. Basically, we're doing a *fire and forget* concurrent execution, this means that the caller process doesn't receive any feedback from the spawned function. If we run our test we'll see that is failing:
+One problem with the earlier approach is that our program is not waiting for the
+results of each invocation of the `generate_module_page/2` function. Basically,
+we're doing a *fire and forget* concurrent execution, this means that the caller
+process doesn't receive any feedback from the spawned function. If we run our
+test we'll see that is failing:
 
 ```bash
 $ elixir async_test.exs
@@ -184,7 +200,10 @@ Finished in 0.09 seconds (0.06s on load, 0.03s on tests)
 Randomized with seed 474778
 ```
 
-Until now, we're assuming that the [`File.write/3`][write/3] always returns `:ok`. If for some reason [`File.write/3`][write/3] returns an `{:error, reason}` message we'll get stuck. One way to solve this issue is by doing the following:
+Until now, we're assuming that the [`File.write/3`][write/3] always returns
+`:ok`. If for some reason [`File.write/3`][write/3] returns an `{:error,
+reason}` message we'll get stuck. One way to solve this issue is by doing the
+following:
 
 ```elixir
 # source: demo.exs
@@ -200,7 +219,8 @@ Until now, we're assuming that the [`File.write/3`][write/3] always returns `:ok
   end
 ```
 
-Finally, if we don't receive any message at all, we set a timeout after 5 seconds:
+Finally, if we don't receive any message at all, we set a timeout after 5
+seconds:
 
 ```elixir
   defp generate_list(nodes, output) do
@@ -217,13 +237,18 @@ Finally, if we don't receive any message at all, we set a timeout after 5 second
   end
 ```
 
-With all these changes, we're ready to send our Pull Request, but wait, there is a better way to do this.
+With all these changes, we're ready to send our Pull Request, but wait, there is
+a better way to do this.
 
 ## Elixir way: Task Module
 
-As I mentioned before at the beginning of this article, [Eric][@ericmj] pointed out that I should look at the [Task][] module documentation, and he was absolutely right, this module offers a really good abstraction and now it's really easy to run simple processes.
+As I mentioned before at the beginning of this article, [Eric][@ericmj] pointed
+out that I should look at the [Task][] module documentation, and he was
+absolutely right, this module offers a really good abstraction and now it's
+really easy to run simple processes.
 
-Applying the `Task.async/1` to our earlier example we cut down our source code to:
+Applying the `Task.async/1` to our earlier example we cut down our source code
+to:
 
 ```elixir
 defp generate_list(nodes, output) do
@@ -235,11 +260,20 @@ defp generate_list(nodes, output) do
 end
 ```
 
-`Task.async/1` creates a separate process that runs the `generate_module_page/2` function, then, we collect each task descriptor (returned by `Task.async/1`), which is passed as the first value to `Task.await/2`, this call waits for our background process to finish and returns its value, in this case, the result of `File.write/3`.
+`Task.async/1` creates a separate process that runs the `generate_module_page/2`
+function, then, we collect each task descriptor (returned by `Task.async/1`),
+which is passed as the first value to `Task.await/2`, this call waits for our
+background process to finish and returns its value, in this case, the result of
+`File.write/3`.
 
-You may ask yourself, *how is it that with the concurrent version we can improve the overall performance?*, well, that depends, first we need to take into account that our *concurrent program* will take advantage of a *parallel computer* (several processing units), if we run our program on a computer with only one CPU core, then, parallelism cannot happen.
+You may ask yourself, *how is it that with the concurrent version we can improve
+the overall performance?*, well, that depends, first we need to take into
+account that our *concurrent program* will take advantage of a *parallel
+computer* (several processing units), if we run our program on a computer with
+only one CPU core, then, parallelism cannot happen.
 
-Assume for a moment that the `generate_module_page` function always takes more than 2 seconds:
+Assume for a moment that the `generate_module_page` function always takes more
+than 2 seconds:
 
 ```elixir
   defp generate_module_page(node, output) do
@@ -250,7 +284,8 @@ Assume for a moment that the `generate_module_page` function always takes more t
   end
 ```
 
-Then, with the following code we can test the performance improvements using a *parallel computer*:
+Then, with the following code we can test the performance improvements using a
+*parallel computer*:
 
 ```elixir
 # performance.exs
@@ -281,13 +316,22 @@ $ elixir performance.exs
 Diff: 2 seconds. 2052834417 :native time unit
 ```
 
-The result of our concurrent version is eightfold faster than the sequential version :)
+The result of our concurrent version is eightfold faster than the sequential
+version :)
 
 ## Wrapping up
 
-Is always good to know how concurrency works in Erlang & Elixir, where you can create new lightweight processes with `spawn`, and then send/receive messages to/from those processes, you can also use some abstractions given by OTP (*Open Telecom Platform*), in general, that's the way you can accomplish concurrency in Erlang, but sometimes, you want to run simple processes, something like background jobs, in those cases, is good to know about the [Task][] module, which is a really good Elixir abstraction that keep us isolated from the details and let's concentrate on our goals.
+Is always good to know how concurrency works in Erlang & Elixir, where you can
+create new lightweight processes with `spawn`, and then send/receive messages
+to/from those processes, you can also use some abstractions given by OTP (*Open
+Telecom Platform*), in general, that's the way you can accomplish concurrency in
+Erlang, but sometimes, you want to run simple processes, something like
+background jobs, in those cases, is good to know about the [Task][] module,
+which is a really good Elixir abstraction that keep us isolated from the details
+and let's concentrate on our goals.
 
-As [José Valim][@josevalim] later tweeted, this was another entry on the "hard things made easier with Elixir" series.
+As [José Valim][@josevalim] later tweeted, this was another entry on the "hard
+things made easier with Elixir" series.
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Another entry on the &quot;hard things made easier with Elixir&quot; series: <a href="https://t.co/luQ8gJaBpE">https://t.co/luQ8gJaBpE</a> :)</p>&mdash; José Valim (@josevalim) <a href="https://twitter.com/josevalim/status/611451815616507904">June 18, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -300,7 +344,8 @@ As [José Valim][@josevalim] later tweeted, this was another entry on the "hard 
 
 ## Acknowledgments
 
-Thank you to [José Valim][@josevalim], [Sebastián Magrí][@sebasmagri] and Ana Rangel for reviewing drafts of this post.
+Thank you to [José Valim][@josevalim], [Sebastián Magrí][@sebasmagri] and Ana
+Rangel for reviewing drafts of this post.
 
 [contrib]: https://github.com/elixir-lang/ex_doc/pull/227
 [ExDoc]: https://github.com/elixir-lang/ex_doc

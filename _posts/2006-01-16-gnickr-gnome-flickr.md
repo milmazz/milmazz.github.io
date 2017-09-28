@@ -6,7 +6,6 @@ date: 2006-01-16 14:51:05
 layout: post
 slug: gnickr-gnome-flickr
 title: 'Gnickr: Gnome + Flickr '
-wordpress_id: 129
 categories:
 - Software
 - Ubuntu

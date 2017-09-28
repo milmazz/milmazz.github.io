@@ -6,7 +6,6 @@ date: 2007-02-18 00:22:38
 layout: post
 slug: grub-mejorando-nuestro-gestor-de-arranque
 title: 'GRUB: Mejorando nuestro gestor de arranque'
-wordpress_id: 210
 categories:
 - debian
 - GIMP

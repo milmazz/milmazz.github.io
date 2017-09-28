@@ -5,7 +5,6 @@ date: 2005-04-14 18:34:15
 layout: post
 slug: galeria-de-imagenes
 title: Galería de Imágenes
-wordpress_id: 4
 tags:
 - (X)HTML
 - CSS

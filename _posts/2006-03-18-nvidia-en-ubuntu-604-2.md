@@ -6,7 +6,6 @@ date: 2006-03-18 11:10:17
 layout: post
 slug: nvidia-en-ubuntu-604-2
 title: nVIDIA en Ubuntu 6.04
-wordpress_id: 152
 categories:
 - GNU/Linux
 - Ubuntu

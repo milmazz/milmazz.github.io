@@ -6,7 +6,6 @@ date: 2006-04-18 17:40:36
 layout: post
 slug: vim-al-rescate
 title: Vim al rescate
-wordpress_id: 160
 categories:
 - GNU/Linux
 - Software

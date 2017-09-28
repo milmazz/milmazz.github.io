@@ -6,7 +6,6 @@ date: 2006-07-24 16:02:02
 layout: post
 slug: debian-gnulinux-40
 title: Debian GNU/Linux 4.0
-wordpress_id: 192
 categories:
 - debian
 tags:

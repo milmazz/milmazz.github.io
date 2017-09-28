@@ -6,7 +6,6 @@ date: 2006-05-12 07:09:07
 layout: post
 slug: primer-documental-de-software-libre-hecho-en-venezuela
 title: Primer documental de Software Libre hecho en Venezuela
-wordpress_id: 165
 categories:
 - Software
 tags:

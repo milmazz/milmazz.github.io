@@ -6,7 +6,6 @@ date: 2005-05-03 11:50:01
 layout: post
 slug: es-necesario-activar-la-cuenta-root-en-ubuntu
 title: ¿Es necesario activar la cuenta root en Ubuntu?
-wordpress_id: 20
 categories:
 - Ubuntu
 tags:

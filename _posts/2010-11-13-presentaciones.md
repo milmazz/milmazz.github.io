@@ -6,7 +6,6 @@ date: 2010-11-13 03:38:53
 layout: post
 slug: presentaciones
 title: Presentaciones
-wordpress_id: 312
 categories:
 - GNU/Linux
 tags:

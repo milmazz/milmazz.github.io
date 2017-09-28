@@ -6,7 +6,6 @@ date: 2006-01-27 20:38:47
 layout: post
 slug: integridad-del-cd-de-ubuntu
 title: Integridad del CD de Ubuntu
-wordpress_id: 132
 categories:
 - Ubuntu
 tags:

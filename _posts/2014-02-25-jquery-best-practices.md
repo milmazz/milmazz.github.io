@@ -24,9 +24,9 @@ The current project I've been working on, heavily relies on [jQuery][] and
 beginning of the project my skills in the client-side were more than rusted, so,
 I began reading a lot of articles about new techniques and good practices to
 catch up very quickly, in the meantime, I start taking some notes about "best
-practices"[^1] that promotes a better use of jQuery[^2]<!--more-->, I hope you find this
-information useful, if you have more tips or any doubt please leave your
-comments at the end of this article.
+practices"[^1] that promotes a better use of jQuery[^2]<!--more-->, I hope you
+find this information useful, if you have more tips or any doubt please leave
+your comments at the end of this article.
 
 The first recommendation is to use the last version of jQuery, the reason is
 that in new releases you will find new features, and also a good amount of bugs
@@ -259,7 +259,8 @@ One approach can be this:
     $demo.append(string);
     {% endhighlight %}
 
-Also, you can replace the `.append()` method with `.replaceWith()` in some cases:
+Also, you can replace the `.append()` method with `.replaceWith()` in some
+cases:
 
     {% highlight javascript %}
     var $demo = $("#demo"),
@@ -389,9 +390,15 @@ References
  - [jQuery proven performance tips & tricks][] by Addy Osmani.
  - [DOM Core][]
 
-[^1]: Please take this "best practices" with a grain of salt, do your research and see if this recommendations applies in your web clients, in my case, I need to provide support for some older browsers (IE 7/8/9 mostly).
+[^1]: Please take this "best practices" with a grain of salt, do your research
+and see if this recommendations applies in your web clients, in my case, I need
+to provide support for some older browsers (IE 7/8/9 mostly).
 
-[^2]: As a side note, besides jQuery nowadays are used by a large percentage of sites, according to W3Techs, [jQuery now runs on every second website][] (2012). However, currently exists a trend that states that you need to avoid jQuery when it's possible, so, whenever it's possible try to use native JavaScript, one example of this trend is [You Might Not Need jQuery][] website.
+[^2]: As a side note, besides jQuery nowadays are used by a large percentage of
+sites, according to W3Techs, [jQuery now runs on every second website][] (2012).
+However, currently exists a trend that states that you need to avoid jQuery when
+it's possible, so, whenever it's possible try to use native JavaScript, one
+example of this trend is [You Might Not Need jQuery][] website.
 
 [^3]: You might find useful some other alternatives as [qwery][] and [Sizzle][].
 

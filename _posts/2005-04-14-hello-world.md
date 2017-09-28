@@ -5,7 +5,6 @@ date: 2005-04-14 01:28:02
 layout: post
 slug: hello-world
 title: Bienvenid@
-wordpress_id: 1
 tags:
 - General
 ---

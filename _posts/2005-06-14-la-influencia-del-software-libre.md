@@ -6,7 +6,6 @@ date: 2005-06-14 01:02:36
 layout: post
 slug: la-influencia-del-software-libre
 title: La influencia del software libre
-wordpress_id: 51
 tags:
 - miniblog
 ---

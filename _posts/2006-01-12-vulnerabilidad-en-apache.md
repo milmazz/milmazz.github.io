@@ -6,7 +6,6 @@ date: 2006-01-12 14:22:06
 layout: post
 slug: vulnerabilidad-en-apache
 title: Vulnerabilidad en Apache
-wordpress_id: 128
 categories:
 - Seguridad
 - Ubuntu

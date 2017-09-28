@@ -6,7 +6,6 @@ date: 2007-05-14 21:45:53
 layout: post
 slug: recuperando-una-antigua-logitech-quickcam-express
 title: Recuperando una antigua Logitech Quickcam Express
-wordpress_id: 216
 categories:
 - debian
 tags:

@@ -6,7 +6,6 @@ date: 2006-03-28 03:54:17
 layout: post
 slug: breve-resena-del-flisol-2006-capitulo-merida-venezuela
 title: Breve reseña del FLISOL 2006, Capítulo Mérida-Venezuela
-wordpress_id: 156
 categories:
 - debian
 - GNU/Linux

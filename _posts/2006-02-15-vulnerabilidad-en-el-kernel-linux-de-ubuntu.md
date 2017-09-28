@@ -6,7 +6,6 @@ date: 2006-02-15 09:45:46
 layout: post
 slug: vulnerabilidad-en-el-kernel-linux-de-ubuntu
 title: Vulnerabilidad en el kernel Linux de ubuntu
-wordpress_id: 138
 categories:
 - Seguridad
 - Ubuntu

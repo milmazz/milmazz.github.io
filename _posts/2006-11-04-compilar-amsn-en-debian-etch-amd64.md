@@ -6,7 +6,6 @@ date: 2006-11-04 15:21:43
 layout: post
 slug: compilar-amsn-en-debian-etch-amd64
 title: Compilar aMSN en Debian Etch AMD64
-wordpress_id: 202
 categories:
 - debian
 - GNU/Linux

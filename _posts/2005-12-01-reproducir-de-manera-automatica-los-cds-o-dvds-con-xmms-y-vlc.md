@@ -6,7 +6,6 @@ date: 2005-12-01 02:51:21
 layout: post
 slug: reproducir-de-manera-automatica-los-cds-o-dvds-con-xmms-y-vlc
 title: Reproducir de manera automática los CDs o DVDs con XMMS y VLC
-wordpress_id: 110
 categories:
 - Ubuntu
 tags:

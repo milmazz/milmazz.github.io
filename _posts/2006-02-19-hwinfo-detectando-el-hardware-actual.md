@@ -6,7 +6,6 @@ date: 2006-02-19 02:20:49
 layout: post
 slug: hwinfo-detectando-el-hardware-actual
 title: 'hwinfo: Detectando el hardware actual'
-wordpress_id: 139
 categories:
 - GNU/Linux
 - Software

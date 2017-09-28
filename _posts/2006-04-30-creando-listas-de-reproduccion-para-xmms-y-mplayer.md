@@ -6,7 +6,6 @@ date: 2006-04-30 15:08:10
 layout: post
 slug: creando-listas-de-reproduccion-para-xmms-y-mplayer
 title: Creando listas de reproducción para XMMS y MPlayer
-wordpress_id: 164
 categories:
 - debian
 - GNU/Linux

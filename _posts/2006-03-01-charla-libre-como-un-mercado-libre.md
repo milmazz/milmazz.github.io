@@ -6,7 +6,6 @@ date: 2006-03-01 22:41:07
 layout: post
 slug: charla-libre-como-un-mercado-libre
 title: 'Charla: Libre como un Mercado Libre'
-wordpress_id: 147
 categories:
 - Local
 tags:

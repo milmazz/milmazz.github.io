@@ -6,7 +6,6 @@ date: 2005-11-28 12:16:40
 layout: post
 slug: como-cambiar-entre-versiones-de-java-bajo-breezy
 title: Cómo cambiar entre versiones de JAVA bajo Breezy
-wordpress_id: 108
 categories:
 - Ubuntu
 tags:

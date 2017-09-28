@@ -6,7 +6,6 @@ date: 2006-11-29 14:38:59
 layout: post
 slug: charla-desarrollo-web-en-python-usando-el-framework-django
 title: 'Charla: Desarrollo web en Python usando el framework Django'
-wordpress_id: 206
 categories:
 - Universidad
 tags:

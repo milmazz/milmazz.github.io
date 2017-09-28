@@ -6,7 +6,6 @@ date: 2005-12-06 17:41:36
 layout: post
 slug: clientes-bittorrent
 title: Clientes BitTorrent
-wordpress_id: 116
 categories:
 - Python
 - Software

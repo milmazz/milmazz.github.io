@@ -6,7 +6,6 @@ date: 2006-06-14 13:38:25
 layout: post
 slug: gusla-grupo-de-usuarios-de-software-libre-de-la-universidad-de-los-andes
 title: 'gUsLA: Grupo de Usuarios de Software Libre de la Universidad de Los Andes'
-wordpress_id: 190
 categories:
 - Local
 - Universidad

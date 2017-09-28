@@ -6,7 +6,6 @@ date: 2005-07-03 18:59:15
 layout: post
 slug: instalar-java-en-ubuntu
 title: Instalar JAVA en Ubuntu
-wordpress_id: 55
 categories:
 - Ubuntu
 tags:

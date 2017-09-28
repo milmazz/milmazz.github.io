@@ -6,7 +6,6 @@ date: 2006-01-30 10:29:50
 layout: post
 slug: instalinux-instalando-linux-de-manera-desatentida
 title: 'Instalinux: Instalando Linux de manera desatentida'
-wordpress_id: 134
 categories:
 - GNU/Linux
 tags:

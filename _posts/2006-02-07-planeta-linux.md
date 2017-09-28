@@ -6,7 +6,6 @@ date: 2006-02-07 17:40:59
 layout: post
 slug: planeta-linux
 title: Planeta Linux
-wordpress_id: 137
 categories:
 - GNU/Linux
 tags:

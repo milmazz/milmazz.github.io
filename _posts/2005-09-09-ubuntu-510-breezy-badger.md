@@ -5,7 +5,6 @@ date: 2005-09-09 00:05:58
 layout: post
 slug: ubuntu-510-breezy-badger
 title: Ubuntu 5.10 (Breezy Badger)
-wordpress_id: 73
 categories:
 - GNU/Linux
 - Ubuntu

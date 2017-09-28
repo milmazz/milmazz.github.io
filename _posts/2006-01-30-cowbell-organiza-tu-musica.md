@@ -6,7 +6,6 @@ date: 2006-01-30 08:00:40
 layout: post
 slug: cowbell-organiza-tu-musica
 title: 'Cowbell: Organiza tu música'
-wordpress_id: 133
 categories:
 - Software
 - Ubuntu

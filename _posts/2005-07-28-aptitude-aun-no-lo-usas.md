@@ -6,7 +6,6 @@ date: 2005-07-28 01:09:35
 layout: post
 slug: aptitude-aun-no-lo-usas
 title: aptitude, ¿aún no lo usas?
-wordpress_id: 61
 categories:
 - Software
 - Ubuntu

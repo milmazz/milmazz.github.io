@@ -6,7 +6,6 @@ date: 2006-03-01 14:30:58
 layout: post
 slug: propuesta-de-diseno-para-planeta-linux
 title: Propuesta de diseño para Planeta Linux
-wordpress_id: 145
 categories:
 - GNU/Linux
 tags:

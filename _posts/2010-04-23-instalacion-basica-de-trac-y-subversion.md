@@ -6,7 +6,6 @@ date: 2010-04-23 02:14:51
 layout: post
 slug: instalacion-basica-de-trac-y-subversion
 title: Instalación básica de Trac y Subversion
-wordpress_id: 288
 categories:
 - debian
 - GNU/Linux

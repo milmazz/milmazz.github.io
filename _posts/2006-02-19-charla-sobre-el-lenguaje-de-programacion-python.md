@@ -6,7 +6,6 @@ date: 2006-02-19 20:01:27
 layout: post
 slug: charla-sobre-el-lenguaje-de-programacion-python
 title: Charla sobre el lenguaje de programación Python
-wordpress_id: 140
 categories:
 - Local
 - Python

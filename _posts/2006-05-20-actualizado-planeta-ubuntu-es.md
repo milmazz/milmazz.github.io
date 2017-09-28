@@ -6,7 +6,6 @@ date: 2006-05-20 12:04:49
 layout: post
 slug: actualizado-planeta-ubuntu-es
 title: 'Actualizado Planeta #ubuntu-es'
-wordpress_id: 171
 categories:
 - Ubuntu
 tags:

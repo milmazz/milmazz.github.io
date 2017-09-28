@@ -5,7 +5,6 @@ date: 2005-09-21 01:19:54
 layout: post
 slug: indice-alfabetico-de-la-linea-de-comandos-en-bash
 title: Indice alfabético de la línea de comandos en BASH
-wordpress_id: 82
 tags:
 - miniblog
 ---

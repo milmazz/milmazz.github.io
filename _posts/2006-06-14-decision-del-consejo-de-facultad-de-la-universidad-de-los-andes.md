@@ -6,7 +6,6 @@ date: 2006-06-14 10:50:34
 layout: post
 slug: decision-del-consejo-de-facultad-de-la-universidad-de-los-andes
 title: Decisión del Consejo de Facultad de la Universidad de Los Andes
-wordpress_id: 189
 categories:
 - Local
 - Universidad

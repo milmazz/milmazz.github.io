@@ -6,7 +6,6 @@ date: 2007-04-23 23:50:08
 layout: post
 slug: network-manager-facilitando-el-manejo-de-redes-inalambricas
 title: 'Network Manager: Facilitando el manejo de redes inalámbricas'
-wordpress_id: 213
 categories:
 - debian
 - GNU/Linux

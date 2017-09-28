@@ -6,7 +6,6 @@ date: 2006-09-25 01:39:50
 layout: post
 slug: smartmontools-aprendiendo-a-chequear-tu-disco-duro
 title: 'Smartmontools: aprendiendo a chequear tu disco duro...'
-wordpress_id: 199
 categories:
 - debian
 - GNU/Linux

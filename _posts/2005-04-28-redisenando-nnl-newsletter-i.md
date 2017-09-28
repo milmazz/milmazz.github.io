@@ -5,7 +5,6 @@ date: 2005-04-28 06:07:55
 layout: post
 slug: redisenando-nnl-newsletter-i
 title: Rediseñando NNL Newsletter I
-wordpress_id: 18
 tags:
 - (X)HTML
 ---

@@ -6,7 +6,6 @@ date: 2005-06-10 13:37:35
 layout: post
 slug: eliminando-ficheros-intiles-de-manera-recursiva
 title: Eliminando ficheros inútiles de manera recursiva
-wordpress_id: 47
 tags:
 - Scripts
 ---
@@ -18,14 +17,14 @@ En muchas ocasiones nos encontramos que estos ficheros temporales se encuentran 
 El siguiente _script_ nos ayudara servira para lograr lo que deseamos.
 
     #!/bin/bash
-    
+
     #Borrar de manera recursiva los ficheros inutiles.
-    
+
     echo Directorio Raiz: $PWD
     echo Procesando...
-    
+
     find $PWD \( -name \*~ -or -name \*.o -or -name \*\# -or -name core \) -exec rm -vf {} \;
-    
+
     echo Listo!
 
 En el codigo mostrado anteriormente el comando que realiza **todo** el trabajo por nosotros es `find`, voy a explicar brevemente que hace este comando.
@@ -34,10 +33,10 @@ El comando `find` necesita de un _camino_ o _ruta_ y de una _expresion regular_ 
 
 Dentro del comando `find` encontrara el uso de ciertas opciones, entre las cuales cabe mencionar las siguientes:
 
- * `-or`: Representa el **o logico**, es equivalente a utilizar la opcion `-o`.
- * `-exec`: Ejecuta la orden especificada siempre y cuando `find` haya encontrado alguna concordancia con la expresion regular, por lo tanto se devuelve valor cierto. Las ordenes seran aquellos argumentos que siguen a `-exec` hasta que encontrar el caracter **;** (punto y coma). Si desea ser consultado antes de realizar la ejecucion al encontrarse alguna coincidencia, es preferible hacer uso de la opcion `-ok`.
- * `-name`: Especifica la base del nombre del fichero que deseamos buscar, no es necesario especificar el directorio, hace distincion entre mayusculas y minusculas. Se puede hacer uso de metacaracteres.
- * `{}`: Cadena que es reemplazada por el nombre del fichero que se esta procesando en ese instante.
+* `-or`: Representa el **o logico**, es equivalente a utilizar la opcion `-o`.
+* `-exec`: Ejecuta la orden especificada siempre y cuando `find` haya encontrado alguna concordancia con la expresion regular, por lo tanto se devuelve valor cierto. Las ordenes seran aquellos argumentos que siguen a `-exec` hasta que encontrar el caracter **;** (punto y coma). Si desea ser consultado antes de realizar la ejecucion al encontrarse alguna coincidencia, es preferible hacer uso de la opcion `-ok`.
+* `-name`: Especifica la base del nombre del fichero que deseamos buscar, no es necesario especificar el directorio, hace distincion entre mayusculas y minusculas. Se puede hacer uso de metacaracteres.
+* `{}`: Cadena que es reemplazada por el nombre del fichero que se esta procesando en ese instante.
 
 Puede copiar el _script_ mostrado arriba, supongamos que lo ha llamado `rmnull`, **debe** moverlo dentro del directorio `/usr/local/bin/` (haciendolo como superusuario). Posteriormente debe otorgarle permisos de ejecucion.
 
@@ -45,7 +44,7 @@ Puede copiar el _script_ mostrado arriba, supongamos que lo ha llamado `rmnull`,
     chmod +x /usr/local/bin/rmnull
 
 Ahora bien, para hacer uso del _script_ simplemente debera teclear en consola `rmnull`, el _directorio raiz_ sera el directorio en el que se encuentre actualmente. Veamos un ejemplo de ejecucion del _script_.
-    
+
     milton@omega:~$ touch file# file.o file~ pruebas/file# pruebas/file~ pruebas/core
     milton@omega:~$ pwd
     /home/milton

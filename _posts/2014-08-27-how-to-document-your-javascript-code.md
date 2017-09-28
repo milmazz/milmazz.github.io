@@ -15,11 +15,23 @@ tags:
 - programming
 ---
 
-Someone that knows something about Java probably knows about [JavaDoc][]. If you know something about Python you probably document your code following the rules defined for [Sphinx][] (Sphinx uses [reStructuredText][] as its markup language). Or in C, you follow the rules defined for [Doxygen][] (Doxygen also supports other programming languages such as Objective-C, Java, C#, PHP, etc.). But, what happens when we are coding in JavaScript? How can we document our source code?
+Someone that knows something about Java probably knows about [JavaDoc][]. If you
+know something about Python you probably document your code following the rules
+defined for [Sphinx][] (Sphinx uses [reStructuredText][] as its markup
+language). Or in C, you follow the rules defined for [Doxygen][] (Doxygen also
+supports other programming languages such as Objective-C, Java, C#, PHP, etc.).
+But, what happens when we are coding in JavaScript? How can we document our
+source code?
 
-As a developer that interacts with other members of a team, the need to document all your intentions must become a habit. If you follow some basic rules and stick to them you can gain benefits like the automatic generation of documentation in formats like HTML, PDF, and so on. 
+As a developer that interacts with other members of a team, the need to document
+all your intentions must become a habit. If you follow some basic rules and
+stick to them you can gain benefits like the automatic generation of
+documentation in formats like HTML, PDF, and so on. 
 
-I must confess that I'm relatively new to JavaScript, but one of the first things that I implement is the source code documentation. I've been using [JSDoc][] for documenting all my JavaScript code, it's easy, and you only need to follow a short set of rules.
+I must confess that I'm relatively new to JavaScript, but one of the first
+things that I implement is the source code documentation. I've been using
+[JSDoc][] for documenting all my JavaScript code, it's easy, and you only need
+to follow a short set of rules.
 
 {% highlight javascript %}
 /**
@@ -61,16 +73,20 @@ var Tag = $(function(){
  {% endhighlight %}
 
 In the previous example, I have documented the index of the file, showing the
-author and version, you can also include other things such as a copyright and license note. I have also documented the *class definition* including parameters and methods specifying the name, and type with a concise description.
+author and version, you can also include other things such as a copyright and
+license note. I have also documented the *class definition* including parameters
+and methods specifying the name, and type with a concise description.
 
-After you process your source code with [JSDoc][] the result looks like the following:
+After you process your source code with [JSDoc][] the result looks like the
+following:
 
 ![usejsdoc]({{ site.url }}/images/2014-08-27-how-to-document-your-javascript-code/jsdoc3.png)
 
-In the previous image you see the documentation in HTML format, also you see a table that displays the parameters with appropriate links to your source code, and finally, JSDoc implements a very nice style to your document.
+In the previous image you see the documentation in HTML format, also you see a
+table that displays the parameters with appropriate links to your source code,
+and finally, JSDoc implements a very nice style to your document.
 
-If you need further details I recommend you check out the [JSDoc
-documentation].
+If you need further details I recommend you check out the [JSDoc documentation].
 
 [JSDoc documentation]: http://usejsdoc.org/index.html
 [JSDoc]: http://usejsdoc.org/

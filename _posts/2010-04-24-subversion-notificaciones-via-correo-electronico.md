@@ -6,7 +6,6 @@ date: 2010-04-24 07:00:17
 layout: post
 slug: subversion-notificaciones-via-correo-electronico
 title: 'Subversion: Notificaciones vía correo electrónico'
-wordpress_id: 298
 categories:
 - debian
 - Perl

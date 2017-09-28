@@ -6,7 +6,6 @@ date: 2005-08-08 01:02:32
 layout: post
 slug: como-actualizar-de-manera-segura-su-sistema
 title: COMO actualizar de manera segura su sistema
-wordpress_id: 62
 categories:
 - GNU/Linux
 - Software

@@ -6,7 +6,6 @@ date: 2010-03-13 00:31:48
 layout: post
 slug: pylint-analisis-estatico-del-codigo-en-python
 title: 'Pylint: Análisis estático del código en Python'
-wordpress_id: 261
 categories:
 - Programación
 - Python

@@ -6,7 +6,6 @@ date: 2006-11-22 19:54:07
 layout: post
 slug: creando-un-chroot-en-etch-amd64
 title: Creando un chroot en Etch AMD64
-wordpress_id: 204
 categories:
 - debian
 - GNU/Linux

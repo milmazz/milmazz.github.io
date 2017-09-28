@@ -6,7 +6,6 @@ date: 2007-04-21 22:05:36
 layout: post
 slug: establecer-red-inalambrica-en-dell-m1210
 title: Establecer red inalámbrica en Dell m1210
-wordpress_id: 212
 categories:
 - debian
 - GNU/Linux

@@ -5,7 +5,6 @@ date: 2005-11-23 13:45:00
 layout: post
 slug: como-mejorar-la-presentacion-de-nuestros-bloques-de-codigo
 title: Cómo mejorar la presentación de nuestros bloques de código
-wordpress_id: 104
 tags:
 - (X)HTML
 - CSS

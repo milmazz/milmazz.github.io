@@ -6,7 +6,6 @@ date: 2006-05-29 03:59:43
 layout: post
 slug: feedjack-ya-esta-disponible
 title: 'FeedJack: Ya está disponible'
-wordpress_id: 174
 categories:
 - Python
 - Software

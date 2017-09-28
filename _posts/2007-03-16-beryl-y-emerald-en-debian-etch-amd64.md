@@ -6,7 +6,6 @@ date: 2007-03-16 18:55:50
 layout: post
 slug: beryl-y-emerald-en-debian-etch-amd64
 title: Beryl y Emerald en Debian "Etch" AMD64
-wordpress_id: 211
 categories:
 - debian
 - GNU/Linux

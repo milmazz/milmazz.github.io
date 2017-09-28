@@ -6,7 +6,6 @@ date: 2006-05-17 04:10:29
 layout: post
 slug: perl-primeras-experiencias
 title: 'Perl: Primeras experiencias'
-wordpress_id: 167
 categories:
 - Perl
 tags:

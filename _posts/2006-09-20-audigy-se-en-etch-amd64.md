@@ -6,7 +6,6 @@ date: 2006-09-20 02:29:28
 layout: post
 slug: audigy-se-en-etch-amd64
 title: Audigy SE en Etch AMD64
-wordpress_id: 196
 categories:
 - debian
 - GNU/Linux

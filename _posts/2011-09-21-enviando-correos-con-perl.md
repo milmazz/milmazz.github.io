@@ -6,7 +6,6 @@ date: 2011-09-21 17:28:02
 layout: post
 slug: enviando-correos-con-perl
 title: Enviando correos con Perl
-wordpress_id: 408
 categories:
 - Perl
 - Programación
@@ -18,11 +17,35 @@ tags:
 - Scripts
 ---
 
-Regularmente los administradores de sistemas requieren notificar, vía correo electrónico, a sus usuarios de ciertos cambios o nuevos servicios disponibles. La experiencia me ha indicado que el usuario aprecia más un correo personalizado que uno general. Sin embargo, lograr lo primero de manera manual es bastante tedioso e ineficaz. Por lo tanto, es lógico pensar en la posibilidad de automatizar el proceso de envío de correos electrónicos personalizados, en este artículo, explicaré una de las tantas maneras de lograrlo haciendo uso del lenguaje de programación [Perl](http://www.perl.org/).
+Regularmente los administradores de sistemas requieren notificar, vía correo
+electrónico, a sus usuarios de ciertos cambios o nuevos servicios disponibles.
+La experiencia me ha indicado que el usuario aprecia más un correo personalizado
+que uno general. Sin embargo, lograr lo primero de manera manual es bastante
+tedioso e ineficaz. Por lo tanto, es lógico pensar en la posibilidad de
+automatizar el proceso de envío de correos electrónicos personalizados, en este
+artículo, explicaré una de las tantas maneras de lograrlo haciendo uso del
+lenguaje de programación [Perl](http://www.perl.org/).
 
-En [CPAN](http://www.cpan.org/) podrá encontrar muchas alternativas, recuerde el principio [TIMTOWTDI](http://en.wikipedia.org/wiki/There_is_more_than_one_way_to_do_it). Sin embargo, la opción que más me atrajo fue `MIME::Lite:TT`, básicamente este módulo en Perl es un _wrapper_ de `MIME::Lite` que le permite el uso de plantillas, vía `Template::Toolkit`, para el cuerpo del mensaje del correo electrónico. También puede encontrar `MIME::Lite::TT::HTML` que le permitirá enviar correos tanto en texto sin formato (`MIME::Lite::TT`) como en formato HTML. Sin embargo, estoy en contra de enviar correos en formato HTML, lo dejo a su criterio.
+En [CPAN](http://www.cpan.org/) podrá encontrar muchas alternativas, recuerde el
+principio
+[TIMTOWTDI](http://en.wikipedia.org/wiki/There_is_more_than_one_way_to_do_it).
+Sin embargo, la opción que más me atrajo fue `MIME::Lite:TT`, básicamente este
+módulo en Perl es un _wrapper_ de `MIME::Lite` que le permite el uso de
+plantillas, vía `Template::Toolkit`, para el cuerpo del mensaje del correo
+electrónico. También puede encontrar `MIME::Lite::TT::HTML` que le permitirá
+enviar correos tanto en texto sin formato (`MIME::Lite::TT`) como en formato
+HTML. Sin embargo, estoy en contra de enviar correos en formato HTML, lo dejo a
+su criterio.
 
-Una de las ventajas de utilizar `Template::Toolkit` para el cuerpo del mensaje es separar en _capas_ nuestra _script_, si se observa desde una versión muy simplificada del patrón [MVC](http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller), el control de la lógica de programación reside en el _script_ en Perl, la plantilla basada en _Template Toolkit_ ofrecería la vista de los datos, de modo tal que podríamos garantizar que la presentación está separada de los datos, los cuales pueden encontrarse desde una base de datos o un simple fichero CSV. Otra ventaja evidente es el posible reuso de componentes posteriormente.
+Una de las ventajas de utilizar `Template::Toolkit` para el cuerpo del mensaje
+es separar en _capas_ nuestra _script_, si se observa desde una versión muy
+simplificada del patrón
+[MVC](http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller), el
+control de la lógica de programación reside en el _script_ en Perl, la plantilla
+basada en _Template Toolkit_ ofrecería la vista de los datos, de modo tal que
+podríamos garantizar que la presentación está separada de los datos, los cuales
+pueden encontrarse desde una base de datos o un simple fichero CSV. Otra ventaja
+evidente es el posible reuso de componentes posteriormente.
 
 Un primer ejemplo del uso de `MIME::Lite:TT` puede ser el siguiente:
 
@@ -56,7 +79,9 @@ my $msg = MIME::Lite::TT->new(
 $msg->send();
 {% endhighlight %}
 
-Y el cuerpo del correo electrónico, lo que en realidad es una plantilla basada en `Template::Toolkit`, vendría definido en el fichero `example.txt.tt` de la siguiente manera:
+Y el cuerpo del correo electrónico, lo que en realidad es una plantilla basada
+en `Template::Toolkit`, vendría definido en el fichero `example.txt.tt` de la
+siguiente manera:
 
 {% highlight perl %}
 Hola [% last_name %], [% first_name %].
@@ -68,7 +93,9 @@ Un saludo, feliz día.
 Su querido BOFH de siempre.
 {% endhighlight %}
 
-En el _script_ en Perl mostrado previamente podemos percatarnos que los datos del destinario se encuentran inmersos en la lógica. Por lo tanto, el siguiente paso sería desacoplar esta parte de la siguiente manera:
+En el _script_ en Perl mostrado previamente podemos percatarnos que los datos
+del destinario se encuentran inmersos en la lógica. Por lo tanto, el siguiente
+paso sería desacoplar esta parte de la siguiente manera:
 
 {% highlight perl %}
 #!/usr/bin/perl
@@ -110,9 +137,13 @@ foreach my $line ( @{ $csv->lines() } ) {
 }
 {% endhighlight %}
 
-Ahora los datos de los destinarios los extraemos de un fichero en formato CSV, en este ejemplo, el fichero en formato CSV lo hemos denominado `example.csv`.
+Ahora los datos de los destinarios los extraemos de un fichero en formato CSV,
+en este ejemplo, el fichero en formato CSV lo hemos denominado `example.csv`.
 
-Cabe aclarar que `$msg->send()` realiza el envío por medio de `Net::SMTP` y podrá usar las opciones que se describen en dicho módulo. Sin embargo, si necesita establecer una conexión SSL con el servidor SMTP es oportuno recurrir a `Net::SMTP::SSL`:
+Cabe aclarar que `$msg->send()` realiza el envío por medio de `Net::SMTP` y
+podrá usar las opciones que se describen en dicho módulo. Sin embargo, si
+necesita establecer una conexión SSL con el servidor SMTP es oportuno recurrir a
+`Net::SMTP::SSL`:
 
 {% highlight perl %}
 #!/usr/bin/perl
@@ -169,6 +200,12 @@ foreach my $line ( @{ $csv->lines() } ) {
 }
 {% endhighlight %}
 
-Note en este último ejemplo que la representación en cadena de caracteres del cuerpo del correo electrónico viene dado por `$msg->as_string`.
+Note en este último ejemplo que la representación en cadena de caracteres del
+cuerpo del correo electrónico viene dado por `$msg->as_string`.
 
-Para finalizar, es importante mencionar que también podrá adjuntar ficheros de cualquier tipo a sus correos electrónicos, solo debe prestar especial atención en el tipo MIME de los ficheros que adjunta, es decir, si enviará un fichero adjunto PDF debe utilizar el tipo `application/pdf`, si envía una imagen en el formato GIF, debe usar el tipo `image/gif`. El método a seguir para adjuntar uno o más ficheros lo dejo para su investigación ;)
+Para finalizar, es importante mencionar que también podrá adjuntar ficheros de
+cualquier tipo a sus correos electrónicos, solo debe prestar especial atención
+en el tipo MIME de los ficheros que adjunta, es decir, si enviará un fichero
+adjunto PDF debe utilizar el tipo `application/pdf`, si envía una imagen en el
+formato GIF, debe usar el tipo `image/gif`. El método a seguir para adjuntar uno
+o más ficheros lo dejo para su investigación ;)

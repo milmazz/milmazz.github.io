@@ -6,7 +6,6 @@ date: 2005-12-09 20:44:49
 layout: post
 slug: edubuntu-es-adaptable-al-ambiente-familiar
 title: edubuntu es adaptable al ambiente familiar?
-wordpress_id: 119
 categories:
 - Ubuntu
 tags:

@@ -6,7 +6,6 @@ date: 2007-07-08 17:52:20
 layout: post
 slug: transmission-072-en-debian-y-ubuntu-gnulinux-amd64
 title: Transmission 0.72 en Debian y Ubuntu GNU/Linux AMD64
-wordpress_id: 217
 categories:
 - debian
 - GNU/Linux

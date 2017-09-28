@@ -6,7 +6,6 @@ date: 2005-11-14 14:15:54
 layout: post
 slug: el-sources-list
 title: El fichero sources.list
-wordpress_id: 100
 categories:
 - debian
 - Ubuntu

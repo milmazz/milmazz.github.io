@@ -6,7 +6,6 @@ date: 2008-02-05 05:35:01
 layout: post
 slug: haciendo-el-cambio-de-ipw3945-a-iwl3945
 title: Haciendo el cambio de ipw3945 a iwl3945
-wordpress_id: 225
 categories:
 - debian
 tags:

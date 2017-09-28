@@ -6,7 +6,6 @@ date: 2006-05-31 03:47:15
 layout: post
 slug: perl-y-su-poderio
 title: Perl y su poderío
-wordpress_id: 175
 categories:
 - perl
 tags:

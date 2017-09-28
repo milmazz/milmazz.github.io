@@ -6,7 +6,6 @@ date: 2005-12-08 13:23:08
 layout: post
 slug: programando-libre-2005
 title: Programando Libre 2005
-wordpress_id: 118
 tags:
 - Charlas
 - Noticias

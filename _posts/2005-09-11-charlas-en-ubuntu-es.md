@@ -5,7 +5,6 @@ date: 2005-09-11 16:16:41
 layout: post
 slug: charlas-en-ubuntu-es
 title: 'Charlas en #ubuntu-es'
-wordpress_id: 77
 categories:
 - GNU/Linux
 - Ubuntu

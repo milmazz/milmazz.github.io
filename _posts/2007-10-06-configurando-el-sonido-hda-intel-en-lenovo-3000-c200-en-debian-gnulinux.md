@@ -6,7 +6,6 @@ date: 2007-10-06 21:14:58
 layout: post
 slug: configurando-el-sonido-hda-intel-en-lenovo-3000-c200-en-debian-gnulinux
 title: Configurando el sonido (HDA Intel) en Lenovo 3000 c200 en Debian GNU/Linux
-wordpress_id: 219
 categories:
 - debian
 - GNU/Linux

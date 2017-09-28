@@ -6,7 +6,6 @@ date: 2006-03-01 15:24:29
 layout: post
 slug: campana-cnti-vs-software-libre
 title: Campaña CNTI vs. Software Libre
-wordpress_id: 146
 categories:
 - GIMP
 tags:

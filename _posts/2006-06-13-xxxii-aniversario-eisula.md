@@ -6,7 +6,6 @@ date: 2006-06-13 23:23:01
 layout: post
 slug: xxxii-aniversario-eisula
 title: XXXII Aniversario EISULA
-wordpress_id: 188
 categories:
 - Local
 tags:

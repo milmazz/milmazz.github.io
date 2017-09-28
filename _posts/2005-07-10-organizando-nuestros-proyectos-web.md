@@ -6,7 +6,6 @@ date: 2005-07-10 23:53:01
 layout: post
 slug: organizando-nuestros-proyectos-web
 title: Organizando nuestros proyectos web
-wordpress_id: 56
 categories:
 - GNU/Linux
 - Software

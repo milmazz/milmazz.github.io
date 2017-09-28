@@ -6,7 +6,6 @@ date: 2006-02-01 02:15:23
 layout: post
 slug: mp3wrap-concatenando-ficheros-mp3
 title: 'mp3wrap: Concatenando ficheros mp3'
-wordpress_id: 135
 categories:
 - Software
 - Ubuntu

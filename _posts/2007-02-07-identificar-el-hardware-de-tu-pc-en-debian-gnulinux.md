@@ -6,7 +6,6 @@ date: 2007-02-07 18:16:45
 layout: post
 slug: identificar-el-hardware-de-tu-pc-en-debian-gnulinux
 title: Identificar el Hardware de tu PC en Debian GNU/Linux
-wordpress_id: 209
 categories:
 - debian
 - GNU/Linux
