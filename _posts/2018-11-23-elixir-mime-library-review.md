@@ -6,7 +6,6 @@ tags:
 - programming
 - elixir
 ---
-# Elixir MIME library review
 
 Elixir [MIME][] is a read-only and immutable library that embeds the [MIME type
 database][db], so, users can map MIME (Multipurpose Internet Mail Extensions)
@@ -17,6 +16,8 @@ One of the goals, maybe the main one, of this library is to offer a _performant
 lookup_ of the MIME database at runtime, that's why new MIME types can only be
 added at compile-time via configuration, but we'll talk about this option
 later. First, let's review its public API.
+
+<!-- more -->
 
 ## API
 
