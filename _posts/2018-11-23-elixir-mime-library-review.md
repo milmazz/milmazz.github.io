@@ -19,8 +19,6 @@ lookup_ of the MIME database at runtime, that's why new MIME types can only be
 added at compile-time via configuration, but we'll talk about this option
 later. First, let's review its public API.
 
-<!-- more -->
-
 ## API
 
 MIME offers a short set of functions, which cover the most relevant cases when
@@ -89,8 +87,7 @@ projects][stats], among those projects you can find: [Plug][plug],
 [Phoenix][phoenix], [Tesla][tesla], [Swoosh][swoosh], etc., and have been
 downloaded almost 6 million times. But more importantly, at least to me, is how
 the MIME library is implemented, its code is really concise, it's around 200
-SLOC (Source Lines Of Code) including comments, and embed really interesting
-concepts.
+SLOC (Source Lines Of Code) including comments, and embed captivating concepts.
 
 ## How the MIME library was built?
 
@@ -124,7 +121,7 @@ mapping =
 You can notice that the `MIME` library transforms the data located in the
 `priv/mime.types` file, which is a copy of the IANA (Internet Assigned Numbers
 Authority) database in text format and describes what Internet media types are
-sent to the client for the given file extension(s).  Keep in mind that sending
+sent to the client for the given file extension(s). Keep in mind that sending
 the correct media type to the client is important so they know how to handle
 the content of the file.
 
@@ -187,7 +184,7 @@ defp ext_to_mime("atom"), do: "application/atom+xml"
 defp ext_to_mime("pdf"), do: "application/pdf"
 defp ext_to_mime("dll"), do: "application/octet-stream"
 defp ext_to_mime("class"), do: "application/octet-stream"
-# ...
+# …
 defp ext_to_mime(_ext), do: nil
 ```
 
@@ -215,7 +212,7 @@ defp mime_to_ext("application/atom+xml"), do: ["atom"]
 defp mime_to_ext("application/octet-stream"),
   do:  ["bin", "lha", "lzh", "exe", "class", "so", "dll", "img", "iso"]
 defp mime_to_ext("application/pdf"), do: ["pdf"]
-# ...
+# …
 defp mime_to_ext(_type), do: nil
 ```
 
@@ -256,16 +253,14 @@ defp downcase(<<h, t::binary>>, acc), do: downcase(t, <<acc::binary, h>>)
 defp downcase(<<>>, acc), do: acc
 ```
 
-And that's it!, at least with these functions, the MIME library cover the main
-features.
-
-But wait, there is more, do you remember that at the beginning I mentioned the
-following:
+That's it!, at least with these functions, the MIME library cover the main
+features. But wait, there is more, do you remember that at the beginning I
+mentioned the following:
 
 > One of the goals, maybe the main one, of this library is to be provide a
 > _performant lookup_ of the MIME database at runtime, that's why new MIME types
 > can only be added at compile-time via configuration, but we'll talk about
-> this option later...
+> this option later…
 
 So, this means that we can add a MIME type like `application/wasm` for the
 extension: `wasm`, which have been added to the [provisional standard media
@@ -287,7 +282,7 @@ mix deps.clean mime --build
 mix deps.get
 ```
 
-And you can test the result via `IEx`:
+You can test the result via `IEx`:
 
 ```elixir
 iex> MIME.type("wasm")
@@ -357,7 +352,7 @@ def quoted(custom_types) do
   quote bind_quoted: [custom_types: Macro.escape(custom_types)] do
     mime_file = Application.app_dir(:mime, "priv/mime.types")
     @compile :no_native
-    # ...
+    # …
   end
 end
 ```
@@ -379,7 +374,7 @@ iex> MIME.Application.quoted(%{})
       {:@, [context: MIME.Application, import: Kernel],
        [
          {:moduledoc, [context: MIME.Application],
-          # ...
+          # …
 ```
 
 So, our beloved `MIME.Application.quoted/1` function is actually returning an
@@ -447,7 +442,7 @@ defmodule MIME.Application do
   end
 
   def quoted(custom_types) do
-  # ...
+  # …
   end
 end
 ```
@@ -455,7 +450,7 @@ end
 So, what this means is that the `MIME` library at boot-time, will log an error
 and will try to dynamically recompile the `MIME` module if the custom mime
 types of the user environment are different from the ones returned by
-`MIME.compiled_custom_types/0`, which is really nice! but, as the log messages
+`MIME.compiled_custom_types/0`, which is great! but, as the log messages
 says, it's recommended to clean the `:mime` dependency to make sure it's
 recompiled.
 
