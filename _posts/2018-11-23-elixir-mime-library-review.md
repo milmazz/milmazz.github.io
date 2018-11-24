@@ -10,10 +10,13 @@ tags:
 - elixir
 ---
 
-Elixir's [MIME][] is a read-only and immutable library that embeds the [MIME type
-database][db], so, users can map MIME (Multipurpose Internet Mail Extensions)
-types to extensions and vice-versa. It's a really compact project and includes
-nice features, which I'll try to explain in detail in this article.
+Elixir's [MIME][] is a read-only and immutable library that embeds the [MIME
+type database][db], so, users can map MIME (Multipurpose Internet Mail
+Extensions) types to extensions and vice-versa. It's a really compact project
+and includes nice features, which I'll try to explain in case you're not
+familiar with the library. Then, I'll focus on MIME's internals or how was
+built, and also how MIME illustrates in an elegant way so many features of
+Elixir itself.
 
 One of the goals, maybe the main one, of this library is to offer a _performant
 lookup_ of the MIME database at runtime, that's why new MIME types can only be
@@ -389,7 +392,7 @@ Module.create(MIME, quoted, __ENV__)
 ```
 
 Believe me, that's all the content on `lib/mime.ex` at the moment. In the first
-line you can see a call to `MIME.Application.quoted/1` passing as argument the
+line, you can see a call to `MIME.Application.quoted/1` passing as argument the
 custom MIME types defined via configuration or an empty map as a fallback, the
 result of that invocation is stored in the `quoted` binding. Then, the second
 line will create a module with the given name of `MIME` and it will be defined
