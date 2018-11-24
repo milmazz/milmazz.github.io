@@ -1,7 +1,8 @@
 ---
 date: 2018-11-23T19:40:31Z
 layout: post
-title: Elixir MIME library review
+title: Elixir's MIME library review
+slug: elixir-mime-library-review
 share: true
 author: milmazz
 tags:
@@ -9,7 +10,7 @@ tags:
 - elixir
 ---
 
-Elixir [MIME][] is a read-only and immutable library that embeds the [MIME type
+Elixir's [MIME][] is a read-only and immutable library that embeds the [MIME type
 database][db], so, users can map MIME (Multipurpose Internet Mail Extensions)
 types to extensions and vice-versa. It's a really compact project and includes
 nice features, which I'll try to explain in detail in this article.
@@ -89,7 +90,7 @@ downloaded almost 6 million times. But more importantly, at least to me, is how
 the MIME library is implemented, its code is really concise, it's around 200
 SLOC (Source Lines Of Code) including comments, and embed captivating concepts.
 
-## How the MIME library was built?
+## How was the MIME library built?
 
 Now, let's start looking into how the MIME library was built.
 
@@ -456,7 +457,7 @@ recompiled.
 
 ## Summary
 
-Elixir `MIME` is a short but powerful library, its goal it's clear, and in just
+Elixir `MIME` is a short but powerful library, its goal is clear, and in just
 around 200 SLOC you can see a lot of nice concepts, like _meta-programming_,
 _file streams_, _pattern matching_, _macros_, _unquote fragments_, _dynamic
 module creation_, _dynamic recompilation at boot-time_, among other really cool
