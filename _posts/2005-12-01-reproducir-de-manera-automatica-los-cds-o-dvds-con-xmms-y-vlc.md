@@ -14,7 +14,7 @@ tags:
 - xmms
 ---
 
-Si desea reproducir automáticamente los CDs de audio (o DVDs) al ser insertados con [XMMS](http://www.xmms.org/) (o con [VLC](www.videolan.org/vlc/)) simplemente cumpla los siguientes pasos:
+Si desea reproducir automáticamente los CDs de audio (o DVDs) al ser insertados con [XMMS](http://www.xmms.org/) (o con [VLC](https://www.videolan.org/vlc/)) simplemente cumpla los siguientes pasos:
 
 En primer lugar diríjase a _Sistema -> Preferencias -> Unidades y soportes extraíbles_, desde la lengüeta **Multimedia** proceda de la siguiente manera:
 

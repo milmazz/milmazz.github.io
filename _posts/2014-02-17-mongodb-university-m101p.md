@@ -134,7 +134,7 @@ del índice cuando la expresión regular incluye el ancla de inicio de cadena: ^
 MongoDB Book][the-little-mongodb-book] de Karl Seguin, también existen guías y
 presentaciones adicionales que pueden ayudarle a comprender aún más MongoDB, por
 ejemplo, [esta presentación sobre distintas consultas y uso del *aggregation
-framework* para explorar datos de resultados la NBA][nba-game-date]. 
+framework* para explorar datos de resultados la NBA][nba-game-date].
 
 [MongoDB University]: https://education.mongodb.com/
 [Java]: https://education.mongodb.com/courses/10gen/M101J/2013_October/about
@@ -177,5 +177,5 @@ framework* para explorar datos de resultados la NBA][nba-game-date].
 [GridFS]: http://docs.mongodb.org/manual/core/gridfs/
 [the-little-mongodb-book]: https://github.com/karlseguin/the-little-mongodb-book
 [nba-game-date]: http://www.slideshare.net/vkarpov15/mongodb-queries-and-aggregation-framework-with-nba-game-data
-[sharding-introduction]: [http://docs.mongodb.org/manual/core/sharding-introduction/]
+[sharding-introduction]: http://docs.mongodb.org/manual/core/sharding-introduction/
 [aggregation]: http://docs.mongodb.org/manual/aggregation/
