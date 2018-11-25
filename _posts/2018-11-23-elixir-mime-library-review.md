@@ -108,18 +108,11 @@ mime_file = Application.app_dir(:mime, "priv/mime.types")
 stream = File.stream!(mime_file)
 
 mapping =
-  Enum.flat_map(stream, fn line ->
-    if String.starts_with?(line, ["#", "\n"]) do
-      []
-    else
-      [type | exts] =
-        line
-        |> String.trim()
-        |> String.split()
-
-      [{type, exts}]
-    end
-  end)
+  for line <- stream,
+      not String.starts_with?(line, ["#", "\n"]),
+      [type | exts] = line |> String.trim() |> String.split(),
+      exts != [],
+      do: {type, exts}
 ```
 
 You can notice that the `MIME` library transforms the data located in the
@@ -136,6 +129,7 @@ Here is an example of the `priv/mime.types` file content:
 # IANA types
 
 # MIME type         Extensions
+application/3gpp-ims+xml
 application/ATXML       atxml
 application/atom+xml        atom
 application/atomcat+xml       atomcat
@@ -145,9 +139,15 @@ application/pdf         pdf
 
 To do the transformation, the `MIME` library reads the file line by line (via
 [`File.stream!/3`][stream]) at compile time, and ignores empty lines or lines
-that start with a comment (`#`), and then creates a list of `{type,
-extensions}` tuples. The result of this transformation is stored in a binding
-called `mapping`.
+that start with a comment (`#`). After that, it removes the leading and
+trailing whitespace and then splits that line or string into a list of
+substrings, the _head_ of this list represents the mime type and the _tail_ of
+the list represents the extensions, that's why at the end of the `for`
+comprehension you can see an extra filter to ignore mime types that does not
+have any extensions associated (e.g. `application/3gpp-ims+xml`), this is an
+optimization that reduces the compilation time. Finally, it creates a list of
+`{type, extensions}` tuples. The result of this transformation is stored in a
+binding called `mapping`.
 
 Is important to note the usage of two Module attributes, the first one is
 `@external_resource`, which as its name implies, specifies an external resource
