@@ -3,6 +3,7 @@ layout: page
 title: About
 excerpt: "Information about this blog."
 redirect_from: /acerca/
+search: false
 ---
 
 Hello, my name is Milton Mazzarri (a.k.a. milmazz), I'm a Systems Engineer and

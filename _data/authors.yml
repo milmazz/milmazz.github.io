@@ -5,16 +5,21 @@ milmazz:
   web: http://milmazz.uno
   email: me@milmazz.uno
   bio: ""
-  avatar: milmazz.png
+  picture: "/images/milmazz.png"
   twitter: milmazz
-  google:
-    plus: MiltonMazzarri
+  links:
+    - title: Twitter
+      url: https://twitter.com/milmazz
+      icon: fab fa-twitter-square
+    - title: GitHub
+      url: https://github.com/milmazz
+      icon: fab fa-github-square
 
 chantanito:
   name: Santiago Lunar
   email: santiago.lunar@gmail.com
   bio: ""
-  avatar: bio-photo.jpg
+  picture: "/images/bio-photo.jpg"
   twitter: srlunxr
   google:
     plus: SantiagoLunar

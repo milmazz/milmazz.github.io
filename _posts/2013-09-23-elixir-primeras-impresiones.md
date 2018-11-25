@@ -3,7 +3,7 @@ redirect_from: "/archivos/2013/09/23/erlang-primeras-impresiones/"
 author: milmazz
 comments: true
 date: 2013-09-23 22:22:20
-modified: 2014-02-07
+last_modified_at: 2014-02-07
 layout: page
 slug: elixir-primeras-impresiones
 title: 'Elixir: Primeras impresiones'
@@ -29,7 +29,7 @@ Ahora bien, después de leer un artículo de [Joe Armstrong][], padre de
 **completamente entusiasmado** por lo visto. Con esto era claro que se estaba
 presentando para mi una gran oportunidad para retomar la programación funcional
 con [Elixir][], inicié con [Haskell][] en la Universidad en la materia de
-*Compiladores* y la verdad es que no lo he vuelto a tocar. 
+*Compiladores* y la verdad es que no lo he vuelto a tocar.
 
 [José Valim](http://www.twitter.com/josevalim) es un brasileño, parte del equipo
 [core committer](http://rubyonrails.org/core) de Rails. Después de sufrir
@@ -171,7 +171,7 @@ posibles del factorial.
 
 Volvamos a correr las pruebas:
 
-    $ mix test       
+    $ mix test
     ..
 
       1) test map factorial (DemoTest)
@@ -253,7 +253,7 @@ al caso automatizado:
     3628800
     iex(4)> Demo.map([6, 8, 10], Demo.factorial(&1))
     [720, 40320, 3628800]
-    
+
 Lo previo es una *consola interactiva*, vimos la documentación e hicimos unas
 pruebas manuales.
 
@@ -317,7 +317,7 @@ reduzco:
 
 Comprobamos la equivalencia:
 
-    $ mix test              
+    $ mix test
     ...
 
     Finished in 0.06 seconds (0.06s on load, 0.00s on tests)

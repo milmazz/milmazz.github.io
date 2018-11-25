@@ -8,7 +8,6 @@ layout: post
 slug: how-to-document-your-javascript-code
 title: 'How to document your Javascript code'
 description: Someone that knows something about Java probably knows about JavaDoc. If you know something about Python you probably document your code following the rules defined for Sphinx. Or in C, you follow the rules defined for Doxygen. But, what happens when we are coding in JavaScript? How can we document our source code?
-image:
 tags:
 - jsdoc
 - javascript
@@ -26,7 +25,7 @@ source code?
 As a developer that interacts with other members of a team, the need to document
 all your intentions must become a habit. If you follow some basic rules and
 stick to them you can gain benefits like the automatic generation of
-documentation in formats like HTML, PDF, and so on. 
+documentation in formats like HTML, PDF, and so on.
 
 I must confess that I'm relatively new to JavaScript, but one of the first
 things that I implement is the source code documentation. I've been using

@@ -9,8 +9,6 @@ slug: grunt-javascript-task-manager
 title: 'Grunt: The Javascript Task Manager'
 description: When you play the Web Developer role, sometimes you may have to endure some repetitive tasks like minification, unit testing, compilation, linting, beautify or unpack JavaScript code and so on. To solve this problems, and in the meantime, try to keep your mental health in a good shape, you desperately need to find a way to automate this tasks. [Grunt][] offers you an easy way to accomplish this kind of automation.
 excerpt_separator: <!--more-->
-image:
-  thumb: 'grunt/grunt-logo.png'
 tags:
 - grunt
 - javascript
@@ -129,13 +127,13 @@ module.exports = function(grunt) {
       pkg: grunt.file.readJSON('package.json'),
       jsdoc : {
           dist : {
-              src: ['src/*.js', 'test/*.js'], 
+              src: ['src/*.js', 'test/*.js'],
               dest: 'doc'
           }
       }
   });
 
-};  
+};
 {% endhighlight %}
 
 Then, you need to load the plugin after the `initConfig` method in the
@@ -156,7 +154,7 @@ module.exports = function(grunt) {
       pkg: grunt.file.readJSON('package.json'),
       jsdoc : {
           dist : {
-              src: ['src/*.js', 'test/*.js'], 
+              src: ['src/*.js', 'test/*.js'],
               dest: 'doc'
           }
       }
@@ -165,7 +163,7 @@ module.exports = function(grunt) {
   // Load the plugin that provides the 'jsdoc' task.
   grunt.loadNpmtasks('grunt-jsdoc');
 
-};  
+};
 {% endhighlight %}
 
 To generate the documentation, you need to call the `jsdoc` task as follows:
