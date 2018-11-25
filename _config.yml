@@ -32,6 +32,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-paginate
+  - jekyll-redirect-from
 
 google_fonts:
   - name: "Source Sans Pro"

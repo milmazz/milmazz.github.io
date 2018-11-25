@@ -17,7 +17,7 @@ tags:
 Muchos compañeros de trabajo y amigos en general que recién comienzan con el manejo de sistemas de control de versiones centralizados, en particular _subversion_, regularmente tienen inquietudes en cuanto al proceso de recuperación de cambios una vez que han sido enviados al repositorio, así como también la recuperación de ficheros y directorios que fueron eliminados en el pasado. Trataré de explicar algunos casos en base a ejemplos para que se tenga una idea más clara del problema y su respectiva solución.
 
 En el primero de los casos se tiene recuperar la revisión previa a la actual, suponga que usted mantiene un repositorio de recetas, una de ellas en particular es la ensalada _caprese_, por error o descuido añadió el ingrediente _Mostaza tipo Dijón_ a la lista, si usted posee siquiera un lazo con italinos sabe que está cometiendo un error que puede devenir en escarnio público, desprecio e insultos.
-    
+
     ~/svn/wc/trunk$ svn diff -r 2:3 ${URL}/trunk/caprese
     Index: caprese
     ===================================================================
@@ -36,7 +36,7 @@ Note que el comando anterior muestra las diferencias entre las revisiones 2 y 3 
     U    caprese
 
 En este caso particular se están aplicando las diferencias entre las revisiones **consecutivas** a la copia de trabajo. Es hora de verificar que los cambios hechos sean los deseados:
-    
+
     ~/svn/wc/trunk$ svn status
     M      caprese
     ~/svn/wc/trunk$ svn diff
@@ -50,7 +50,7 @@ En este caso particular se están aplicando las diferencias entre las revisiones
       - Pimienta
     - - Mostaza tipo Dijon
 
-Una vez verificado enviamos los cambios hechos al repositorio a través de comando `svn commit`. 
+Una vez verificado enviamos los cambios hechos al repositorio a través de comando `svn commit`.
 
 Seguramente usted se estará preguntando ahora que sucede si las revisiones del ficheros no son consecutivas como en el caso mostrado previamente. En este caso es importante hacer notar que la opción `-c 3` es equivalente a `-r 2:3` al usar el comando `svn merge`, en nuestro caso particular `-c -3` es equivalente a `-r 3:2` (a esto se conoce como una fusión reversa), substituyendo la opción `-c` (o `--changes`) en el caso previo obtenemos lo siguiente:
 
@@ -68,7 +68,7 @@ Una manera bastante sencilla de recuperar ficheros o directorios eliminados es h
     A         panzanella
 
 En este caso se ha duplicado la revisión 6 del fichero `panzanella` en la copia de trabajo local, se ha programado para su adición incluyendo su historial, esto último puede verificarse en detalle al observar el signo **'+'** en la cuarta columna del comando `svn status`.
-    
+
     ~/svn-tests/wc/trunk$ svn status
     A  +   panzanella
 
