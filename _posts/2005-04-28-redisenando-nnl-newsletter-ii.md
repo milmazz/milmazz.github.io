@@ -9,7 +9,7 @@ tags:
 - CSS
 ---
 
-En este artículo se mostrará la facilidad de emplear hojas de estilos en cascada o CSS cuando poseemos una buena estructura en nuestros documentos. Como estructura vamos a utilizar una [modificación](http://blog.milmazz.com.ve/wp-content/nnl/estructura.html) que he realizado de la [primera edición de NNL Newsletter](http://nnlnews.com/nnl/1). La edición de la estructura se ha explicado en el artículo [Rediseñando NNL Newsletter I](/archivos/2005/04/28/redisenando-nnl-newsletter-i/).
+En este artículo se mostrará la facilidad de emplear hojas de estilos en cascada o CSS cuando poseemos una buena estructura en nuestros documentos. Como estructura vamos a utilizar una [modificación](http://blog.milmazz.com.ve/wp-content/nnl/estructura.html) que he realizado de la [primera edición de NNL Newsletter](http://nnlnews.com/nnl/1). La edición de la estructura se ha explicado en el artículo [Rediseñando NNL Newsletter I](/article/2005/04/28/redisenando-nnl-newsletter-i/).
 
 
 <!-- more -->
@@ -29,7 +29,7 @@ Muestra de ejemplo en CSS
 
 
 
-    
+
     <code>*{
       margin: 0;
       padding: 0;
@@ -57,11 +57,11 @@ Muestra de ejemplo en CSS
 
 
 
-    
+
     <code>body{
       text-align: center;
     }
-    #wrapper{ 
+    #wrapper{
       margin: 3em auto;
       width: 35em;
       text-align: left;
@@ -94,7 +94,7 @@ Para ampliar la compatibilidad del _layout_ _elástico_ con el navegador IE (sí
 
 
 
-    
+
     <code>body{
       font-size: 85%;
     }</code>
@@ -116,7 +116,7 @@ Antes de continuar, vamos a "maquillar" un poco nuestro _layout_.
 
 
 
-    
+
     <code>body{
       font: 85%/145% "Trebuchet MS", Arial, Verdana, sans-serif;
       color: #333;
@@ -157,7 +157,7 @@ Nos aprovecharemos de la siguiente estructura en XHTML.
 
 
 
-    
+
     <code><h1 id="header" title="NNL Newsletter"><a href="http://www.nnlnews.com/"><span></span>NNL Newsletter</a></h1></code>
 
 
@@ -167,7 +167,7 @@ La imagen que sustituirá al título tiene una anchura de `134px` y una altura d
 
 
 
-    
+
     <code>h1{
     font-size: 1.2em;
     }
@@ -200,7 +200,7 @@ Carlos Tori, encargado de la redacción de NNL Newsletter, acostumbra colocar un
 
 
 
-    
+
     <code>p{
       margin: 0 1em 0.5em 1em;
     }
@@ -233,7 +233,7 @@ Carlos Tori, siempre coloca una lista ordenada de los puntos que tratará en la 
 
 
 
-    
+
     <code>ol{
       margin: 1em 3em;
     }
@@ -271,14 +271,14 @@ Primero, vamos a encargarnos de los títulos de las definiciones.
 
 
 
-    
+
     <code>dt{
       font-weight: bold;
       font-size: 1.1em;
       background: #eee;
       margin-top: 14px;
       padding: 6px 6px 7px 12px;
-      border-top: 2px solid #bbb; 
+      border-top: 2px solid #bbb;
     }</code>
 
 
@@ -293,7 +293,7 @@ Ahora definamos los rellenos de las descripciones de las definiciones.
 
 
 
-    
+
     <code>dd{
       padding: 6px 6px 10px 8px;
     }</code>
@@ -310,7 +310,7 @@ Si detalla la [muestra anterior](http://blog.milmazz.com.ve/wp-content/nnl/07.ht
 
 
 
-    
+
     <code>#feedback dl{
       background: #ffe;
       border: 1px solid #999;
@@ -321,7 +321,7 @@ Si detalla la [muestra anterior](http://blog.milmazz.com.ve/wp-content/nnl/07.ht
     }
     #feedback dt{
       font-size: 0.95em;
-      color: #fff; 
+      color: #fff;
       border: 0 none;
       background: #c30;
       margin: 0 -5px;
@@ -373,7 +373,7 @@ Vamos a mejorar la presentación del código.
 
 
 
-    
+
     <code>code{
       font-family: "Courier New", Courier, monospace;
       background: #ffe;
@@ -435,7 +435,7 @@ Seguramente ud. se estará preguntando en este instante lo siguiente: ¿qué es 
 
 
 
-    
+
     <code>a:link, a:visited{
       font-size: 0.85em;
       color: #c30;
@@ -483,7 +483,7 @@ Se han realizado unos ajustes al pie de página, estos son los siguientes:
 
 
 
-    
+
     <code>#footer{
       background: #fff url(bg-footer.png) repeat-x top left;
       color: #333;

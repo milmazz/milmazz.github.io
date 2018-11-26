@@ -24,7 +24,7 @@ tags:
 Al darse un proceso de desarrollo colectivo es recomendable mantener una o varias listas de notificación acerca de los cambios hechos (_commits_) en el repositorio de código fuente. Para este tipo de actividades es muy útil emplear [`SVN::Notify`](http://search.cpan.org/dist/SVN-Notify/).
 
 `SVN::Notify` le ofrece un número considerable de opciones, a continuación resumo algunas de ellas:
-	
+
   * Obtiene información relevante acerca de los cambios ocurridos en el repositorio _Subversion_.
   * Realiza análisis sobre la información recolectada y brinda la posibilidad de reconocer distintos formatos vía filtros (Ej. Textile, Markdown, Trac).
   * Puede obtener la salida tanto en texto sin formato como en XHTML.
@@ -82,7 +82,7 @@ $notifier->prepare;
 $notifier->execute;
 {% endhighlight %}
 
-Si seguimos con el ejemplo indicado en el artículo anterior, [Instalación básica de Trac y Subversion](/archivos/2010/04/23/instalacion-basica-de-trac-y-subversion), este _hook_ lo vamos a colocar en `/srv/svn/project/hooks/post-commit`, dicho fichero deberá tener permisos de ejecución para el Servidor Web Apache.
+Si seguimos con el ejemplo indicado en el artículo anterior, [Instalación básica de Trac y Subversion](/article/2010/04/23/instalacion-basica-de-trac-y-subversion), este _hook_ lo vamos a colocar en `/srv/svn/project/hooks/post-commit`, dicho fichero deberá tener permisos de ejecución para el Servidor Web Apache.
 
 Con este sencillo _script_ en Perl se ha logrado lo siguiente:
 
@@ -107,7 +107,7 @@ Aunque el código es sucinto y claro, trataré de resumir cada uno de los parám
 * `max_sub_length`: Indica la longitud máxima de la línea de asunto del correo electrónico de notificación.
 * `max_diff_length`: Máxima longitud del `diff` (esté adjunto o en el cuerpo de la notificación).
 * `from`: Define la dirección de correo que será usada en la línea `From`. Si no se especifica será utilizado el nombre de usuario definido en el _commit_, esta información se obtiene vía el comando `svnlook`.
-* `subject_prefix`: Define una cadena de texto que será el prefijo de la línea correspondiente al asunto del correo electrónico de notificación.  
+* `subject_prefix`: Define una cadena de texto que será el prefijo de la línea correspondiente al asunto del correo electrónico de notificación.
 * `smtp`: Indica la dirección para el servidor SMTP que el cual se enviarán las notificaciones de correo electrónico. Si no se utiliza este parámetro, `SVN::Notify` utilizará el comando `sendmail` para el envío del mensaje.
 * `smtp_user`: El nombre de usuario para la autenticación SMTP.
 * `smtp_pass`: Contraseña para la autenticación SMTP

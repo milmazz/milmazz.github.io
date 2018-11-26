@@ -30,7 +30,7 @@ Una vez culminada la descarga, ejecute las siguientes sentencias:
     $ sudo apt-get install java-package fakeroot
     $ fakeroot make-jpkg jdk-1_5_0_02-linux-i586.bin
     $ sudo dpkg -i sun-j2sdk1.5_1.5.0+update02_i386.deb
-    
+
 Es importante aclarar que en las sentencias anteriores se asume que el paquete descargado ha sido el `jdk-1_5_0_02-linux-i586.bin`, evidentemente usted debe sustituir el nombre del paquete por el cual corresponda.
 
 Si desea verificar la correcta instalación de JAVA, proceda de la siguiente manera:
@@ -52,12 +52,12 @@ Si al ejecutar el comando `java -version` obtiene algo similar a lo mostrado a c
     $ java -version
     java version "1.4.2"
     gij (GNU libgcj) version 4.0.2 20050808 (prerelease) (Ubuntu 4.0.1-4ubuntu9)
-    
+
     Copyright (C) 2005 Free Software Foundation, Inc.
     This is free software; see the source for copying conditions.  There is NO
     warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
-No se preocupe, simplemente cambie la versión de JAVA por omisión, para ello lea el artículo [Como cambiar entre versiones de JAVA bajo Breezy](/archivos/2005/11/28/como-cambiar-entre-versiones-de-java-bajo-breezy/).
+No se preocupe, simplemente cambie la versión de JAVA por omisión, para ello lea el artículo [Como cambiar entre versiones de JAVA bajo Breezy](/article/2005/11/28/como-cambiar-entre-versiones-de-java-bajo-breezy/).
 
 ## Referencias:
 

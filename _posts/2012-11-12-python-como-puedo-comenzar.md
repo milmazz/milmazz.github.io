@@ -12,7 +12,7 @@ categories:
 ---
 
 Hay mucha documentación sobre el lenguaje de programación Python, tal vez eso haya quedado claro en el [artículo
-anterior](/archivos/2012/11/09/python-el-comienzo "Python: El Comienzo").
+anterior](/article/2012/11/09/python-el-comienzo "Python: El Comienzo").
 
 Sin embargo, se puede iniciar revisando el [tutorial oficial de Python](http://docs.python.org/3/tutorial/). El libro
 [Learn Python the Hard Way](http://learnpythonthehardway.org/ "Learn Python The Hard Way") (LPTHW) de [Zed

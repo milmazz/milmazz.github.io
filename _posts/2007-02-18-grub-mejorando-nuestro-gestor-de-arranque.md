@@ -17,7 +17,7 @@ tags:
 - Seguridad
 ---
 
-Anteriormente había comentado en la primera entrega del artículo [Debian: Bienvenido al Sistema Operativo Universal](/archivos/2006/04/25/debian-bienvenido-al-sistema-operativo-universal-parte-i/) que por medidas de seguridad establezco las opciones de montaje `ro`, `nodev`, `nosuid`, `noexec` en la partición `/boot`, donde se encuentran los ficheros estáticos del gestor de arranque.
+Anteriormente había comentado en la primera entrega del artículo [Debian: Bienvenido al Sistema Operativo Universal](/article/2006/04/25/debian-bienvenido-al-sistema-operativo-universal-parte-i/) que por medidas de seguridad establezco las opciones de montaje `ro`, `nodev`, `nosuid`, `noexec` en la partición `/boot`, donde se encuentran los ficheros estáticos del gestor de arranque.
 
 El gestor de arranque que manejo es GRUB. Por lo tanto, el motivo de este artículo es explicar como suelo personalizarlo, tanto para dotarle de seguridad como mejorar su presentación.
 
@@ -39,17 +39,17 @@ El segundo paso es evitar que se modifique de manera interactiva las opciones de
     Password:
     Retype password:
     $1$56z5r1$yMeSchRfnxdS3QDzLpovV1
-    
+
 La última línea es el resultado de aplicarle el algoritmo MD5 a nuestra contraseña, la copiaremos e inmediatamente procedemos a modificar de nuevo el fichero `/boot/grub/menu.lst`, el cual debería quedar más o menos como se muestra a continuación.
 
     password --md5 $1$56z5r1$yMeSchRfnxdS3QDzLpovV1
-    
+
     title           Debian GNU/Linux, kernel 2.6.18-3-686
     root            (hd0,1)
     kernel          /vmlinuz-2.6.18-3-686 root=/dev/sda1 ro
     initrd          /initrd.img-2.6.18-3-686
     savedefault
-    
+
     title           Debian GNU/Linux, kernel 2.6.18-3-686 (single-user mode)
     root            (hd0,1)
     kernel          /vmlinuz-2.6.18-3-686 root=/dev/sda1 ro single
@@ -60,7 +60,7 @@ La instrucción `password --md5` aplica a nivel global, así que cada vez que de
 
 ## Presentación del gestor de arranque
 
-A muchos quizá no les agrade el aspecto inicial que posee el GRUB, una manera de personalizar la presentación de nuestro gestor de arranque puede ser la descrita en la segunda entrega de la entrada [Debian: Bienvenido al Sistema Operativo Universal](/archivos/2006/05/02/debian-bienvenido-al-sistema-operativo-universal-parte-ii/) en donde instalaba el paquete `grub-splashimages` y posteriormente establecía un enlace simbólico, el problema de esto es que estamos limitados a las imágenes que trae solo ese paquete.
+A muchos quizá no les agrade el aspecto inicial que posee el GRUB, una manera de personalizar la presentación de nuestro gestor de arranque puede ser la descrita en la segunda entrega de la entrada [Debian: Bienvenido al Sistema Operativo Universal](/article/2006/05/02/debian-bienvenido-al-sistema-operativo-universal-parte-ii/) en donde instalaba el paquete `grub-splashimages` y posteriormente establecía un enlace simbólico, el problema de esto es que estamos limitados a las imágenes que trae solo ese paquete.
 
 A menos que a usted le guste diseñar sus propios fondos, puede usar los siguientes recursos:
 

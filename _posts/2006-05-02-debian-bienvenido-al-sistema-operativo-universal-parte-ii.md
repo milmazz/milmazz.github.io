@@ -14,9 +14,9 @@ tags:
 - GNU/Linux
 ---
 
-Esta serie de anotaciones comenzo con la entrada [Debian: Bienvenido al Sistema Operativo Universal (Parte I)](/archivos/2006/04/25/debian-bienvenido-al-sistema-operativo-universal-parte-i/).
+Esta serie de anotaciones comenzo con la entrada [Debian: Bienvenido al Sistema Operativo Universal (Parte I)](/article/2006/04/25/debian-bienvenido-al-sistema-operativo-universal-parte-i/).
 
-Después de escribir en la tabla de particiones el esquema de particionamiento descrito en la [parte anterior](/archivos/2006/04/25/debian-bienvenido-al-sistema-operativo-universal-parte-i/), el sistema base Debian comenzo a instalarse. Posterior a la Bienvenida al nuevo sistema Debian, reinicie y comence a configurar el _sistema base debian_, en la sección de selección de programas Debian escogí la última opción que nos brinda el asistente, selección manual de paquetes, luego configure las fuentes de aptitude y enseguida inicie la instalación de paquetes puntuales, los cuales describiré a continuación, de manera breve.
+Después de escribir en la tabla de particiones el esquema de particionamiento descrito en la [parte anterior](/article/2006/04/25/debian-bienvenido-al-sistema-operativo-universal-parte-i/), el sistema base Debian comenzo a instalarse. Posterior a la Bienvenida al nuevo sistema Debian, reinicie y comence a configurar el _sistema base debian_, en la sección de selección de programas Debian escogí la última opción que nos brinda el asistente, selección manual de paquetes, luego configure las fuentes de aptitude y enseguida inicie la instalación de paquetes puntuales, los cuales describiré a continuación, de manera breve.
 
 Como lo que tenía a mano era el CD Debian GNU/Linux testing _Sarge_- Official Snapshot i386 Binary-1, lo primero que hice fue actualizar a Sarge, seguidamente cambie las fuentes del fichero `/etc/apt/sources.list` a Etch, actualice la lista de paquetes disponibles e inmediatamente hice un `aptitude dist-upgrade`, el cambio de una rama a otra fué de lo más normal, no genero problema alguno.
 
@@ -26,13 +26,13 @@ Si tiene alguna duda acerca de la funcionalidad de un paquete en particular, pue
 
 En los siguientes pasos haré uso intensivo de `aptitude`, anteriormente ya he explicado las ventajas que presenta `aptitude` sobre los comandos `apt-get` y sobre la interfaz gráfica Synaptic, puede encontrar mayor información en los artículos:
 
-  * [aptitude, ¿aún no lo usas?](/archivos/2005/07/28/aptitude-%C2%BFaun-no-lo-usas/)
-  * [Registro de la segunda charla en el canal #ubuntu-es](/archivos/2005/09/17/registro-de-la-segunda-charla-en-el-canal-ubuntu-es/)
+  * [aptitude, ¿aún no lo usas?](/article/2005/07/28/aptitude-%C2%BFaun-no-lo-usas/)
+  * [Registro de la segunda charla en el canal #ubuntu-es](/article/2005/09/17/registro-de-la-segunda-charla-en-el-canal-ubuntu-es/)
 
 ## Sistema X Window
 
 Instalando los componentes **esenciales** para el Sistema X Window.
-    
+
     # aptitude install x-window-system-core
 
 ## GNOME
@@ -76,18 +76,18 @@ Si le agrada utilizar IRC modo texto, puede instalar [irssi](http://www.irssi.or
 ## Navegador Web
 
 Definitivamente [Firefox](http://www.mozilla.com/firefox).
- 
+
     # aptitude install firefox firefox-locale-es-es
 
 ## Creación de CDs y DVDs
-    
+
     # aptitude install k3b cdrdao
 
 Para quienes quieran su version de [K3b](http://www.k3b.org/) en español pueden instalar el paquete k3b-i18n, yo no lo considere necesario puesto que aporta **11,5MB**, inútiles desde mi punto de vista.
 
 ## Cliente Bittorrent
 
-No le recomiendo instalar el cliente bittorrent Azureus, consume demasiados recursos, acerca de ello explico brevemente en el artículo [Clientes Bittorrent](/archivos/2005/12/06/clientes-bittorrent/).
+No le recomiendo instalar el cliente bittorrent Azureus, consume demasiados recursos, acerca de ello explico brevemente en el artículo [Clientes Bittorrent](/article/2005/12/06/clientes-bittorrent/).
 
     # aptitude install freeloader
 

@@ -10,7 +10,7 @@ tags:
 - Scripts
 ---
 
-El día de hoy he publicado la nueva versión de este _script_, [Audio Converter
-v0.3](/wp-content/audioconverter-0.3.tgz), para mayor detalle vea el artículo
+El día de hoy he publicado la nueva versión de este _script_, Audio Converter
+v0.3, para mayor detalle vea el artículo
 [Convirtiendo los formatos de compresión de
-audio](/archivos/2005/04/21/convirtiendo-los-formatos-de-compresion-de-audio).
+audio](/article/2005/04/21/convirtiendo-los-formatos-de-compresion-de-audio).

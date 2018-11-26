@@ -16,15 +16,15 @@ tags:
 
 ![deskbar-applet en funcionamiento](http://blog.milmazz.com.ve/wp-content/deskbar-applet.png) `deskbar-applet` es una de esas aplicaciones que parecen no tener mucho sentido en un principio, pero desde el mismo momento en que comienzas a utilizarla se te facilitan muchas actividades cotidianas.
 
-`deskbar-applet` provee una versátil interfaz de búsqueda, incluso, puede abrir aplicaciones, ficheros, búsquedas locales (se integra complemente con [beagle](/archivos/2005/05/28/beagle/) si lo tienes instalado) o directamente en internet; aquellos términos que desee buscar, simplemente tendrá que escribirlos dentro de la casilla correspondiente en el panel. En caso de escribir una dirección de correo electrónico en la barra de búsqueda se le brindará la opción de escribir un correo al destinario que desee.
+`deskbar-applet` provee una versátil interfaz de búsqueda, incluso, puede abrir aplicaciones, ficheros, búsquedas locales (se integra complemente con [beagle](/article/2005/05/28/beagle/) si lo tienes instalado) o directamente en internet; aquellos términos que desee buscar, simplemente tendrá que escribirlos dentro de la casilla correspondiente en el panel. En caso de escribir una dirección de correo electrónico en la barra de búsqueda se le brindará la opción de escribir un correo al destinario que desee.
 
 Si desea probarlo es muy sencilla su instalación. En primer lugar debe tener activa la sección `universe` en su lista de repositorios.
 
-    deb http://us.archive.ubuntu.com/ubuntu breezy universe 
+    deb http://us.archive.ubuntu.com/ubuntu breezy universe
     deb-src http://us.archive.ubuntu.com/ubuntu breezy universe
 
 Una vez que haya editado el fichero `/etc/apt/sources.list` debe actualizar la nueva lista de paquetes.
-    
+
     $ sudo aptitude update
 
 Seguidamente puede proceder a instalar el paquete `deskbar-applet`, para ello simplemente haga.

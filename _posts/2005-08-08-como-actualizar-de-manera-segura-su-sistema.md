@@ -51,7 +51,7 @@ Obteniendo por respuesta lo siguiente:
     ¿Quiere continuar? [Y/n/?] Y
     The following packages are not AUTHENTICATED:
       clamav clamav-freshclam clamav-base libclamav1
-    
+
     Do you want to continue? [y/N] N
     Cancela.
 
@@ -69,7 +69,7 @@ El comando anterior simplemente importara la llave especificada (`8AC2C0A6`) des
 
 Si el comando anterior se ejecuto de manera correcta, el proceso nos arrojará una salida similar a la siguiente:
 
-    gpg: key 8AC2C0A6: public key "os-cillation Debian Package Repository 
+    gpg: key 8AC2C0A6: public key "os-cillation Debian Package Repository
     (Xfld Package Maintainer) <debian-packages@os-cillation.com>" imported
 
 La instrucción anterior solamente variará de acuerdo al `keyserver` y la  clave que deseemos importar. En [www.pgp.net](http://www.pgp.net/) está disponible un buscador que le facilitará la obtención de los datos necesarios.
@@ -80,7 +80,7 @@ La instrucción anterior solamente variará de acuerdo al `keyserver` y la  clav
 
 Con el comando anterior procedemos a construir la salida en formato ASCII producto de la exportación de la llave especificada y a través del [pipe](http://www.faqs.org/docs/bashman/bashref_17.html) capturamos la salida estándar y la utilizamos como entrada estándar en el comando `apt-key add`, el cual simplemente agregará una nueva llave a la lista de llaves confiables, dicha lista puede visualizarse al hacer uso del comando `apt-key list`.
 
-Aunque parezca evidente la aclaratoria, recuerde que si usted no puede hacer uso de [sudo](/archivos/2005/05/03/es-necesario-activar-la-cuenta-root-en-ubuntu/), debe identificarse previamente como _superusuario_.
+Aunque parezca evidente la aclaratoria, recuerde que si usted no puede hacer uso de [sudo](/article/2005/05/03/es-necesario-activar-la-cuenta-root-en-ubuntu/), debe identificarse previamente como _superusuario_.
 
 #### Finalmente...
 

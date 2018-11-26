@@ -19,5 +19,5 @@ Espero poder traerles una nueva versión del _script_ `audioconverter` en el mes
 
 ## Referencias
 
-  * [Convirtiendo los formatos de compresión de audio](/archivos/2005/04/21/convirtiendo-los-formatos-de-compresion-de-audio/)
-  * [AudioConverter v0.3](/archivos/2005/04/24/audioconverter-v03/)
+  * [Convirtiendo los formatos de compresión de audio](/article/2005/04/21/convirtiendo-los-formatos-de-compresion-de-audio/)
+  * [AudioConverter v0.3](/article/2005/04/24/audioconverter-v03/)

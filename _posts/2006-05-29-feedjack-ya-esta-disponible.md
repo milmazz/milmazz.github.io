@@ -17,7 +17,7 @@ tags:
 - Software
 ---
 
-Ya había comentado acerca de ésta aplicación en la entrada [FeedJack: Un Planet con esteroides](/archivos/2006/02/23/feedjack-un-planet-con-esteroides/), resulta que hace pocos días [Gustavo Picón](http://tabo.aurealsys.com/) [anunció la salida](http://tabo.aurealsys.com/archives/2006/05/27/release-feedjack-a-djangopython-powered-feed-aggregator/) de la versión [0.9.6](http://static.tabo.aureal.com.pe/code/Feedjack-0.9.6.tar.gz) bajo licencia **BSD**. Algunas de las características más resaltantes de esta aplicación son:
+Ya había comentado acerca de ésta aplicación en la entrada [FeedJack: Un Planet con esteroides](/article/2006/02/23/feedjack-un-planet-con-esteroides/), resulta que hace pocos días [Gustavo Picón](http://tabo.aurealsys.com/) [anunció la salida](http://tabo.aurealsys.com/archives/2006/05/27/release-feedjack-a-djangopython-powered-feed-aggregator/) de la versión [0.9.6](http://static.tabo.aureal.com.pe/code/Feedjack-0.9.6.tar.gz) bajo licencia **BSD**. Algunas de las características más resaltantes de esta aplicación son:
 
 * Soporte de _virtual hosts_: Esto quiere decir que desde la misma instalación y la misma _Base de Datos_ e interfaz de administración, se manejan múltiples planetas. Si hay _feeds_ en común estos se bajan una sola vez para optimizar recursos.
 * Temas (_Themes_): Cada sitio (_virtual host_) puede tener temas distintos.

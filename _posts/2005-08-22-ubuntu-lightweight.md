@@ -65,7 +65,7 @@ Una vez que haya guardado los cambios en el fichero `/etc/apt/sources.list`
 recuerde que debe autenticar el origen de los ficheros binarios o fuentes de
 manera transparente, esto se explico con anterioridad en el artículo [COMO
 actualizar de manera segura su
-sistema](/archivos/2005/08/08/como-actualizar-de-manera-segura-su-sistema/), el
+sistema](/article/2005/08/08/como-actualizar-de-manera-segura-su-sistema/), el
 ejemplo que se expone en dicho artículo aplica perfectamente para los
 repositorios de [www.os-works.com](http://www.os-works.com).
 

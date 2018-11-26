@@ -35,7 +35,7 @@ Para instalar el módulo `Bio::Coordinate::Graph`, primero debía _debianizarlo_
 
     # dh-make-perl --build --cpan Bio::Coordinate::Graph
 
-Luego debe proceder a instalar el fichero `.deb` que se generó con `dh-make-perl`, para lograrlo hago uso del comando `dpkg`, eso es todo. Por cierto, acerca del comando `dh-make-perl` ya había hablado en la entrada [Perl: Primeras experiencias](/archivos/2006/05/17/perl-primeras-experiencias/).
+Luego debe proceder a instalar el fichero `.deb` que se generó con `dh-make-perl`, para lograrlo hago uso del comando `dpkg`, eso es todo. Por cierto, acerca del comando `dh-make-perl` ya había hablado en la entrada [Perl: Primeras experiencias](/article/2006/05/17/perl-primeras-experiencias/).
 
 ## Encontrando el camino más corto
 

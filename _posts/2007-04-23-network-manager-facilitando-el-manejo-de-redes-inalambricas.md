@@ -16,14 +16,14 @@ tags:
 - wireless
 ---
 
-![NetworkManager](/images/2007-04-23-network-manager-facilitando-el-manejo-de-redes-inalambricas/network-manager.thumbnail.png) En la entrada previa, [Establecer red inalámbrica en Dell m1210](/archivos/2007/04/21/establecer-red-inalambrica-en-dell-m1210/), comencé a describir el proceso que seguí para lograr hacer funcionar la tarjeta _Broadcom Corporation Dell Wireless 1390 WLAN Mini-PCI Card (rev 01)_ en una portátil _Dell m1210_. El motivo de esta entrada se debe a que muchos usuarios hoy día no les interesa ni debe interesarles estar lidiando con la detección de redes inalámbricas, por eso les pasaré a comentar acerca de [NetworkManager](http://www.gnome.org/projects/NetworkManager/).
+![NetworkManager](/images/2007-04-23-network-manager-facilitando-el-manejo-de-redes-inalambricas/network-manager.thumbnail.png) En la entrada previa, [Establecer red inalámbrica en Dell m1210](/article/2007/04/21/establecer-red-inalambrica-en-dell-m1210/), comencé a describir el proceso que seguí para lograr hacer funcionar la tarjeta _Broadcom Corporation Dell Wireless 1390 WLAN Mini-PCI Card (rev 01)_ en una portátil _Dell m1210_. El motivo de esta entrada se debe a que muchos usuarios hoy día no les interesa ni debe interesarles estar lidiando con la detección de redes inalámbricas, por eso les pasaré a comentar acerca de [NetworkManager](http://www.gnome.org/projects/NetworkManager/).
 
 **NetworkManager** es una aplicación cuyo objetivo es que el usuario nunca tenga que lidiar con la línea de comandos o la edición de ficheros de configuración para manejar sus redes (ya sea cableada o inalámbrica), haciendo que la detección de dichas redes _simplemente funcione_ tanto como se pueda y que interrumpa lo menos posible el flujo de trabajo del usuario. De manera que cuando usted se dirija a áreas en las cuales usted ha estado antes, **NetworkManager** se conectará automáticamente a la última red que haya escogido. Asimismo, cuando usted esté de vuelta al escritorio, **NetworkManager** cambiará a la red cableada más rápida y confiable.
 
 Por los momentos, **NetworkManager** soporta redes cifradas WEP, el soporte para el cifrado WPA está contemplado para un futuro cercano. Respecto al soporte de VPN, **NetworkManager** soporta hasta ahora vpnc, aunque también está contemplado darle pronto soporte a otros clientes.
 
 Para hacer funcionar **NetworkManager** en Debian los pasos que debemos seguir son los siguientes. En primera instancia instalamos el paquete.
-    
+
     # aptitude -r install network-manager-gnome
 
 Que conste que **NetworkManager** funciona para entornos de escritorios como [GNOME](http://gnome.org), [KDE](http://kde.org), [XFCE](http://xfce.org), entre otros. En este caso particular estoy instalando el paquete disponible en Debian para GNOME en conjunto con sus recomendaciones.
@@ -35,7 +35,7 @@ En Debian por seguridad, los usuarios que necesiten conectarse al demonio de **N
 Es necesario saber que **NetworkManager** manejará todos aquellos dispositivos que **no** estén listados en el fichero `/etc/network/interfaces`, o aquellos que estén listados en dicho fichero con la opción `auto` o `dhcp`, de esta manera usted puede establecer una configuración para un dispositivo que sea estática y puede estar seguro que **NetworkManager** no tratará de sobreescribir dicha configuración. Para mayor información le recomiendo leer detenidamente el fichero `/usr/share/doc/network-manager/README.Debian`.
 
 Si usted desea que **NetworkManager** administre todas las interfaces posibles en su ordenador, lo más sencillo que puede hacer es dejar solo lo siguiente en el fichero `/etc/network/interfaces`.
-  
+
     $ cat /etc/network/interfaces
     auto lo
     iface lo inet loopback

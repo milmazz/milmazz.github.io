@@ -25,7 +25,7 @@ Para hacer uso de las ventajas que nos ofrece la herramienta de alto nivel `ifup
 
     auto lo
     iface lo inet loopback
-    
+
     # Conexión en casa usando WPA
     iface home inet dhcp
         wpa-driver wext
@@ -35,8 +35,8 @@ Para hacer uso de las ventajas que nos ofrece la herramienta de alto nivel `ifup
         wpa-pairwise TKIP CCMP
         wpa-group TKIP CCMP
         wpa-proto WPA RSN
-    
-    # Conexión en la oficina 
+
+    # Conexión en la oficina
     # sin DHCP
     iface office inet static
         wireless-essid bar
@@ -47,13 +47,13 @@ Para hacer uso de las ventajas que nos ofrece la herramienta de alto nivel `ifup
         gateway 192.168.1.1
         dns-search company.com #search@resolv.conf
         dns-nameservers 192.168.1.2 192.168.1.3 #nameserver@resolv.conf
-        
+
     # Conexión en reuniones
     iface meeting inet dhcp
     	wireless-essid ham
     	wireless-key s:jam
 
-En este ejemplo se encuentran 3 configuraciones particulares (`home`, `work` y `meeting`), la primera de ellas define que nos vamos a conectar con un _Access Point_ cuyo _ssid_ es `foo` con un tipo de cifrado WPA-PSK/WPA2-PSK, esto fue explicado en detalle en el artículo [Haciendo el cambio de ipw3945 a iwl3945](/archivos/2008/02/05/haciendo-el-cambio-de-ipw3945-a-iwl3945). La segunda configuración indica que nos vamos a conectar a un _Access Point_ con una IP estática y configuramos los parámetros `search` y `nameserver` del fichero `/etc/resolv.conf` (para más detalle lea la documentación del paquete `resolvconf`). Finalmente se define una configuración similar a la anterior, pero en este caso haciendo uso de DHCP.
+En este ejemplo se encuentran 3 configuraciones particulares (`home`, `work` y `meeting`), la primera de ellas define que nos vamos a conectar con un _Access Point_ cuyo _ssid_ es `foo` con un tipo de cifrado WPA-PSK/WPA2-PSK, esto fue explicado en detalle en el artículo [Haciendo el cambio de ipw3945 a iwl3945](/article/2008/02/05/haciendo-el-cambio-de-ipw3945-a-iwl3945). La segunda configuración indica que nos vamos a conectar a un _Access Point_ con una IP estática y configuramos los parámetros `search` y `nameserver` del fichero `/etc/resolv.conf` (para más detalle lea la documentación del paquete `resolvconf`). Finalmente se define una configuración similar a la anterior, pero en este caso haciendo uso de DHCP.
 
 Llegados a este punto es importante aclarar lo que `ifupdown` considera una _interfaz lógica_ y una _interfaz física_. La **interfaz lógica** es un valor que puede ser asignado a los parámetros de una interfaz física, en nuestro caso `home`, `office`, `meeting`. Mientras que la **interfaz física** es lo que propiamente conocemos como la interfaz, en otras palabras, lo que regularmente el _kernel_ reconoce como `eth0`, `wlan0`, `ath0`, `ppp0`, entre otros.
 

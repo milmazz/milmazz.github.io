@@ -15,7 +15,7 @@ tags:
 ---
 
 El día 21 de Septiembre _Jorge Villarreal_ preguntó en la entrada [Creando un
-repositorio local](/archivos/2005/07/24/creando-un-repositorio-local/) lo
+repositorio local](/article/2005/07/24/creando-un-repositorio-local/) lo
 siguiente:
 
 > ... tengo un laptop lentisimo , ahora mi pregunta ya que puedo navegar desde
@@ -86,7 +86,7 @@ ficheros en el directorio _cache_ haz uso del comando.
 Cuando me refiero a _packages_ recuerda que son los nombres de los paquetes.
 
 Seguidamente puedes seguir los pasos que se te indican en la entrada [Creando un
-repositorio local](/archivos/2005/07/24/creando-un-repositorio-local/), por
+repositorio local](/article/2005/07/24/creando-un-repositorio-local/), por
 supuesto, si cambias la dirección del _cache_ que hará uso la interfaz `apt` (o
 `aptitude`) debes hacer los ajustes necesarios. Espero te sirva la información.
 

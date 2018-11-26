@@ -11,7 +11,7 @@ tags:
 ---
 
 Siguiendo con la temática que propuse en el artículo [Convirtiendo formatos de
-audio OGG a MP3](/archivos/2005/04/16/convirtiendo-formatos-de-audio-ogg-a-mp3/)
+audio OGG a MP3](/article/2005/04/16/convirtiendo-formatos-de-audio-ogg-a-mp3/)
 he decido ampliar dicho _script_ para abarcar nuevos formatos. En esta ocasión
 he decidido hacerlo un poco más interactivo con el usuario, aún faltan cosas,
 pero las funciones elementales las cumple a cabalidad.
@@ -39,12 +39,12 @@ Antes de proseguir, vamos a revisar los requerimientos.
 
 Una breve descripción acerca de la funcionalidad del paquete `normalize` la
 podrá encontrar en el artículo [Convirtiendo formatos de audio OGG a
-MP3](/archivos/2005/04/16/convirtiendo-formatos-de-audio-ogg-a-mp3/).
+MP3](/article/2005/04/16/convirtiendo-formatos-de-audio-ogg-a-mp3/).
 
 Para aquellas personas que disfrutan de una distribución
 [Debian](http://www.debian.org/) o alguna basada en ella simplemente deben hacer
 lo siguiente como _superusuario_ o `root`.
-    
+
     apt-get install lame mpg321 vorbis-tools normalize
 
 El _script_ temporalmente actúa sobre los directorios actuales, aún no tiene la

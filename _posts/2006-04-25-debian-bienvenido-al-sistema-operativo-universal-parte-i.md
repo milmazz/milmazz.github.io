@@ -62,7 +62,7 @@ Por supuesto, estaba siguiendo las recomendaciones del manual de instalación pr
     /		10GB		ext3
     /home		Resto		ext3
 
-Algunos seguramente se preguntaran por qué se le ha asignado tanto espacio a la partición /tmp, simplemente porque continúamente estaré haciendo uso de herramientas para la creación de CDs ó DVDs, además de algunos programas multimedia y siempre he configurado mis [clientes Bittorrent](/archivos/2005/12/06/clientes-bittorrent/) para que hagan uso de esta partición antes de finalizar la descarga de los ficheros.
+Algunos seguramente se preguntaran por qué se le ha asignado tanto espacio a la partición /tmp, simplemente porque continúamente estaré haciendo uso de herramientas para la creación de CDs ó DVDs, además de algunos programas multimedia y siempre he configurado mis [clientes Bittorrent](/article/2005/12/06/clientes-bittorrent/) para que hagan uso de esta partición antes de finalizar la descarga de los ficheros.
 
 Por medidas de seguridad he establecido nodev, nosuid, noexec como opciones de montaje para la partición /tmp y las opciones ro, nodev, nosuid, noexec en la partición /boot.
 

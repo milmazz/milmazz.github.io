@@ -23,7 +23,7 @@ tags:
 - planetalinux
 ---
 
-En estos últimos días he estado trabajando en [mi propuesta de diseño](http://www.ubuntuchannel.org/pruebas/planeta/) para [Planeta Linux](http://www.planetalinux.org), sitio del cual escribí previamente en la [entrada acerca de Planeta Linux](/archivos/2006/02/07/planeta-linux/), hasta ahora considero que está bastante avanzado el diseño.
+En estos últimos días he estado trabajando en [mi propuesta de diseño](http://www.ubuntuchannel.org/pruebas/planeta/) para [Planeta Linux](http://www.planetalinux.org), sitio del cual escribí previamente en la [entrada acerca de Planeta Linux](/article/2006/02/07/planeta-linux/), hasta ahora considero que está bastante avanzado el diseño.
 
 A continuación, algunos detalles acerca del por qué y el cómo del trabajo realizado hasta ahora.
 

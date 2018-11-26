@@ -28,7 +28,7 @@ Ahora bien, después de una breve introducción, vamos a lo nuestro, el _script_
 en primera instancia removerá los espacios en los nombres de los ficheros OGG
 Vorbis, seguidamente convertirá todos los carácteres en mayúsculas a
 minúsculas, esto lo hacemos con
-[`rename`](/archivos/2005/04/14/renombrando-ficheros-con-rename), a continuación
+[`rename`](/article/2005/04/14/renombrando-ficheros-con-rename), a continuación
 decodificaremos el fichero con `oggdec`, este último creará ficheros WAV. Luego
 de haber creado los ficheros WAV, vamos a ajustar el volumen de dichos ficheros
 a un nivel _standard_, con esto evitamos la posible existencia de una variación
@@ -40,27 +40,27 @@ Ya para finalizar, el último bucle del _script_ convertirá los ficheros WAV en
 MP3, de manera predeterminada se codificará el formato de compresión de audio a
 unos 160kbps, ud. puede modificar este comportamiento pasándole al _script_ el
 único argumento que éste acepta, por ejemplo:
-    
+
     ogg2mp3 192
 
 Esto codificará el fichero MP3 a 192kbps. Ya para finalizar, si no hay errores
 en la codificación de los ficheros, se procederá a borrar los ficheros WAV, que
-han sido usados como temporales. 
+han sido usados como temporales.
 
     #!/bin/bash
-    
+
     #Removiendo Espacios
     rename 'y/\ /_/' *.ogg
-    
+
     #Mayusculas a Minusculas
     rename 'y/A-Z/a-z/' *.ogg
-    
+
     #Conversion de archivo *.ogg a *.wav
     for archivo in *.ogg; do oggdec $archivo; done
-    
+
     #Comente la siguiente linea si no desea igualar el volumen de los ficheros
     normalize -m *.wav
-    
+
     for archivo in *.wav; do
       #Variable auxiliar con el nombre base del archivo
       aux="$(basename "$archivo" .wav)"

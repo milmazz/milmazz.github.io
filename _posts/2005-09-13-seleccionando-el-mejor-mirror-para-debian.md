@@ -18,7 +18,7 @@ El día de ayer decidí instalar [Debian](http://www.debian.org/)
 [Sarge](http://www.debian.org/releases/sarge/) en uno de los ordenadores de
 casa, la instalación base de maravilla, luego procedi a levantar el entorno
 gráfico de [GNOME](http://www.gnome.org/) haciendo uso de
-[aptitude](/archivos/2005/07/28/aptitude-%c2%bfaun-no-lo-usas/), deje de lado
+[aptitude](/article/2005/07/28/aptitude-%c2%bfaun-no-lo-usas/), deje de lado
 muchas aplicaciones que no voy utilizar extensivamente. Mientras intento
 solucionar un _problemita_ con el sonido me dispuse a indagar acerca de los
 repositorios que ofrece Debian.
