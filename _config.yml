@@ -33,6 +33,33 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-redirect-from
+  - jekyll-mentions
+  - jekyll-github-metadata
+
+# Collections
+collections:
+  talks:
+    output: true
+    permalink: /:collection/:path/
+
+# Front Matter Defaults
+defaults:
+  # Post defaults
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      comments: false
+      share: true
+  # Talks collection
+  - scope:
+      path: "_talks"
+      type: talks
+    values:
+      layout: post
+      comments: false
+      share: true
 
 google_fonts:
   - name: "Source Sans Pro"
@@ -60,7 +87,7 @@ exclude:
 # Site owner
 author:
   name: Milton Mazzarri
-  picture: milmazz.png
+  picture: /images/milmazz.png
   email: me@milmazz.uno
   twitter: milmazz
   links:
