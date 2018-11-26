@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+permalink: /about/
 excerpt: "Information about this blog."
 redirect_from: /acerca/
 search: false

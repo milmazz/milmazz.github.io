@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Copyright
+permalink: /copyright/
 excerpt: "Copyright for the articles and the code published in this blog."
 search: false
 ---
