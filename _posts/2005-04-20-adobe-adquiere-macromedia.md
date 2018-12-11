@@ -32,7 +32,7 @@ Por ejemplo, para [Diego Lafuente](http://www.minid.net/) la fusión puede
 generar ciertos beneficios:
 
 > ...Esto es groso, genial, brutal, de hecho quiero ver las cosas que saldrán de
-> esta fusión (por ej.): PDF + Flash + Flex… oh Dios, lo que viene lo que viene…
+> esta fusión (por ej.): PDF + Flash + Flex... oh Dios, lo que viene lo que viene...
 
 Pero desde mi punto de vista Diego no está considerando un factor muy
 importante, y es que históricamente las empresas monopolistas, al no tener
@@ -53,7 +53,7 @@ Macromedia](http://www.minid.net/2005/04/18/adobe-compra-macromedia/) parece
 comprender el riesgo que se genera en el momento en que una empresa controla el
 mercado, sobretodo, en cuanto a los precios.
 
-> Sí eran competidores, competían… Adobe pujaba por la web permanentemente.
+> Sí eran competidores, competían... Adobe pujaba por la web permanentemente.
 > Aunque **FW costaba 4 veces menos, era competidor. Le quitaba un gran
 > mercado**, yo siempre usé Photoshop es que no es que me disgustara el FW
 > simplemente no me gustaba el sistema de trabajo que tiene. Muchos lo

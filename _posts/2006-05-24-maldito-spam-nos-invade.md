@@ -56,7 +56,7 @@ En primer lugar debemos ejecutar la siguiente consulta:
 
 En ella debemos observar el rango de comentarios recientes y que sean considerados _spam_. Por ejemplo, supongamos que los comentarios cuyos ID's están entre los números 2053 y 2062 son considerados _spam_. Luego de haber anotado el rango de valores, debe proceder como sigue:
 
-    UPDATE wp_comments SET comment_approved = ’spam’ WHERE comment_ID BETWEEN 2053 AND 2062
+    UPDATE wp_comments SET comment_approved = 'spam' WHERE comment_ID BETWEEN 2053 AND 2062
 
 Recuerde sustituir apropiadamente los valores correspondientes al inicio y final de los comentarios a ser marcados como _spam_. Debe recordar también que los comentarios marcados como _spam_ no desaparecerán de su base de datos, por lo tanto, estarán ocupando un espacio que puede llegar a ser considerable, le recomiendo borrarlos posteriormente.
 

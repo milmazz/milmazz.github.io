@@ -74,7 +74,7 @@ encontrar lo siguiente:
 	...
 	--save-after-login
 	--save-after-exec
-	Save the chroot image after exiting from the chroot instead of deleting changes.  Effective for login and execute session.
+	Save the chroot image after exiting from the chroot instead of deleting changes.  Effective for login and execute session.
 	...
 
 Por lo tanto, usaremos esta funcionalidad que ofrece `pbuilder` para insertar

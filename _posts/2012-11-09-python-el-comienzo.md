@@ -223,7 +223,7 @@ siguientes:
 -   [Preguntas de uso frecuente acerca de
     Python](http://www.python.org/doc/faq)
 -   [Tutorial oficial de Python](http://www.python.org/doc/tut)
--   Newsletters: [Pycoder’s Weekly](http://pycoders.com/), [Python
+-   Newsletters: [Pycoder's Weekly](http://pycoders.com/), [Python
     Weekly](http://www.pythonweekly.com/)
 
 En el siguiente artículo de esta serie espero poder listar algunos recursos que

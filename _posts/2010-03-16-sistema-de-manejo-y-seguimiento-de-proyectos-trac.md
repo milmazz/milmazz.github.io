@@ -44,7 +44,7 @@ Para mejorar el seguimiento de los _tickets_ Trac ofrece la posibilidad de activ
 
 ## Vista de progreso
 
-Existen varias maneras convenientes de estar al día con los acontecimientos y cambios que ocurren dentro de un proyecto. Puede establecer hitos y ver un mapa del progreso (así como los logros históricos) de manera resumida. Además, puede visualizar desde una interfaz centralizada los cambios ocurridos cronológicamente en el wiki, hitos, tickets y repositorios de código fuente, comenzando con los eventos más recientes, toda esta información es accesible vía _Web_ o de manera alternativa Trac le ofrece la posibilidad de exportar esta información a otros formatos como el RSS, permitiendo que los usuarios puedan observar esos cambios fuera de la interfaz centralizada de Trac, así como la notificación por correo electrónico.
+Existen varias maneras convenientes de estar al día con los acontecimientos y cambios que ocurren dentro de un proyecto. Puede establecer hitos y ver un mapa del progreso (así como los logros históricos) de manera resumida. Además, puede visualizar desde una interfaz centralizada los cambios ocurridos cronológicamente en el wiki, hitos, tickets y repositorios de código fuente, comenzando con los eventos más recientes, toda esta información es accesible vía _Web_ o de manera alternativa Trac le ofrece la posibilidad de exportar esta información a otros formatos como el RSS, permitiendo que los usuarios puedan observar esos cambios fuera de la interfaz centralizada de Trac, así como la notificación por correo electrónico.
 
 ![vista de progreso del proyecto](/images/2010-03-16-sistema-de-manejo-y-seguimiento-de-proyectos-trac/milestone-300x221.png "Vista del avance del proyecto para un hito particular")
 

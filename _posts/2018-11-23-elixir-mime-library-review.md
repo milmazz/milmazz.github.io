@@ -187,7 +187,7 @@ defp ext_to_mime("atom"), do: "application/atom+xml"
 defp ext_to_mime("pdf"), do: "application/pdf"
 defp ext_to_mime("dll"), do: "application/octet-stream"
 defp ext_to_mime("class"), do: "application/octet-stream"
-# …
+# ...
 defp ext_to_mime(_ext), do: nil
 ```
 
@@ -215,7 +215,7 @@ defp mime_to_ext("application/atom+xml"), do: ["atom"]
 defp mime_to_ext("application/octet-stream"),
   do:  ["bin", "lha", "lzh", "exe", "class", "so", "dll", "img", "iso"]
 defp mime_to_ext("application/pdf"), do: ["pdf"]
-# …
+# ...
 defp mime_to_ext(_type), do: nil
 ```
 
@@ -263,7 +263,7 @@ mentioned the following:
 > One of the goals, maybe the main one, of this library is to be provide a
 > _performant lookup_ of the MIME database at runtime, that's why new MIME types
 > can only be added at compile-time via configuration, but we'll talk about
-> this option later…
+> this option later...
 
 So, this means that we can add a MIME type like `application/wasm` for the
 extension: `wasm`, which have been added to the [provisional standard media
@@ -355,7 +355,7 @@ def quoted(custom_types) do
   quote bind_quoted: [custom_types: Macro.escape(custom_types)] do
     mime_file = Application.app_dir(:mime, "priv/mime.types")
     @compile :no_native
-    # …
+    # ...
   end
 end
 ```
@@ -377,7 +377,7 @@ iex> MIME.Application.quoted(%{})
       {:@, [context: MIME.Application, import: Kernel],
        [
          {:moduledoc, [context: MIME.Application],
-          # …
+          # ...
 ```
 
 So, our beloved `MIME.Application.quoted/1` function is actually returning an
@@ -445,7 +445,7 @@ defmodule MIME.Application do
   end
 
   def quoted(custom_types) do
-  # …
+  # ...
   end
 end
 ```
