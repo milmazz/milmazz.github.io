@@ -41,7 +41,6 @@ Hello, John
 To get a general solution, Patrik uses a nice approach that combines _pattern
 matching_ and _tail-call optimization_, let's dive into his implementation:
 
-
 ```elixir
 # file: curry.exs
 defmodule Curry do
@@ -240,7 +239,7 @@ defmodule MunualCurryingTest do
   test "applying all the params at once or one step at a time should produce same results" do
     curried =
       fn a ->
-        fn b -> 
+        fn b ->
           fn c ->
             fn d ->
               a * b + div(c, d)

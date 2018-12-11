@@ -25,7 +25,7 @@ El día de hoy se manifestó la necesidad de generar una serie de claves aleator
     username_n
 
 La salida que se desea obtener debe cumplir con el siguiente formato:
-    
+
     username_1 pass_1
     username_2 pass_2
     username_3 pass_3
@@ -57,7 +57,7 @@ La línea anterior hace uso de la función `mkpasswd` del módulo `String::MkPas
 
 {% highlight perl %}
 #!/usr/bin/perl -li
-    
+
 use strict;
 use warnings;
 use String::MkPasswd qw(mkpasswd);

@@ -51,7 +51,6 @@ iex> MIME.type("txt")
 "text/plain"
 ```
 
-
 ### `from_path(Path.t()) :: String.t()`
 
 Guesses the MIME type based on the path's extension.

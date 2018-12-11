@@ -7,7 +7,7 @@ layout: post
 slug: mejoras-en-el-comportamiento-a-la-hora-de-eliminar-un-foreignkey
 title: Mejoras en el comportamiento a la hora de eliminar un ForeignKey
 categories:
-- django 
+- django
 tags:
 - django
 - Python
@@ -119,7 +119,7 @@ Nuestra sesión interactiva con el API sería similar a la siguiente:
 [<User: milmazz>]
 # Creamos un nuevo usuario
 >>> author = User(username='milton')
-# Guardamos el objeto en la base de datos, 
+# Guardamos el objeto en la base de datos,
 # de manera explícita al invocar el método save()
 >>> author.save()
 # Vista de los usuarios registrados en la base de datos

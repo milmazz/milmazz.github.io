@@ -38,7 +38,7 @@ En primer lugar, mostraré la lista de ficheros a fusionar.
     01.mp3  02.mp3  03.mp3  04.mp3
 
 Ahora fusionaré las 2 primeras canciones.
- 
+
     $ mp3wrap album.mp3 01.mp3 02.mp3
 
 He obviado el mensaje que nos muestra `mp3wrap` para evitar extender más de lo necesario este artículo. También es importante acotar que el fichero generado no se llamará `album.mp3` (lo que pareciese lógico), sino `album_MP3WRAP.mp3`, es recomendable **no** borrar la cadena `MP3WRAP`, ésta le indicará al programa `mp3splt`, el cual nos permite separar de nuevo los ficheros fusionados, que dicho fichero fué fusionado utilizando `mp3wrap`, lo anterior nos facilitará su extracción con `mp3splt`, en caso de darse.
@@ -51,7 +51,7 @@ Si deseamos conocer cuales son los archivos que contiene el fichero generado por
 
     mp3wrap -l album_MP3WRAP.mp3
     List of wrapped files in album_MP3WRAP.mp3:
-    
+
     01.mp3
     02.mp3
     03.mp3

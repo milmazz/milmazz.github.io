@@ -50,17 +50,17 @@ Verifique que no existe alguna entrada que haga referencia al modulo `ipw3945` e
     # perl -i -ne 'print unless /^ipw3945/' /etc/modules
 
 Debido a algunos problemas que se presentan en el paquete [network-manager](http://packages.debian.org/network-manager) si anteriormente ha venido usando el modulo `ipw3945` se recomienda **eliminar** la entrada que genera `udev` para dicho modulo en el fichero `/etc/udev/rules.d/z25_persistent-net.rules`, la entrada es similar a la siguiente:
-    
+
     # PCI device 0x8086:0x4227 (ipw3945)
     SUBSYSTEM=="net", DRIVERS=="?*", ATTRS{address}=="00:13:02:4c:12:12", NAME="eth2"
 
 ## Fichero /etc/network/interfaces
 
 Este paso es opcional, agregamos la nueva interfaz `wlan0` al fichero `/etc/network/interfaces` y procedemos a configurarla de acuerdo a nuestras necesidades.
-    
+
     auto lo
     iface lo inet loopback
-    
+
     auto wlan0
     iface wlan0 inet dhcp
     wpa-driver wext
@@ -74,15 +74,15 @@ Este paso es opcional, agregamos la nueva interfaz `wlan0` al fichero `/etc/netw
 En este caso particular se está indicando que nos vamos a conectar a un _Access Point_ cuyo `ssid` es `foo` con tipo de cifrado WPA-PSK/WPA2-PSK, haciendo uso del driver `wext` que funciona como _backend_ para `wpa_supplicant`. Es de hacer notar que el driver `wext` es utilizado por todos los adaptadores _Intel Pro Wireless_, eso incluye `ipw2100`, `ipw2200` e `ipw3945`.
 
 Para hacer funcionar **WPA** recuerde que debe haber instalado previamente el paquete `wpasupplicant`.
-    
+
     # aptitude install wpasupplicant
 
 De igual manera se le recuerda adaptar todos aquellos parámetros como `wpa-ssid` y `wpa-psk` a aquellos adecuados en su caso. En particular el campo `wpa-psk` lo puede generar con el siguiente comando:
-    
+
     $ wpa_passphrase su_ssid su_passphrase
 
 Aunque mi recomendación es usar el comando `wpa_passphrase` de la siguiente manera.
-    
+
     $ wpa_passphrase su_ssid
 
 Posteriormente deberá introducir `su_passphrase` desde la entrada estándar, esto evitará que `su_passphrase` quede en el historial de comandos.
@@ -99,21 +99,21 @@ Remueva y reinserte el modulo `iwl3945`
     # modprobe iwl3945
 
 De manera adicional compruebe que `udev` haya generado una nueva entrada para `iwl3945`.
-    
+
     $ cat /etc/udev/rules.d/z25_persistent-net.rules
     ...
     # PCI device 0x8086:0x4227 (iwl3945)
     SUBSYSTEM=="net", DRIVERS=="?*", ATTR{address}=="00:13:02:4c:12:12", ATTR{type}=="1", NAME="wlan0"
 
 Finalmente, reestablecemos la interfaz de red.
-    
+
     # ifdown wlan0
     # ifup wlan0
 
 ## Elimine ipw3945
 
 Una vez verificado el correcto funcionamiento del módulo `iwl3945` puede eliminar con seguridad todo aquello relacionado con el modulos `ipw3945`.
-    
+
     # aptitude --purge remove firmware-ipw3945 \\
     ipw3945-modules-$(uname -r) \\
     ipw3945-source ipw3945d

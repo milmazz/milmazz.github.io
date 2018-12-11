@@ -36,11 +36,11 @@ Entonces ya sabía que los drivers venían con la distro, lo cual me pareció fa
     $ sudo aptitude show nvidia-glx
 
 Esto lo hice para verificar que no haya alguna clase de conflictos con otros paquetes, pero en realidad no es un paso necesario, ya que `aptitude` resuelve todo tipo de conflictos y dependencias. Después de verificar que todo estaba en orden me decidí a instalar los drivers. Ésto lo hice con la siguiente linea de comandos:
- 
+
     $ sudo aptitude install nvidia-glx
 
 Con lo cual quedaron instalados los drivers de la tarjeta de manera trasparente y rápida. Lo siguiente que debía hacer, era activar la configuración de la tarjeta. Lo cual hice con la siguiente línea de comandos:
-  
+
     $ sudo nvidia-glx-config enable
 
 Una vez hecho ésto ya podía configurar la tarjeta. Algo que hay que hacer notar es que, para las distribuciones anteriores de [Ubuntu](http://www.ubuntu.com), había que instalar de manera separada el paquete `nvidia-glx` y el `nvidia-settings`, sin embargo, aquí queda todo instalado de una vez. Lo que sigue es iniciar la configuración de la tarjeta, lo cual hice con la siguiente línea de comandos:
@@ -71,9 +71,6 @@ Y luego insertar lo siguiente en dicho fichero:
     Categories=Application;System;
 
 Y ya tendrán un lanzador en los menús del panel de gnome. Una opción sería utilizar el editor de menús  Alacarte.
-
-
-
 
 ### `nvidia-xconf`
 

@@ -23,9 +23,9 @@ tags:
 - Ubuntu
 ---
 
-Bien, en realidad, no he podido esperar a tenerlo trabajando al 100%, se trata de la versión 0.72 de [Transmission](http://transmission.m0k.org/about.php), el que a mi parecer, es el mejor cliente [BitTorrent](http://es.wikipedia.org/wiki/BitTorrent) que jamás haya existido. Según lo describen en la página, cito textualmente: 
+Bien, en realidad, no he podido esperar a tenerlo trabajando al 100%, se trata de la versión 0.72 de [Transmission](http://transmission.m0k.org/about.php), el que a mi parecer, es el mejor cliente [BitTorrent](http://es.wikipedia.org/wiki/BitTorrent) que jamás haya existido. Según lo describen en la página, cito textualmente:
 
-> Transmission has been built from the ground up to be a lightweight, yet powerful BitTorrent client. Its simple, intuitive interface is designed to integrate tightly with whatever computing environment you choose to use. Transmission strikes a balance between providing useful functionality without feature bloat. Furthermore, it is free for anyone to use or modify. 
+> Transmission has been built from the ground up to be a lightweight, yet powerful BitTorrent client. Its simple, intuitive interface is designed to integrate tightly with whatever computing environment you choose to use. Transmission strikes a balance between providing useful functionality without feature bloat. Furthermore, it is free for anyone to use or modify.
 
 Su instalación es **muy fácil**, ya que lo único que tenemos que hacer, es bajarnos el .deb (sí, el .deb, imagínense lo fácil que nos va a resultar) de la página de nuestros amígos de [GetDeb](http://www.getdeb.net/app.php?name=Transmission) y luego usar una terminal ó el instalador de paquetes GDebi (aún más fácil) para instalar el paquete.
 

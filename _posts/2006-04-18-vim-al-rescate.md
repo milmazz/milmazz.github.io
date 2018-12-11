@@ -24,7 +24,7 @@ Ahora bien, imagínese abrir un documento de **266.257** líneas, **24.601.803**
 A continuación detallo más o menos lo que hice:
 
 En primer lugar respalde la base de datos del _blog_, enseguida procedí a descomprimir el fichero y revisarlo desde _Vim_.
-    
+
     $ vim wordpress.sql
 
 Comence a buscar todos los `CREATE TABLE` que me interesaban. Para realizar esto, simplemente desde el modo **normal** de _Vim_ escribí lo siguiente:

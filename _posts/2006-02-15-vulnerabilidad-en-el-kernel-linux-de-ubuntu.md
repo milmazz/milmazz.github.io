@@ -39,7 +39,6 @@ Los paquetes afectados son los siguientes:
   * `linux-image-2.6.12-10-powerpc64-smp`
   * `linux-patch-ubuntu-2.6.12`
 
-
 El problema puede ser solucionado al actualizar los paquetes afectados a la versión **2.6.12-10.28**. Posterior al proceso de actualización debe reiniciar el sistema para que los cambios logren surtir efecto.
 
 Puede encontrar mayor detalle acerca de esta información en el anuncio [Linux kernel vulnerability](https://lists.ubuntu.com/archives/ubuntu-security-announce/2006-February/000285.html) hecho por _Martin Pitt_ a la lista de correos de [avisos de seguridad en Ubuntu](https://lists.ubuntu.com/mailman/listinfo/ubuntu-security-announce).

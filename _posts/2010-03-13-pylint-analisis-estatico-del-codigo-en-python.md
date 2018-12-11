@@ -78,7 +78,7 @@ Un ejemplo de este reporte lo puede ver a continuación:
 
     Messages by category
     --------------------
-    
+
     +-----------+-------+---------+-----------+
     |type       |number |previous |difference |
     +===========+=======+=========+===========+

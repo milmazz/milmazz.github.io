@@ -58,4 +58,3 @@ De la revisón hecha por Jay Allen, han salido algunas propuestas, entre ellas, 
 Otra propuesta interesante es la necesidad de proporcionar tutoriales interactivos que de alguna manera introduzcan a los niños de diversas edades en las características, capacidades y beneficios que les proporciona el sistema que manejan.
 
 Si edubuntu no quiere prescindir del conocido nombre Firefox, debe facilitar después de la instalación una guía que indique los pasos necesarios para establecer el control de la navegación de los niños. Sería ideal colocar una guía para instalar dicha extensión o _plugin_ en la página inicial de Firefox, o proporcionar un acceso directo a esta guía de "Primeros Pasos" desde el escritorio de la cuenta predeterminada.
-

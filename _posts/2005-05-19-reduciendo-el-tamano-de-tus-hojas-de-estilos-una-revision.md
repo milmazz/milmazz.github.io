@@ -119,284 +119,143 @@ Tabla de Resultados
 		Después
 		Ahorro
 
-
-
-
-
-
-
 CSS Optimiser
-
 
 Caracteres
 
-
 3143
-
 
 601
 
-
 2542
-
-
-
-
-
 
 Lineas
 
-
 128
-
 
 41
 
-
 N/A
-
-
-
-
-
 
 Legibilidad
 
-
 Muy alta
-
 
 Alta
 
-
 N/A
-
-
-
-
-
 
 Porcentaje
 
-
 N/A
 
-
 N/A
-
 
 81%
 
-
-
-
-
-
 CSS Formatter & Optimiser
-
 
 Caracteres
 
-
 3143
-
 
 802
 
-
 2341
-
-
-
-
-
 
 Lineas
 
-
 128
-
 
 57
 
-
 N/A
-
-
-
-
-
 
 Legibilidad
 
-
 Muy alta
-
 
 Alta
 
-
 N/A
-
-
-
-
-
 
 Porcentaje
 
-
 N/A
 
-
 N/A
-
 
 74%
 
-
-
-
-
-
 CSS Compressor
-
 
 Caracteres
 
-
 3143
-
 
 1225
 
-
 1918
-
-
-
-
-
 
 Lineas
 
-
 128
-
 
 1
 
-
 N/A
-
-
-
-
-
 
 Legibilidad
 
-
 Muy alta
-
 
 Muy baja
 
-
 N/A
-
-
-
-
-
 
 Porcentaje
 
-
 N/A
 
-
 N/A
-
 
 61%
-
-
-
-
-
 
 CSScompiler
 
-
 Caracteres
-
 
 3143
 
-
 1230
-
 
 1913
 
-
-
-
-
-
 Lineas
-
 
 128
 
-
 8
 
-
 N/A
-
-
-
-
-
 
 Legibilidad
 
-
 Muy alta
-
 
 Baja
 
-
 N/A
-
-
-
-
-
 
 Porcentaje
 
-
 N/A
 
-
 N/A
-
 
 61%
 
-
-
-
-
-
-
-
 N/A: No aplica
-
 
 ## Observaciones
 

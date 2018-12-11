@@ -144,7 +144,6 @@ test we'll see that is failing:
 ```bash
 $ elixir async_test.exs
 
-
   1) test generate node pages (AsyncTaskDemoTest)
      async_test.exs:8
      Assertion with == failed
@@ -153,8 +152,6 @@ $ elixir async_test.exs
      right: ["jane.txt", "john.txt"]
      stacktrace:
        async_test.exs:15: (test)
-
-
 
 Finished in 0.07 seconds (0.05s on load, 0.02s on tests)
 1 test, 1 failure

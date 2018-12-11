@@ -17,7 +17,7 @@ tags:
 **deborphan** simplemente se encarga de buscar librerias huérfanas. Se mostrará un listado de paquetes que posiblemente no fueron desinstalados en su momento y que actualmente **no** son requeridas en el sistema por ningún otro paquete o aplicación. Esta aplicación es realmente útil para mantener "limpio" el sistema en caso de ser necesario.
 
 Para instalar **deborphan** en nuestro sistema simplemente debe proceder como sigue:
-  
+
     sudo apt-get install deborphan
 
 Para remover todos los paquetes huérfanos encontrados simplemente debemos proceder como sigue:

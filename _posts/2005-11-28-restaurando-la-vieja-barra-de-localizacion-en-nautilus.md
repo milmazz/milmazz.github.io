@@ -19,4 +19,3 @@ Si usted al igual que yo **no** le gusta la nueva manera en que se presenta la _
 Si ud. quiere cambiar este comportamiento, es tan sencillo como dirijirse a `/apps/nautilus/preferences/` y proceder a marcar la casilla de verificación `always_use_location_entry`.
 
 Lo anterior lo puede hacer desde el _Editor de configuración_, el cual lo puede encontrar en _Aplicaciones -> Herramientas del Sistema_.
-

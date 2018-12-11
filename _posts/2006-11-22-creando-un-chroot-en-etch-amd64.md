@@ -18,7 +18,7 @@ Bien la cosa es que tratando de instalar el [Google Earth](http://earth.google.e
 
 Para aquellos que dominan el inglés se pueden leer el [Debian GNU/Linux AMD64 HOW-TO](https://alioth.debian.org/docman/view.php/30192/21/debian-amd64-howto.html) ya que los pasos para crear el chroot los he seguido de ahí. Claro que para aquellos que no tengan mucho tiempo o no sientan la necesidad de hacer un chroot siempre existe [ una manera rápida](https://alioth.debian.org/docman/view.php/30192/21/debian-amd64-howto.html#id292205) de hacer funcionar las cosas en un apuro.
 
-Para aquellos que todavía no saben qué es un chroot les recomiendo que le echen un ojo a la [ Guía de referencia Debian](http://qref.sourceforge.net/Debian/reference/reference.es.html), de todas formas acá les cito textualmente de dicha guía lo que ellos definen como un chroot: 
+Para aquellos que todavía no saben qué es un chroot les recomiendo que le echen un ojo a la [ Guía de referencia Debian](http://qref.sourceforge.net/Debian/reference/reference.es.html), de todas formas acá les cito textualmente de dicha guía lo que ellos definen como un chroot:
 
 > ...el programa chroot, nos permite ejecutar diferentes instancias de un entorno GNU/Linux en un único sistema, simultáneamente y sin reiniciar...
 

@@ -56,7 +56,7 @@ La información se vería algo así:
     Local Time is:    Sun Sep 24 22:27:09 2006 VET
     SMART support is: Available - device has SMART capability.
     SMART support is: Enabled
-    
+
 Si tu disco es SATA pero tiene el soporte S.M.A.R.T  desactivado, entonces deberás usar la siguiente línea de comandos para activarlo:
 
     $ smartctl -s on -d ata /dev/sda
@@ -132,7 +132,7 @@ el cual sería un caso poco común, deberás crearlo en tu editor de elección.
     ...
     #DEVICESCAN
     ...
-    /dev/hda \ 
+    /dev/hda \
     -H \
     -l error -l selftest \
     -s (O/../../5/11|L/../../5/13|C/../../5/15) \
@@ -150,15 +150,15 @@ Luego de crear el script deberás hacerlo ejecutable cambiando sus atributos con
     $ chmod +x /usr/local/bin/smartd.sh
 
 Para probar todo, puedes agregar al final de tu `/etc/smartd.conf` la línea
-    
+
     -M test
 
 y luego ejecutar el demonio. Nota que ésto apagará tu equipo, hayan errores o no. Luego si algo sale mal deberás chequear la bitácora del sistema en /var/log/messages con:
 
     $ tail /var/log/messages
 
-Y así corregir el problema. Ahora tendrás que quitar la línea 
-    
+Y así corregir el problema. Ahora tendrás que quitar la línea
+
     -M test
 
 y guardar los cambios. Por último debes hacer que _smartd_ sea cargado al momento del arranque, lo cual lo logras con la siguiente línea:

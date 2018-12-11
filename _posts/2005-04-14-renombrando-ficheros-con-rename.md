@@ -22,13 +22,13 @@ ha encontrado alguna vez que el formato de nombres de los ficheros de audio
 es recurrir a `rename`, ya que éste último le automátizara el renombrado de los
 ficheros al indicarle un parámetro, el cual será una expresión regular de Perl.
 Algunos ejemplos de esto son los siguientes:
-    
+
     milton@omega ~ $ ls
     01 - Main Theme From Star Wars & Leia's Nightmare.mp3
     milton@omega ~ $ rename 's/\ -\ /-/' *.mp3
 
 Obtenemos como resultado lo siguiente:
-    
+
     milton@omega ~ $ ls
     01-Main Theme From Star Wars & Leia's Nightmare.mp3
 
@@ -41,7 +41,7 @@ que posean la extensión **mp3**.
 También puede notar que en el nombre del fichero anterior aún existen espacios
 en blanco, si deseamos convertir dichos espacios en blanco por el carácter '_',
 simplemente realizamos lo siguiente:
-    
+
     milton@omega ~ $ rename 'y/\ /_/' *.mp3<br></br>
     milton@omega ~ $ ls<br></br>
     01-Main_Theme_From_Star_Wars_&_Leia's_Nightmare.mp3
@@ -66,7 +66,7 @@ de los cambios que se han generado.
 Este tratamiento también es aplicable para renombrar directorios, recuerde que
 los directorios en sistemas GNU/Linux son tratados de manera equivalente a los
 archivos, así que vamos a mostrar un ejemplo para aclarar la situación.
-    
+
     milton@omega ~ $ ls
     Shadows of the Empire
     Star Wars A New Hope

@@ -24,7 +24,7 @@ tags:
 La situación poco común se presentó con un portátil [Lenovo](http://www.lenovo.com), específicamente un 3000 c200; el computador en cuestión mostraba la tarjeta funcionando, como si estuviera todo normal, pero sucede que **no había sonido en lo absoluto** por más altos que estuvieran los indicadores gráficos del volumen. Indagando por [Google](http://www.google.com) me encontré que ya han habido muchos casos similares, no solamente para laptops Lenovo, sino para la mayoría que incluye ese tipo de tarjetas y me encontré con una solución en un [foro](http://help.ubuntu.com/community/HdaIntelSoundHowto) que me funcionó perfecto. Acá voy a tratar de explicar paso a paso todo lo que hice para que funcionara como debe ser.
 
 Lo primero que se hizo fué asegurarse que se trata realmente de una tarjeta HDA Intel, con la siguiente línea de comandos:
-    
+
     $ lspci | grep High
 
 ...a lo que se obtuvo la siguiente respuesta:
@@ -53,7 +53,7 @@ Y el programa automáticamente va a saber cuáles cabeceras descargar y el direc
   * [alsa-utils-1.0.14.tar.bz2](ftp://ftp.alsa-project.org/pub/utils/alsa-utils-1.0.14.tar.bz2)
 
 Se pueden descargar con un gestor de descargas preferido, ésto se hizo con **wget**, utilizando la línea de comandos:
-    
+
     $ wget -c http://www.alsa-project.org/alsa-driver-1.0.14.tar.bz2
 
 ...y así para cada uno de los archivos. Cuando se tengan los tres archivos, se copian a la carpeta `/usr/src/alsa/` la cual, probablemente no existe todavía en el sistema y por lo tanto tendrá que ser creada; ésto se puede lograr con la siguiente línea de comandos:

@@ -23,23 +23,23 @@ Bien, lo que vamos a hacer a continuación es muy fácil, tán fácil como insta
 Lo que vamos a instalar es el paquete **lshw-gtk**, que bien como dice en la descripción del paquete: _"es una pequeña herramienta que provee información detallada de la configuración de hardware de la máquina. Puede reportar la configuración exacta de la memoria, versión de firmware, configuración de la tarjeta madre, versión del procesador y su velocidad, configuración de la caché, velocidad del bus, etc. en sistemas x86 con soporte DMI, en algunas máquinas PowerPC (se sabe de su funcionamiento en las PowerMac G4) y ADM64"_.
 
 Como ya sabrán, para instalar el paquete es tan sencillo como abrir una terminal y escribir en modo superusuario los siguiente:
-    
-     # aptitude install lshw-gtk 
+
+     # aptitude install lshw-gtk
 
 El paquete no es muy pesado, de hecho, con todo y dependencias a penas ha de superar el mega de información, por lo que el proceso de instalación es rápido (si se tiene una conexión decente claro).
 
-Una vez instalado el paquete no tenemos que hacer más que ejecutarlo. Para poder ejecutarlo debemos hacerlo desde una terminal, ya que según tengo entendido, no se instala en los menús del Gnome. Así que debemos escribir en una terminal (en modo superusuario): 
-    
-     # lshw-gtk 
+Una vez instalado el paquete no tenemos que hacer más que ejecutarlo. Para poder ejecutarlo debemos hacerlo desde una terminal, ya que según tengo entendido, no se instala en los menús del Gnome. Así que debemos escribir en una terminal (en modo superusuario):
+
+     # lshw-gtk
 
 y listo, se ejecutará perfectamente, dejándonos navegar por unos paneles donde se encuentran los distintos componentes de nuestro sistema.
 
 Si lo que quieres es tener un lanzador en los menús del Gnome, es muy sencillo, sólo deberás crear uno de la siguiente manera. Abre una terminal en modo superusuario y escribe lo siguiente:
-    
+
     gedit /usr/share/applications/LSHW.desktop
 
-luego de presionar la tecla Enter se abrirá una ventana con el gedit en la cual deberás pegar el siguiente texto: 
-    
+luego de presionar la tecla Enter se abrirá una ventana con el gedit en la cual deberás pegar el siguiente texto:
+
     [Desktop Entry]
     Name=LSHW
     Comment=Identifica el hardware del sistema

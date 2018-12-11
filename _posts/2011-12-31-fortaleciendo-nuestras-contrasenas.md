@@ -35,7 +35,7 @@ las contraseñas son las siguientes:
   * Indicarle a los usuarios que es **inaudito** que se anoten las contraseñas en un _post-it_ y se dejen pegadas en los monitores o incluso en las gavetas de sus archivadores.
 
 El primer paso es instalar el paquete `libpam-cracklib`
-    
+
     # apt-get install libpam-cracklib
 
 A partir de la versión 1.0.1-6 de PAM se recomienda manejar la configuración vía
@@ -105,7 +105,7 @@ Para futuros usuarios debemos ajustar ciertos valores en el fichero
 
 Las reglas previas no aplicaran para los usuarios existentes, pero para este
 tipo de usuarios podremos hacer uso del comando `chage` de la siguiente manera:
-    
+
     # chage -m 0 -M 30 -W 5 ${user}
 
 Donde el valor de `${user}` debe ser reemplazo por el _username_.

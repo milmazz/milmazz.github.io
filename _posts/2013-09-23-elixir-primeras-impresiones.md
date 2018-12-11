@@ -180,8 +180,6 @@ Volvamos a correr las pruebas:
            Demo.map([6, 8, 10], #Function<0.60019678 in DemoTest.test map factorial/1>)
            test/demo_test.exs:13: DemoTest."test map factorial"/1
 
-
-
     Finished in 0.04 seconds (0.04s on load, 0.00s on tests)
     3 tests, 1 failures
 

@@ -82,7 +82,7 @@ Trate en lo posible de crear enlaces bidireccionales entre el conjunto de cambio
 ## Indique en el registro de envío el resultado del merge
 
 Cuando usted está enviando el resultado de un _merge_, asegúrese de indicar sus acciones en el registro de envío, tanto aquello que fue fusionado como los números de revisiones que fueron tomadas en cuenta. Ejemplo:
-    
+
     Fusión de las revisiones 10:40 de /branches/foo a /trunk.
 
 ## Tenga claro cuando es oportuno crear una rama

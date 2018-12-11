@@ -29,7 +29,7 @@ La herramienta de seguimiento o manejo del proyecto que se procederá a instalar
 ## Dependencias
 
 En primer lugar proceda a instalar las siguientes dependencias.
-    
+
     # aptitude install apache2 \
     libapache2-mod-python \
     postgresql \
@@ -101,42 +101,42 @@ En el siguiente ejemplo se omitirán los comentarios brindados por el comando `t
 
     # trac-admin project initenv
     Creating a new Trac environment at /srv/www/project
-    
+
     ...
-    
+
     Project Name [My Project]> Demo
-    
+
     ...
-    
-    Database connection string [sqlite:db/trac.db]> 
+
+    Database connection string [sqlite:db/trac.db]>
     postgres://trac_user:trac_passwd@localhost:5432/trac_dev
-    
+
     ...
-    
+
     Repository type [svn]>
-    
+
     ...
-    
+
     Path to repository [/path/to/repos]> /srv/svn/project
-    
+
     ...
-    
+
     Templates directory [/usr/share/trac/templates]>
-    
+
     Creating and Initializing Project
      Installing default wiki pages
-    
+
     ...
-    
+
     ---------------------------------------------------------
     Project environment for 'Demo' created.
-    
+
     You may now configure the environment by editing the file:
-    
+
       /srv/www/project/conf/trac.ini
-    
+
     ...
-    
+
     Congratulations!
 
 Se ha culminado la instalación del ambiente de Trac, ahora procederemos a crear el ambiente de subversion.
@@ -162,13 +162,13 @@ Seguidamente crearemos el proyecto _subversion_ `project` y haremos un importe i
     # svn import /tmp/project/ \
     file:///srv/svn/project/ \
     -m 'Importe inicial'
-    
+
     Adding         /tmp/project/trunk
     Adding         /tmp/project/branches
     Adding         /tmp/project/tags
-    
+
     Committed revision 1.
-    
+
 ## Apache: Servidor Web
 
 Es hora de configurar los _sitios virtuales_ que utilizaremos tanto para Trac como para subversion.

@@ -26,7 +26,6 @@ Si usted es usuario de [Ubuntu Linux](http://www.ubuntu.com), seguramente estar�
 
 En los siguientes párrafos veremos dos alternativas, que desde mi punto de vista tienen ciertas virtudes, las cuales muestro a continuación.
 
-
   * No caen en los excesos.
   * Son rápidos.
   * No consumen gran cantidad de recursos del sistema.

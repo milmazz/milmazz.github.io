@@ -25,7 +25,7 @@ El mismo CD de instalación de ubuntu nos brinda una opción que nos permite ver
   2. Al terminar la carga del CD usted podrá apreciar un mensaje de bienvenida similar al siguiente:
 
 > The default installation is suitable for most desktop or laptops systems. Press F1 for help and advanced installation options.
-> 
+>
 > To install only the base system, type "server" then ENTER. For the default installation, press ENTER.
 >
 > boot:_
@@ -34,7 +34,7 @@ Lo anterior, traducido a nuestro idioma sería similar a:
 
 > La instalación por defecto es conveniente para la mayoría de los sistemas de escritorio o portátiles. Presione F1 para ayuda y opciones de instalación avanzadas.
 
-> 
+>
 > Para instalar solo el sistema base, escriba "server" luego ENTER. Para la instalación por defecto, presione ENTER.
 
   3. Para este artículo, se realizará el modo de instalación por defecto, lo anterior quiere decir que solamente debemos presionar la tecla ENTER, enseguida observaremos la carga del _kernel_.
@@ -43,13 +43,13 @@ Lo anterior, traducido a nuestro idioma sería similar a:
   6. Al finalizar el paso anterior nos llevará a un cuadro de dialogo de confirmación, pero antes podremos notar una pequeña advertencia:
 
 > **Warning:** this check depends on your hardware and may take some time.
-> 
+>
 > Check CD-ROM integrity?
 
 Lo anterior, traducido a nuestro idioma sería similar a:
 
 > **Advertencia:** Esta revisión depende de su hardware y puede tomar cierto tiempo.
-> 
+>
 > Revisar la integridad del CD-ROM?
 
 A la pregunta anterior respondemos **Sí**
@@ -57,7 +57,7 @@ A la pregunta anterior respondemos **Sí**
   7. Si lo prefiere, salga de su casa, tome un poco de sol y regrese ;)
   8. Si el CD-ROM no tiene fallo alguno, podrá observar un mensaje al final de la revisión similar al siguiente:
 
-> Integrity test successful the CD-ROM. Integrity test was successful.  
+> Integrity test successful the CD-ROM. Integrity test was successful.
 
 **The CD-ROM is valid**
 

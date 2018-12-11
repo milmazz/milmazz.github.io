@@ -47,7 +47,7 @@ Seguidamente descargamos el paquete [Gnickr-0.0.3](http://prdownloads.sourceforg
     $ sudo dpkg -i gnickr_0.0.3-1_i386.deb
 
 Una vez que hemos instalado el paquete Gnickr para Ubuntu Breezy debemos autorizarlo en nuestra cuenta Flickr para que éste programa pueda manipular las fotos, para ello hacemos lo siguiente.
-    
+
     $ gnickr-auth.py
 
 Simplemente debe seguiremos las instrucciones que nos indica el cuadro de dialogo. Una vez completado el proceso de autorización **debe** reiniciar `nautilus`.

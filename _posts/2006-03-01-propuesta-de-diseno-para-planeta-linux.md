@@ -62,7 +62,6 @@ Ya para finalizar la sección de los iconos, Damog hizo bien al recomendarme el 
 
 ## TODO (cosas por hacer)
 
-
   * Hacer que el contenido se ajuste a un determinado **porcentaje** de la resolución de la pantalla, para aprovechar el espacio en resoluciones muy altas.
   * <del>Eliminar el efecto _scroll_</del>. Se ha eliminado en la versión 0.2
   * Mejorar la barra de navegación de la cabecera.

@@ -44,7 +44,7 @@ Seguidamente procedi a crear el fichero `/etc/apache2/sites-enabled/001-milmazz`
     <VirtualHost *>
       DocumentRoot "/home/milmazz/public_html/milmazz/"
       ServerName milmazz.desktop
-    
+
       <Directory "/home/milmazz/public_html/milmazz/">
         Options Indexes FollowSymLinks MultiViews
         AllowOverride None
@@ -71,7 +71,7 @@ Dentro del fichero .htaccess insertamos las siguientes lineas.
     AuthGroupFile /dev/null
     AuthName "Acceso Restringido"
     AuthType Basic
-    
+
     require valid-user
 
 Guardamos los cambios realizados y seguidamente procederemos a crear el fichero que contendrá la información acerca de los usuarios que tendrán acceso al directorio protegido, también se especificaran las contraseñas para validar la entrada. El fichero a editar vendra dado por la directiva `AuthUserFile`, por lo tanto, en nuestro caso el fichero a crear será /var/www/.htpasswd.

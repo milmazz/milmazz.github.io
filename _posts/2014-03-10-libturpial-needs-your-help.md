@@ -102,7 +102,6 @@ the project)
 
 Example:
 
-
     {% highlight ini %}
     # Original list:
     ignore = E126,E128,E231,E251,E261,E301

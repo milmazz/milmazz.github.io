@@ -27,7 +27,6 @@ tags:
     1. Herramientas
   7. ¿Cómo usar los Repositorios?
 
-
 ## Los Repositorios (definición)
 
 Un repositorio es un conjunto de paquetes Debian organizados en un directorio en árbol especial, el cual también contiene unos pocos ficheros adicionales con los índices e información de los paquetes. Si un usuario añade un repositorio a su fichero `sources.list`, él puede ver e instalar facilmente todos los paquetes disponibles en éste al igual que los paquetes contenidos en Debian.
@@ -55,54 +54,54 @@ Aunque no es realmente correcto, aquí llamaré al primero _Repositorios Automá
 La estructura del directorio de un repositorio automático con las arquitecturas estándares de Debian y sus componentes se asemeja mucho a ésto:
 
     (tu repositorio root)
-    | 
+    |
     +-dists
-      | 
+      |
       |-stable
       | |-main
-      | | |-binary-alpha 
+      | | |-binary-alpha
       | | |-binary-arm
       | | |-binary-...
-      | | +-source 
+      | | +-source
       | |-contrib
-      | | |-binary-alpha 
+      | | |-binary-alpha
       | | |-binary-arm
       | | |-binary-...
-      | | +-source 
+      | | +-source
       | +-non-free
       |   |-binary-alpha
       |   |-binary-arm
       |   |-binary-...
       |   +-source
       |
-      |-testing 
+      |-testing
       | |-main
-      | | |-binary-alpha 
+      | | |-binary-alpha
       | | |-binary-arm
       | | |-binary-...
-      | | +-source 
+      | | +-source
       | |-contrib
-      | | |-binary-alpha 
+      | | |-binary-alpha
       | | |-binary-arm
       | | |-binary-...
-      | | +-source 
+      | | +-source
       | +-non-free
       |   |-binary-alpha
       |   |-binary-arm
       |   |-binary-...
       |   +-source
       |
-      +-unstable 
+      +-unstable
         |-main
-        | |-binary-alpha 
+        | |-binary-alpha
         | |-binary-arm
         | |-binary-...
-        | +-source 
+        | +-source
         |-contrib
-        | |-binary-alpha 
+        | |-binary-alpha
         | |-binary-arm
         | |-binary-...
-        | +-source 
+        | +-source
         +-non-free
           |-binary-alpha
           |-binary-arm
@@ -131,11 +130,11 @@ y la ruta relativa entre la raíz y el directorio con los ficheros indices en é
     |
     |-binary
     +-source
-    
+
 ## ¿Cómo crear ficheros Index?
 
 `dpkg-scanpackages` es la herramienta con la que podemos generar el fichero `Packages` y con la herramienta `dpkg-scansources` creamos los ficheros `Sources`. Ellos pueden enviar sus salidas a `stout`; por consiguiente, para generar ficheros comprimidos, podemos usar una cadena de comandos como ésta:
-    
+
     $ dpkg-scanpackages arguments | gzip -9c > Packages.gz
 
 Las dos herramientas trabajan de la misma manera; ambas toman dos argumentos (en realidad son más, pero aquí no hablaremos de eso; puedes leerte las páginas del manual si quieres saber más); el primer argumento es el directorio en cual están los paquetes, y el segundo es el fichero predominante. En general no necesitamos los ficheros predominantes para repositorios simples, pero como éste es un argumento requerido, simplemente lo pasamos a `/dev/null`. `dpkg-scanpackages` escanea los paquetes `.deb`, sin embargo, `dpkg-scansources` escanea los ficheros `.dsc`, por lo tanto es necesario colocar los ficheros `.orig.gz`, `.diff.gz` y `.dsc` juntos. Los ficheros `.changes` no son necesarios. Así que, si tienes un repositorio trivial como el mostrado anteriormente, puedes crear los dos ficheros indice de la siguiente manera:

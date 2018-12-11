@@ -18,7 +18,7 @@ tags:
 No se porque motivo o razón comencé a revisar en unas cajas de mi cuarto, cuando de repente me encontré con la primera cámara web que compre, de hecho, vino como accesorio a mi máquina de escritorio _Compaq Presario 5006LA_. Así que me pregunté, ¿será que todavía funciona esta reliquia?.
 
 Lo primero que hice fue conectar el dispositivo en cuestión a mi portátil actual, enseguida ejecuté el comando:
-    
+
     $ lsusb | grep -i logitech
     Bus 002 Device 002: ID 046d:0840 Logitech, Inc. QuickCam Express</code>
 
@@ -39,7 +39,7 @@ Con la información anterior decido hacer uso del manejador de paquetes `aptitud
 
 Una vez realizado el paso anterior recurro a la utilidad de configuración de módulos en [Debian](http://www.debian.org) `modconf` e instalo el módulo `quickcam``, el cual se encuentra en ``/lib/modules/2.6.18-4-686/misc/quickcam.ko` y verificamos.
 
-    # tail /var/log/messages 
+    # tail /var/log/messages
     May 14 21:16:57 localhost kernel: Linux video capture interface: v2.00
     May 14 21:16:57 localhost kernel: quickcam: QuickCam USB camera found (driver version QuickCam USB 0.6.6 $Date: 2006/11/04 08:38:14 $)
     May 14 21:16:57 localhost kernel: quickcam: Kernel:2.6.18-4-686 bus:2 class:FF subclass:FF vendor:046D product:0840

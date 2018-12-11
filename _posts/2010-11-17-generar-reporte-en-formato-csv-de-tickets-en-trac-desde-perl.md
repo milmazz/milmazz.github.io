@@ -52,7 +52,7 @@ _tickets_, entre otros. A la vez, se hace uso del módulo [Class::CSV][] el cual
 le ofrece análisis y escritura de documentos en formato CSV.
 
 {% highlight perl %}
-#!/usr/bin/perl 
+#!/usr/bin/perl
 
 use warnings;
 use strict;

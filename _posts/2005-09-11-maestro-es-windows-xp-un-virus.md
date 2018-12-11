@@ -12,7 +12,6 @@ tags:
 - Seguridad
 ---
 
-
 Ps:
 
     Háblame, estoy atento a tus palabras, mi Maestro.
@@ -68,8 +67,5 @@ Ps:
 M:
 
     No pequeño saltamontes, no es un virus. Es un [bug!](http://es.wikipedia.org/wiki/Error_de_software).
-
-
-
 
 Vía: [Seguridad0.info](http://mail.seguridad0.info/mailman/listinfo/seguridad0_seguridad0.info)

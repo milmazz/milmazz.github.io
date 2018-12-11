@@ -27,7 +27,7 @@ En particular, los siguientes paquetes se encuentran afectados:
   * `perl-base`
 
 El problema puede ser corregido actualizando los paquetes a sus últimas versiones en las respectivas versiones de Ubuntu. En general, el modo estándar de actualizar la distribución será mas que suficiente.
-    
+
     $ sudo aptitude dist-upgrade
 
 La actualización pretende solucionar una vulnerabilidad del interprete [Perl](http://www.perl.org/), el cual no era capaz de manejar todos los posibles casos de una entrada malformada que podría permitir la ejecución de código arbitrario, así que es **recomendable** actualizar su sistema de inmediato.

@@ -38,7 +38,7 @@ campos apropiados en el fichero `/etc/cntlm.conf`
   * Proxy
 
 Seguidamente reinicie el servicio:
-    
+
     # /etc/init.d/cntlm restart
 
 Ahora solo resta configurar `apt-get` para que utilice nuestro _proxy interno_,

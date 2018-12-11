@@ -36,7 +36,6 @@ Trac es una herramienta ligera para el manejo de proyectos basada en la _Web_, d
 
 ## Sistema de tickets
 
-
 ![Tickets activos para el hito 0.12 de Trac, ordenados por última fecha de modificación](/images/2010-03-16-sistema-de-manejo-y-seguimiento-de-proyectos-trac/tickets-300x193.png)
 
 El sistema de _tickets_ le permite hacer seguimiento del progreso en la resolución de problemas de programación particulares, requerimientos de nuevas características, problemas e ideas, cada una de ellas en su propio _ticket_, los cuales son enumerados de manera ascendente. Puede resolver o reconciliar aquellos _tickets_ que buscan un mismo objetivo o donde más de una persona reporta el mismo requerimiento. Permite hacer búsquedas o filtrar _tickets_ por severidad, componente del proyecto, versión, responsable de atender el _ticket_, entre otros.

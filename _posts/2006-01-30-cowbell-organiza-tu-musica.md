@@ -39,5 +39,5 @@ Las palabras claves anteriores se explican por sí solas. Simplemente escoge el 
 Donde evidentemente debes modificar el directorio `/ruta/a/tu/musica` de acuerdo a tus necesidades.
 
 Para instalar esta aplicación en ubuntu debes tener activo el repositorio `universe` en tu fichero `/etc/apt/sources.list`. Una vez actualizada la lista de repositorios, puedes instalar Cowbell de la siguiente manera:
-    
+
     $ sudo aptitude cowbell

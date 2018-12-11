@@ -27,7 +27,7 @@ Este foro es el primero de una serie que se realizarán con el fin de ayudar a a
 
 El objeto del proyecto de Ley de Tecnologías de Información es el siguiente:
 
-> ...establecer las normas, principios, sistemas de información, planes, acciones, lineamientos y estándares, aplicables a las tecnologías de información que utilicen los sujetos a que se refiere el artículo 5 de esta Ley y estipular los mecanismos que impulsarán su extensión, desarrollo, promoción y masificación en todo el ámbito del Estado. 
+> ...establecer las normas, principios, sistemas de información, planes, acciones, lineamientos y estándares, aplicables a las tecnologías de información que utilicen los sujetos a que se refiere el artículo 5 de esta Ley y estipular los mecanismos que impulsarán su extensión, desarrollo, promoción y masificación en todo el ámbito del Estado.
 
 Si usted desea escuchar lo discutido en el foro Software Libre vs. Software Privativo en el gobierno electrónico, puede hacerlo en:
 

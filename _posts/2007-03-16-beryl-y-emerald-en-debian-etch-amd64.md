@@ -27,7 +27,7 @@ Lo primero que debemos hacer es modificar nuestro **/etc/apt/sources.list** para
      # vim /etc/apt/sources.list
 
 La línea que vamos a agregar a nuestro _sources.list_ es la que se corresponde con el [repositorio de Beryl para Debian](http://debian.beryl-project.org/) y es la siguiente:
- 
+
     deb http://debian.beryl-project.org/ etch main
 
 Luego, como han de sospechar, hay que actualizar la base de datos del aptitude, lo cual se logra así:

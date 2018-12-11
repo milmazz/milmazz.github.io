@@ -17,24 +17,24 @@ tags:
 Al igual que [José](http://blog.bureado.com.ve/), considero que el hilo de discusión [Borrar línea X de un archivo](http://www.velug.org.ve/pipermail/l-linux/2006-May/059328.html) es **bastante** interesante, este hilo fué discutido en la lista de correos técnica [l-linux](http://velug.org.ve/cgi-bin/mailman/listinfo/l-linux) es la la lista de correos para Consultas Técnicas sobre Linux y Software Libre en VELUG del [Grupo de Usuarios de Linux de Venezuela](http://velug.org.ve/) (VELUG), el problema planteado por quien inicio el hilo de discusión, José Luis Bazo Villasante, consistía en eliminar un _registro_ completo, en donde se pasara como argumento el primer campo (tal vez el _identificador_) de dicho registro.
 
 Suponga que el fichero tiene la siguiente estructura:
-    
+
     :(123
     	... # otros campos
     )
-    
+
     :(234
     	... # otros campos
     )
-    
+
     :(456
     	... # otros campos
     )
-    
+
 Se dieron soluciones en lenguajes como `Bash` y `C` ¿Con intención de autoflagelación? y ciertas en [Perl](http://perl.com/), éstas últimas son las que llaman mi atención, _vamos por partes_ Diría Jack El Destripador.
 
 José propuso lo siguiente:
-   
-{% highlight perl %} 
+
+{% highlight perl %}
 #!/usr/bin/perl -n
 $deadCount = 7 if ($_ =~ /${ARGV[0]}/);
 --$deadCount if ($deadCount);
@@ -42,7 +42,7 @@ print unless ($deadCount);
 {% endhighlight %}
 
 El programa debe ejecutarse así:
-    
+
 	$ perl script.pl archivo 123
 
 Este programa hace el trabajo, pero al final emitirá un error porque cree que el argumento 123 es otro fichero, y por supuesto, no lo encuenta.
@@ -78,7 +78,7 @@ En este caso particular una sola línea de código nos proporciona mucha informa
 La existencia de opciones predefinidas y maneras de ejecutar el interprete de Perl permiten enfocarse únicamente en la resolucion de tareas, _cero burocracia_.
 
 Un ejemplo de lo mencionado en el párrafo anterior es el siguiente, un bucle lo puedo reducir con la opción de ejecución `-n` del interprete Perl, simplemente leyendo un poco perlrun`man perlrun`, perlrun se incluye en la documentación de Perl, en sistemas Debian lo encontramos en el paquete perl-doc, para instalar simplemente hacer ejecutar el comando `aptitude install perl-doc` como _superusuario_ nos enteramos del asunto, eso quiere decir que podemos reducir a una simple opción de ejecución del interprete de Perl todo esto:
-    
+
 {% highlight perl %}
 #!/usr/bin/perl
 while(<>){
