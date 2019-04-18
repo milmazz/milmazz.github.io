@@ -1,18 +1,16 @@
 ---
-redirect_from: "/archivos/2006/02/23/feedjack-un-planet-con-esteroides/"
-author: milmazz
-comments: true
-date: 2006-02-23 13:55:18
-layout: post
-slug: feedjack-un-planet-con-esteroides
 title: 'FeedJack: Un Planet con esteroides'
+author: milmazz
+date: 2006-02-23 13:55:18
 categories:
-- Python
+  - Python
 tags:
-- django
-- feedjack
-- planet
-- Python
+  - django
+  - feedjack
+  - planet
+  - Python
+slug: feedjack-un-planet-con-esteroides
+redirect_from: /archivos/2006/02/23/feedjack-un-planet-con-esteroides/
 ---
 
 **FeedJack** es una mejora hecha por [Gustavo Picon](http://tabo.aurealsys.com/)

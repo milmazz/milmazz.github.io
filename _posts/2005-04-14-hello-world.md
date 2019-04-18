@@ -1,12 +1,10 @@
 ---
-author: milmazz
-comments: true
-date: 2005-04-14 01:28:02
-layout: post
-slug: hello-world
 title: Bienvenid@
+author: milmazz
+date: 2005-04-14 01:28:02
 tags:
-- General
+  - General
+slug: hello-world
 ---
 
 Antes que nada quisiera darles la bienvenida a todos los que visitan este humilde weblog, trataré tocar temas diversos, pero que realmente me atraen, algunos de estos  temas son los siguientes:

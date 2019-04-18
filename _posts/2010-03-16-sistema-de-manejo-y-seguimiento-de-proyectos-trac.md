@@ -1,19 +1,17 @@
 ---
-redirect_from: "/archivos/2010/03/16/sistema-de-manejo-y-seguimiento-de-proyectos-trac/"
-author: milmazz
-comments: true
-date: 2010-03-16 01:24:43
-layout: post
-slug: sistema-de-manejo-y-seguimiento-de-proyectos-trac
 title: 'Sistema de manejo y seguimiento de proyectos: Trac'
+author: milmazz
+date: 2010-03-16 01:24:43
 categories:
-- Programación
-- Software
+  - Programación
+  - Software
 tags:
-- Ingeniería del Software
-- Programación
-- Software
-- trac
+  - Ingeniería del Software
+  - Programación
+  - Software
+  - trac
+slug: sistema-de-manejo-y-seguimiento-de-proyectos-trac
+redirect_from: /archivos/2010/03/16/sistema-de-manejo-y-seguimiento-de-proyectos-trac/
 ---
 
 [Trac](http://trac.edgewall.org) es un sistema multiplataforma desarrollado y mantenido por [Edgewall Software](http://edgewall.org), el cual está orientado al seguimiento y manejo de proyectos de desarrollo de _software_ haciendo uso de un enfoque minimalista basado en la _Web_, su misión es ayudar a los desarrolladores a escribir software de excelente calidad mientras busca no interferir con el proceso y políticas de desarrollo. Incluye un sistema _wiki_ que es adecuado para el manejo de la base de conocimiento del proyecto, fácil integración con sistemas de control de versiones ((Por defecto Trac se integra con _subversion_)). Además incluye una interfaz para el seguimiento de tareas, mejoras y reporte de errores por medio de un completo y totalmente personalizable sistema de _tickets_, todo esto con el fin de ofrecer una interfaz integrada y consistente para acceder a toda información referente al proyecto de desarrollo de software. Además, todas estas capacidades son extensibles por medio de _plugins_ o complementos desarrollados específicamente para Trac.

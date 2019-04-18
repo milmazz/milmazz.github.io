@@ -1,16 +1,14 @@
 ---
-author: milmazz
-comments: true
-date: 2005-09-09 00:05:58
-layout: post
-slug: ubuntu-510-breezy-badger
 title: Ubuntu 5.10 (Breezy Badger)
+author: milmazz
+date: 2005-09-09 00:05:58
 categories:
-- GNU/Linux
-- Ubuntu
+  - GNU/Linux
+  - Ubuntu
 tags:
-- GNU/Linux
-- Ubuntu
+  - GNU/Linux
+  - Ubuntu
+slug: ubuntu-510-breezy-badger
 ---
 
 Se anuncia la _versión previa_ a la salida oficial de Ubuntu 5.10, cuyo nombre clave es _Breezy Badger_, esta _versión previa_ incluye tanto un CD instalable como un CD en "vivo" ([Live CD](http://es.wikipedia.org/wiki/CDVivo)) para tres arquitecturas en específico: Intel x86 (PC), PowerPC (Mac) y AMD64 (PC de 64 bits).

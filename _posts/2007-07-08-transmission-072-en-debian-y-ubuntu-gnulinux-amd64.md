@@ -1,26 +1,24 @@
 ---
-redirect_from: "/archivos/2007/07/08/transmission-072-en-debian-y-ubuntu-gnulinux-amd64/"
-author: chantanito
-comments: true
-date: 2007-07-08 17:52:20
-layout: post
-slug: transmission-072-en-debian-y-ubuntu-gnulinux-amd64
 title: Transmission 0.72 en Debian y Ubuntu GNU/Linux AMD64
+author: chantanito
+date: 2007-07-08 17:52:20
 categories:
-- debian
-- GNU/Linux
-- Software
-- Ubuntu
+  - debian
+  - GNU/Linux
+  - Software
+  - Ubuntu
 tags:
-- bittorrent
-- debian
-- Distribuciones
-- General
-- GNU/Linux
-- Internet
-- Software
-- transmission
-- Ubuntu
+  - bittorrent
+  - debian
+  - Distribuciones
+  - General
+  - GNU/Linux
+  - Internet
+  - Software
+  - transmission
+  - Ubuntu
+slug: transmission-072-en-debian-y-ubuntu-gnulinux-amd64
+redirect_from: /archivos/2007/07/08/transmission-072-en-debian-y-ubuntu-gnulinux-amd64/
 ---
 
 Bien, en realidad, no he podido esperar a tenerlo trabajando al 100%, se trata de la versión 0.72 de [Transmission](http://transmission.m0k.org/about.php), el que a mi parecer, es el mejor cliente [BitTorrent](http://es.wikipedia.org/wiki/BitTorrent) que jamás haya existido. Según lo describen en la página, cito textualmente:

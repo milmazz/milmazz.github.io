@@ -1,15 +1,13 @@
 ---
-redirect_from: "/archivos/2005/04/16/elizabeth-garbeth/"
-author: milmazz
-comments: true
-date: 2005-04-16 20:09:51
-layout: post
-slug: elizabeth-garbeth
 title: Elizabeth Garbeth
+author: milmazz
+date: 2005-04-16 20:09:51
 categories:
-- GNU/Linux
+  - GNU/Linux
 tags:
-- GNU/Linux
+  - GNU/Linux
+slug: elizabeth-garbeth
+redirect_from: /archivos/2005/04/16/elizabeth-garbeth/
 ---
 
 Elizabeth Garbeth, una niña de apenas 13 años de edad, dará este año una

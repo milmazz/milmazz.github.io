@@ -1,16 +1,14 @@
 ---
-redirect_from: "/archivos/2006/05/20/actualizado-planeta-ubuntu-es/"
-author: milmazz
-comments: true
-date: 2006-05-20 12:04:49
-layout: post
-slug: actualizado-planeta-ubuntu-es
 title: 'Actualizado Planeta #ubuntu-es'
+author: milmazz
+date: 2006-05-20 12:04:49
 categories:
-- Ubuntu
+  - Ubuntu
 tags:
-- Ubuntu
-- ubuntuchannel
+  - Ubuntu
+  - ubuntuchannel
+slug: actualizado-planeta-ubuntu-es
+redirect_from: /archivos/2006/05/20/actualizado-planeta-ubuntu-es/
 ---
 
 El hecho de haber dejado de utilizar [ubuntu](http://www.ubuntu.com), como lo he manifestado en entradas anteriores, no implica que deba dejar de lado a los amigos del canal #ubuntu-es en el servidor [Freenode](http://freenode.net/), además, tampoco debo dejar de cumplir mis deberes de administrador del [Planeta #ubuntu-es](http://www.ubuntuchannel.org/), por ello, he realizado los siguientes cambios:

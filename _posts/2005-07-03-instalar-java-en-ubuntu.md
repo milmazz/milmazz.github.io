@@ -1,15 +1,13 @@
 ---
-redirect_from: "/archivos/2005/07/03/instalar-java-en-ubuntu/"
-author: milmazz
-comments: true
-date: 2005-07-03 18:59:15
-layout: post
-slug: instalar-java-en-ubuntu
 title: Instalar JAVA en Ubuntu
+author: milmazz
+date: 2005-07-03 18:59:15
 categories:
-- Ubuntu
+  - Ubuntu
 tags:
-- Ubuntu
+  - Ubuntu
+slug: instalar-java-en-ubuntu
+redirect_from: /archivos/2005/07/03/instalar-java-en-ubuntu/
 ---
 
 Debido a diversos motivos que no se expondrán en este artículo me he visto _obligado_ a desarrollar ciertas aplicaciones en JAVA, por todos es bien sabido que JAVA es un _formato restrictivo_, a pesar del formato abierto del API en sí, hasta ahora las únicas implementaciones de JAVA en GNU/Linux con una amplia compatibilidad se derivan de la implementación de [Sun Microsystem](http://www.sun.com/), ésta implementación lleva consigo _términos de licencias no libres_.

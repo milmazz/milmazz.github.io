@@ -1,19 +1,17 @@
 ---
-redirect_from: "/archivos/2005/08/08/como-actualizar-de-manera-segura-su-sistema/"
-author: milmazz
-comments: true
-date: 2005-08-08 01:02:32
-layout: post
-slug: como-actualizar-de-manera-segura-su-sistema
 title: COMO actualizar de manera segura su sistema
+author: milmazz
+date: 2005-08-08 01:02:32
 categories:
-- GNU/Linux
-- Software
-- Ubuntu
+  - GNU/Linux
+  - Software
+  - Ubuntu
 tags:
-- GNU/Linux
-- Software
-- Ubuntu
+  - GNU/Linux
+  - Software
+  - Ubuntu
+slug: como-actualizar-de-manera-segura-su-sistema
+redirect_from: /archivos/2005/08/08/como-actualizar-de-manera-segura-su-sistema/
 ---
 
 Antes de comenzar es importante hacer notar que esta guía se enfocará al mundo [Debian](http://www.debian.org/) GNU/Linux y sus derivadas, en donde por supuesto se incluye [Ubuntu Linux](http://www.ubuntulinux.org/). Después de hacer la breve aclaratoria podemos comenzar.

@@ -1,12 +1,10 @@
 ---
-author: milmazz
-comments: true
-date: 2005-04-28 06:30:31
-layout: post
-slug: redisenando-nnl-newsletter-ii
 title: Rediseñando NNL Newsletter II
+author: milmazz
+date: 2005-04-28 06:30:31
 tags:
-- CSS
+  - CSS
+slug: redisenando-nnl-newsletter-ii
 ---
 
 En este artículo se mostrará la facilidad de emplear hojas de estilos en cascada o CSS cuando poseemos una buena estructura en nuestros documentos. Como estructura vamos a utilizar una [modificación](http://blog.milmazz.com.ve/wp-content/nnl/estructura.html) que he realizado de la [primera edición de NNL Newsletter](http://nnlnews.com/nnl/1). La edición de la estructura se ha explicado en el artículo [Rediseñando NNL Newsletter I](/article/2005/04/28/redisenando-nnl-newsletter-i/).

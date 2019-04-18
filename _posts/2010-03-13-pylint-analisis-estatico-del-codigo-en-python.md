@@ -1,18 +1,16 @@
 ---
-redirect_from: "/archivos/2010/03/13/pylint-analisis-estatico-del-codigo-en-python/"
-author: milmazz
-comments: true
-date: 2010-03-13 00:31:48
-layout: post
-slug: pylint-analisis-estatico-del-codigo-en-python
 title: 'Pylint: Análisis estático del código en Python'
+author: milmazz
+date: 2010-03-13 00:31:48
 categories:
-- Programación
-- Python
+  - Programación
+  - Python
 tags:
-- Programación
-- pylint
-- Python
+  - Programación
+  - pylint
+  - Python
+slug: pylint-analisis-estatico-del-codigo-en-python
+redirect_from: /archivos/2010/03/13/pylint-analisis-estatico-del-codigo-en-python/
 ---
 
 Básicamente el análisis estático del código se refiere al proceso de evaluación del código fuente sin ejecutarlo, es en base a este análisis que se obtendrá información que nos permita mejorar la línea base de nuestro proyecto, sin alterar la semántica original de la aplicación.

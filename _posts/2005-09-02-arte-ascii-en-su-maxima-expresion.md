@@ -1,12 +1,10 @@
 ---
-author: milmazz
-comments: true
-date: 2005-09-02 03:36:42
-layout: post
-slug: arte-ascii-en-su-maxima-expresion
 title: Arte ASCII en su máxima expresión
+author: milmazz
+date: 2005-09-02 03:36:42
 tags:
-- miniblog
+  - miniblog
+slug: arte-ascii-en-su-maxima-expresion
 ---
 
 Increible los alcances del [arte

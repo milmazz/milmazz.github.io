@@ -1,16 +1,14 @@
 ---
-redirect_from: "/archivos/2005/11/28/como-cambiar-entre-versiones-de-java-bajo-breezy/"
-author: milmazz
-comments: true
-date: 2005-11-28 12:16:40
-layout: post
-slug: como-cambiar-entre-versiones-de-java-bajo-breezy
 title: Cómo cambiar entre versiones de JAVA bajo Breezy
+author: milmazz
+date: 2005-11-28 12:16:40
 categories:
-- Ubuntu
+  - Ubuntu
 tags:
-- java
-- Ubuntu
+  - java
+  - Ubuntu
+slug: como-cambiar-entre-versiones-de-java-bajo-breezy
+redirect_from: /archivos/2005/11/28/como-cambiar-entre-versiones-de-java-bajo-breezy/
 ---
 
 Si usted tiene instaladas múltiples versiones de JAVA bajo Breezy, puede cambiar fácilmente entre dichas versiones cuando usted lo desee.

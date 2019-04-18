@@ -1,18 +1,16 @@
 ---
-redirect_from: "/archivos/2006/04/18/vim-al-rescate/"
-author: milmazz
-comments: true
-date: 2006-04-18 17:40:36
-layout: post
-slug: vim-al-rescate
 title: Vim al rescate
+author: milmazz
+date: 2006-04-18 17:40:36
 categories:
-- GNU/Linux
-- Software
+  - GNU/Linux
+  - Software
 tags:
-- GNU/Linux
-- Software
-- vim
+  - GNU/Linux
+  - Software
+  - vim
+slug: vim-al-rescate
+redirect_from: /archivos/2006/04/18/vim-al-rescate/
 ---
 
 Al examinar el día de hoy el último fichero de respaldo de la base de datos de este _blog_, me percate que existe una cantidad **inmensa** de registros que en realidad no me hacen falta, sobretodo respecto a las estadísticas, es increible que los registros de una simple base de datos llegara a ocupar unos 24MB, dicha información no tiene mayor relevancia para los lectores puesto que dichos datos suelen ser visualizados en la interfaz administrativa del _blog_, pero al ocupar mayor espacio en la base de datos, pueden retardar las consultas de los usuarios. Por lo tanto, era necesario realizar una limpieza y eliminar unos cuantos _plugins_ que generaban los registros de las estadísticas.

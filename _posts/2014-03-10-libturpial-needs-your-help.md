@@ -1,14 +1,11 @@
-w---
-redirect_from: "/archivos/2014/03/10/libturpial-needs-your-help/"
+---
+title: libturpial needs your help
 author: milmazz
-comments: true
-share: true
 date: 2014-03-10 21:00:00
-layout: post
-slug: libturpial-needs-your-help
-title: 'libturpial needs your help'
 tags:
-- python
+  - python
+slug: libturpial-needs-your-help
+redirect_from: /archivos/2014/03/10/libturpial-needs-your-help/
 ---
 
 Do you want to begin to contribute into [libturpial][] codebase but you don't

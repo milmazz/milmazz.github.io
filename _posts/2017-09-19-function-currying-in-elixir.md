@@ -1,14 +1,11 @@
 ---
-author: milmazz
-comments: true
-share: true
-date: 2017-09-19 21:00:00
-layout: post
-slug: function-currying-in-elixir
 title: 'Follow-up: Function currying in Elixir'
+author: milmazz
+date: 2017-09-19 21:00:00
 tags:
-- elixir
-- programming
+  - elixir
+  - programming
+slug: function-currying-in-elixir
 ---
 
 > *NOTE:* This article is a follow-up examination after the blog post

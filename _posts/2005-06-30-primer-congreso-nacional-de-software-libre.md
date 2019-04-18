@@ -1,16 +1,14 @@
 ---
-redirect_from: "/archivos/2005/06/30/primer-congreso-nacional-de-software-libre/"
-author: milmazz
-comments: true
-date: 2005-06-30 20:22:08
-layout: post
-slug: primer-congreso-nacional-de-software-libre
 title: Primer Congreso Nacional de Software Libre
+author: milmazz
+date: 2005-06-30 20:22:08
 categories:
-- GNU/Linux
+  - GNU/Linux
 tags:
-- Anuncios
-- GNU/Linux
+  - Anuncios
+  - GNU/Linux
+slug: primer-congreso-nacional-de-software-libre
+redirect_from: /archivos/2005/06/30/primer-congreso-nacional-de-software-libre/
 ---
 
 El día de hoy se dió inicio en

@@ -1,19 +1,17 @@
 ---
-redirect_from: "/archivos/2006/02/02/goobuntu-google-y-los-rumores/"
-author: milmazz
-comments: true
-date: 2006-02-02 18:54:51
-layout: post
-slug: goobuntu-google-y-los-rumores
 title: Goobuntu, Google y los rumores...
+author: milmazz
+date: 2006-02-02 18:54:51
 categories:
-- Ubuntu
+  - Ubuntu
 tags:
-- goobuntu
-- google
-- google+evil
-- Opinión
-- Ubuntu
+  - goobuntu
+  - google
+  - google+evil
+  - Opinión
+  - Ubuntu
+slug: goobuntu-google-y-los-rumores
+redirect_from: /archivos/2006/02/02/goobuntu-google-y-los-rumores/
 ---
 
 Todo comenzo el día martes de esta misma semana, al ser publicado el artículo [Google at work on desktop Linux](http://www.theregister.co.uk/2006/01/31/google_goes_desktop_linux/) en  [The Register](http://www-theregister.co.uk), para mí todo aquello tenía la esencia de un _nuevo rumor_ acerca Google, **no** en el sentido de utilizar una adaptación, denominada _Goobuntu_, de Ubuntu para las personas que laboran dentro de Google, sino en el hecho que el artículo enfatizaba la posibilidad de distribuir al público en general la adaptación de Ubuntu hecha por Google.

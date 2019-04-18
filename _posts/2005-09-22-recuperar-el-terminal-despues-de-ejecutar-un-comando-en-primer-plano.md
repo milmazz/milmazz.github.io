@@ -1,13 +1,11 @@
 ---
-redirect_from: "/archivos/2005/09/22/recuperar-el-terminal-despues-de-ejecutar-un-comando-en-primer-plano/"
-author: milmazz
-comments: true
-date: 2005-09-22 15:29:38
-layout: post
-slug: recuperar-el-terminal-despues-de-ejecutar-un-comando-en-primer-plano
 title: Recuperar el Terminal después de ejecutar un comando en primer plano
+author: milmazz
+date: 2005-09-22 15:29:38
 tags:
-- General
+  - General
+slug: recuperar-el-terminal-despues-de-ejecutar-un-comando-en-primer-plano
+redirect_from: /archivos/2005/09/22/recuperar-el-terminal-despues-de-ejecutar-un-comando-en-primer-plano/
 ---
 
 Si regularmente ejecuta programas desde el **Terminal**, seguramente en alguna

@@ -1,17 +1,15 @@
 ---
-redirect_from: "/archivos/2006/05/31/perl-y-su-poderio/"
-author: milmazz
-comments: true
-date: 2006-05-31 03:47:15
-layout: post
-slug: perl-y-su-poderio
 title: Perl y su poderío
+author: milmazz
+date: 2006-05-31 03:47:15
 categories:
-- perl
+  - perl
 tags:
-- linux
-- perl
-- velug
+  - linux
+  - perl
+  - velug
+slug: perl-y-su-poderio
+redirect_from: /archivos/2006/05/31/perl-y-su-poderio/
 ---
 
 Al igual que [José](http://blog.bureado.com.ve/), considero que el hilo de discusión [Borrar línea X de un archivo](http://www.velug.org.ve/pipermail/l-linux/2006-May/059328.html) es **bastante** interesante, este hilo fué discutido en la lista de correos técnica [l-linux](http://velug.org.ve/cgi-bin/mailman/listinfo/l-linux) es la la lista de correos para Consultas Técnicas sobre Linux y Software Libre en VELUG del [Grupo de Usuarios de Linux de Venezuela](http://velug.org.ve/) (VELUG), el problema planteado por quien inicio el hilo de discusión, José Luis Bazo Villasante, consistía en eliminar un _registro_ completo, en donde se pasara como argumento el primer campo (tal vez el _identificador_) de dicho registro.

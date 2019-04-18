@@ -1,18 +1,16 @@
 ---
-author: milmazz
-comments: true
-date: 2005-09-11 16:16:41
-layout: post
-slug: charlas-en-ubuntu-es
 title: 'Charlas en #ubuntu-es'
+author: milmazz
+date: 2005-09-11 16:16:41
 categories:
-- GNU/Linux
-- Ubuntu
+  - GNU/Linux
+  - Ubuntu
 tags:
-- Charlas
-- GNU/Linux
-- Recursos
-- Ubuntu
+  - Charlas
+  - GNU/Linux
+  - Recursos
+  - Ubuntu
+slug: charlas-en-ubuntu-es
 ---
 
 El día de ayer se llevo a cabo la primera de la serie de charlas que se

@@ -1,17 +1,15 @@
 ---
-redirect_from: "/archivos/2006/05/02/debian-bienvenido-al-sistema-operativo-universal-parte-ii/"
-author: milmazz
-comments: true
-date: 2006-05-02 12:12:24
-layout: post
-slug: debian-bienvenido-al-sistema-operativo-universal-parte-ii
 title: 'Debian: Bienvenido al Sistema Operativo Universal (Parte II)'
+author: milmazz
+date: 2006-05-02 12:12:24
 categories:
-- debian
-- GNU/Linux
+  - debian
+  - GNU/Linux
 tags:
-- debian
-- GNU/Linux
+  - debian
+  - GNU/Linux
+slug: debian-bienvenido-al-sistema-operativo-universal-parte-ii
+redirect_from: /archivos/2006/05/02/debian-bienvenido-al-sistema-operativo-universal-parte-ii/
 ---
 
 Esta serie de anotaciones comenzo con la entrada [Debian: Bienvenido al Sistema Operativo Universal (Parte I)](/article/2006/04/25/debian-bienvenido-al-sistema-operativo-universal-parte-i/).

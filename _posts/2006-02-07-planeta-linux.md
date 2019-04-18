@@ -1,19 +1,17 @@
 ---
-redirect_from: "/archivos/2006/02/07/planeta-linux/"
-author: milmazz
-comments: true
-date: 2006-02-07 17:40:59
-layout: post
-slug: planeta-linux
 title: Planeta Linux
+author: milmazz
+date: 2006-02-07 17:40:59
 categories:
-- GNU/Linux
+  - GNU/Linux
 tags:
-- Anuncios
-- gnu
-- GNU/Linux
-- linux
-- planet
+  - Anuncios
+  - gnu
+  - GNU/Linux
+  - linux
+  - planet
+slug: planeta-linux
+redirect_from: /archivos/2006/02/07/planeta-linux/
 ---
 
 Hace tiempo que no revisaba algunas de las estadísticas del sitio, me he percatado que han llegado algunos enlaces desde [Planeta Linux Venezuela](http://planetalinux.org/ve). El principal objetivo de este sitio es:

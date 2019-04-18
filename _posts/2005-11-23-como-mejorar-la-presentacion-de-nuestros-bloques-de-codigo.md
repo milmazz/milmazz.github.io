@@ -1,13 +1,11 @@
 ---
-author: milmazz
-comments: true
-date: 2005-11-23 13:45:00
-layout: post
-slug: como-mejorar-la-presentacion-de-nuestros-bloques-de-codigo
 title: Cómo mejorar la presentación de nuestros bloques de código
+author: milmazz
+date: 2005-11-23 13:45:00
 tags:
-- (X)HTML
-- CSS
+  - (X)HTML
+  - CSS
+slug: como-mejorar-la-presentacion-de-nuestros-bloques-de-codigo
 ---
 
 El día de ayer en la entrada [Ctrl + Alt + Supr en

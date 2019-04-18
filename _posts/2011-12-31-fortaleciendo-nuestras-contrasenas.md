@@ -1,21 +1,19 @@
 ---
-redirect_from: "/archivos/2011/12/31/fortaleciendo-nuestras-contrasenas/"
-author: milmazz
-comments: true
-date: 2011-12-31 02:53:55
-layout: post
-slug: fortaleciendo-nuestras-contrasenas
 title: Fortaleciendo nuestras contraseñas
+author: milmazz
+date: 2011-12-31 02:53:55
 categories:
-- debian
-- Seguridad
-- Ubuntu
+  - debian
+  - Seguridad
+  - Ubuntu
 tags:
-- cracklib
-- GNU/Linux
-- pam
-- security
-- sysadmin
+  - cracklib
+  - GNU/Linux
+  - pam
+  - security
+  - sysadmin
+slug: fortaleciendo-nuestras-contrasenas
+redirect_from: /archivos/2011/12/31/fortaleciendo-nuestras-contrasenas/
 ---
 
 Si una de las promesas que tiene para este cierre de año es fortalecer las

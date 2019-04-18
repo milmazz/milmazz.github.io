@@ -1,24 +1,22 @@
 ---
-redirect_from: "/archivos/2006/03/02/mas-propuestas-para-la-campana-en-contra-de-la-gestion-del-cnti/"
-author: milmazz
-comments: true
-date: 2006-03-02 02:42:08
-layout: post
-slug: mas-propuestas-para-la-campana-en-contra-de-la-gestion-del-cnti
 title: Más propuestas para la campaña en contra de la gestión del CNTI
+author: milmazz
+date: 2006-03-02 02:42:08
 categories:
-- debian
-- Ubuntu
+  - debian
+  - Ubuntu
 tags:
-- campaign
-- cnti
-- debian
-- Noticias
-- Scripts
-- software+libre
-- solve
-- Ubuntu
-- venezuela
+  - campaign
+  - cnti
+  - debian
+  - Noticias
+  - Scripts
+  - software+libre
+  - solve
+  - Ubuntu
+  - venezuela
+slug: mas-propuestas-para-la-campana-en-contra-de-la-gestion-del-cnti
+redirect_from: /archivos/2006/03/02/mas-propuestas-para-la-campana-en-contra-de-la-gestion-del-cnti/
 ---
 
 [David Moreno Garza](http://damog.net/) (a.k.a. Damog) se ha unido a la campaña que apoya a la [Asociación de Software Libre de Venezuela (SoLVe)](http://solve.net.ve/), la cual [rechaza](http://www.abn.info.ve/go_news5.php?articulo=39148) (al igual que nosotros) el [acuerdo entre IBM Venezuela y el Centro Nacional de Tecnologías de Información](http://www.cnti.ve/cnti_docmgr/detalle.html?categoria=2987) ([CNTI](http://www.cnti.ve/)).

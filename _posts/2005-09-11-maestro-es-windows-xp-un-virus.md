@@ -1,15 +1,13 @@
 ---
-author: milmazz
-comments: true
-date: 2005-09-11 13:59:23
-layout: post
-slug: maestro-es-windows-xp-un-virus
 title: Maestro, es Windows XP un virus?
+author: milmazz
+date: 2005-09-11 13:59:23
 categories:
-- Seguridad
+  - Seguridad
 tags:
-- Humor
-- Seguridad
+  - Humor
+  - Seguridad
+slug: maestro-es-windows-xp-un-virus
 ---
 
 Ps:

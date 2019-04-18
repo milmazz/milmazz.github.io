@@ -1,25 +1,23 @@
 ---
-redirect_from: "/archivos/2010/04/23/instalacion-basica-de-trac-y-subversion/"
-author: milmazz
-comments: true
-date: 2010-04-23 02:14:51
-layout: post
-slug: instalacion-basica-de-trac-y-subversion
 title: Instalación básica de Trac y Subversion
+author: milmazz
+date: 2010-04-23 02:14:51
 categories:
-- debian
-- GNU/Linux
-- Software
-- subversion
+  - debian
+  - GNU/Linux
+  - Software
+  - subversion
 tags:
-- apache
-- debian
-- GNU/Linux
-- postgresql
-- scm
-- Software
-- subversion
-- trac
+  - apache
+  - debian
+  - GNU/Linux
+  - postgresql
+  - scm
+  - Software
+  - subversion
+  - trac
+slug: instalacion-basica-de-trac-y-subversion
+redirect_from: /archivos/2010/04/23/instalacion-basica-de-trac-y-subversion/
 ---
 
 En este artículo se pretenderá mostrarle el proceso de instalación de un ambiente de desarrollo que le permitirá hacerle seguimiento a su _proyecto personal_, de igual manera se le indicará el modo en el cual puede comenzar a utilizar un _sistema de control de versiones_. Todas las indicaciones mostradas en este documento han sido probadas en la distribución Debian GNU/Linux 5.0 (nombre código _Lenny_).

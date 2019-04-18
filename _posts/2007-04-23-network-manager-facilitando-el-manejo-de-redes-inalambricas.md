@@ -1,19 +1,17 @@
 ---
-redirect_from: "/archivos/2007/04/23/network-manager-facilitando-el-manejo-de-redes-inalambricas/"
-author: milmazz
-comments: true
-date: 2007-04-23 23:50:08
-layout: post
-slug: network-manager-facilitando-el-manejo-de-redes-inalambricas
 title: 'Network Manager: Facilitando el manejo de redes inalámbricas'
+author: milmazz
+date: 2007-04-23 23:50:08
 categories:
-- debian
-- GNU/Linux
+  - debian
+  - GNU/Linux
 tags:
-- debian
-- GNU/Linux
-- network-manager
-- wireless
+  - debian
+  - GNU/Linux
+  - network-manager
+  - wireless
+slug: network-manager-facilitando-el-manejo-de-redes-inalambricas
+redirect_from: /archivos/2007/04/23/network-manager-facilitando-el-manejo-de-redes-inalambricas/
 ---
 
 ![NetworkManager](/images/2007-04-23-network-manager-facilitando-el-manejo-de-redes-inalambricas/network-manager.thumbnail.png) En la entrada previa, [Establecer red inalámbrica en Dell m1210](/article/2007/04/21/establecer-red-inalambrica-en-dell-m1210/), comencé a describir el proceso que seguí para lograr hacer funcionar la tarjeta _Broadcom Corporation Dell Wireless 1390 WLAN Mini-PCI Card (rev 01)_ en una portátil _Dell m1210_. El motivo de esta entrada se debe a que muchos usuarios hoy día no les interesa ni debe interesarles estar lidiando con la detección de redes inalámbricas, por eso les pasaré a comentar acerca de [NetworkManager](http://www.gnome.org/projects/NetworkManager/).

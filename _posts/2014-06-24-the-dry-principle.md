@@ -1,17 +1,13 @@
 ---
-redirect_from: "/archivos/2014/06/24/the-dry-principle/"
+title: The DRY principle
 author: milmazz
-comments: true
-share: true
-date: 2014-06-24T19:00:00-05:00
-layout: post
-slug: dont-repeat-yourself-principle
-title: 'The DRY principle'
-excerpt_separator: <!--more-->
+date: '2014-06-24T19:00:00-05:00'
 tags:
-- jquery
-- javascript
-- programming
+  - jquery
+  - javascript
+  - programming
+slug: the-dry-principle
+redirect_from: /archivos/2014/06/24/the-dry-principle/
 ---
 
 The [DRY][] (*Don't Repeat Yourself*) principle it basically consist in the

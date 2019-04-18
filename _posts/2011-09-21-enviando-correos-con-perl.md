@@ -1,20 +1,18 @@
 ---
-redirect_from: "/archivos/2011/09/21/enviando-correos-con-perl/"
-author: milmazz
-comments: true
-date: 2011-09-21 17:28:02
-layout: post
-slug: enviando-correos-con-perl
 title: Enviando correos con Perl
+author: milmazz
+date: 2011-09-21 17:28:02
 categories:
-- Perl
-- Programación
+  - Perl
+  - Programación
 tags:
-- gulmer
-- Perl
-- Programación
-- programming
-- Scripts
+  - gulmer
+  - Perl
+  - Programación
+  - programming
+  - Scripts
+slug: enviando-correos-con-perl
+redirect_from: /archivos/2011/09/21/enviando-correos-con-perl/
 ---
 
 Regularmente los administradores de sistemas requieren notificar, vía correo

@@ -1,19 +1,17 @@
 ---
-redirect_from: "/archivos/2011/12/29/apt-get-detras-de-proxy-con-autenticacion-ntlm/"
-author: milmazz
-comments: true
-date: 2011-12-29 17:16:59
-layout: post
-slug: apt-get-detras-de-proxy-con-autenticacion-ntlm
 title: apt-get detrás de proxy con autenticación NTLM
+author: milmazz
+date: 2011-12-29 17:16:59
 categories:
-- debian
+  - debian
 tags:
-- apt-get
-- cntlm
-- debian
-- linux
-- proxy
+  - apt-get
+  - cntlm
+  - debian
+  - linux
+  - proxy
+slug: apt-get-detras-de-proxy-con-autenticacion-ntlm
+redirect_from: /archivos/2011/12/29/apt-get-detras-de-proxy-con-autenticacion-ntlm/
 ---
 
 Por motivos que no vienen al caso discutir en este artículo tuve que instalar

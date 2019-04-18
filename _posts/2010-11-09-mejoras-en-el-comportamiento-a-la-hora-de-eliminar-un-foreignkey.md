@@ -1,16 +1,14 @@
 ---
-redirect_from: "/archivos/2010/11/09/mejoras-en-el-comportamiento-a-la-hora-de-eliminar-un-foreignkey/"
-author: milmazz
-comments: true
-date: 2010-11-09 19:51:35
-layout: post
-slug: mejoras-en-el-comportamiento-a-la-hora-de-eliminar-un-foreignkey
 title: Mejoras en el comportamiento a la hora de eliminar un ForeignKey
+author: milmazz
+date: 2010-11-09 19:51:35
 categories:
-- django
+  - django
 tags:
-- django
-- Python
+  - django
+  - Python
+slug: mejoras-en-el-comportamiento-a-la-hora-de-eliminar-un-foreignkey
+redirect_from: /archivos/2010/11/09/mejoras-en-el-comportamiento-a-la-hora-de-eliminar-un-foreignkey/
 ---
 
 ![Logo de Django ](/images/2010-11-09-mejoras-en-el-comportamiento-a-la-hora-de-eliminar-un-foreignkey/djangove.png) Cuando un objeto referenciado por una clave foránea (`ForeignKey`) es eliminado, [Django][] por omisión emula el comportamiento de la sentencia SQL `ON DELETE CASCADE` y también se elimina el objeto que contiene el _ForeignKey_.

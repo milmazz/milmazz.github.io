@@ -1,16 +1,14 @@
 ---
-redirect_from: "/archivos/2005/11/01/planeta-ubuntu-es/"
-author: milmazz
-comments: true
-date: 2005-11-01 17:03:12
-layout: post
-slug: planeta-ubuntu-es
 title: Planeta ubuntu-es
+author: milmazz
+date: 2005-11-01 17:03:12
 categories:
-- Ubuntu
+  - Ubuntu
 tags:
-- Noticias
-- Ubuntu
+  - Noticias
+  - Ubuntu
+slug: planeta-ubuntu-es
+redirect_from: /archivos/2005/11/01/planeta-ubuntu-es/
 ---
 
 El día de hoy me siento muy contento por poder anunciarles un proyecto en el que

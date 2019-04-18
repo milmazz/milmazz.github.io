@@ -1,18 +1,16 @@
 ---
-redirect_from: "/archivos/2006/06/14/decision-del-consejo-de-facultad-de-la-universidad-de-los-andes/"
-author: milmazz
-comments: true
-date: 2006-06-14 10:50:34
-layout: post
-slug: decision-del-consejo-de-facultad-de-la-universidad-de-los-andes
 title: Decisión del Consejo de Facultad de la Universidad de Los Andes
+author: milmazz
+date: 2006-06-14 10:50:34
 categories:
-- Local
-- Universidad
+  - Local
+  - Universidad
 tags:
-- Local
-- ula
-- Universidad
+  - Local
+  - ula
+  - Universidad
+slug: decision-del-consejo-de-facultad-de-la-universidad-de-los-andes
+redirect_from: /archivos/2006/06/14/decision-del-consejo-de-facultad-de-la-universidad-de-los-andes/
 ---
 
 Según informa la profesora _Flor Narciso_ en un comunicado, el **Consejo de Facultad de la Universidad de Los Andes** en una sesión ordinaria llevada a cabo el día de ayer, 13 de Junio de 2006, se aprobó la _reprogramación_ del semestre.

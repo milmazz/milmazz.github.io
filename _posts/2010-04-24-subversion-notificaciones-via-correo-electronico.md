@@ -1,24 +1,22 @@
 ---
-redirect_from: "/archivos/2010/04/24/subversion-notificaciones-via-correo-electronico/"
-author: milmazz
-comments: true
-date: 2010-04-24 07:00:17
-layout: post
-slug: subversion-notificaciones-via-correo-electronico
 title: 'Subversion: Notificaciones vía correo electrónico'
+author: milmazz
+date: 2010-04-24 07:00:17
 categories:
-- debian
-- Perl
-- Programación
-- Software
-- subversion
+  - debian
+  - Perl
+  - Programación
+  - Software
+  - subversion
 tags:
-- debian
-- Perl
-- Programación
-- Software
-- subversion
-- trac
+  - debian
+  - Perl
+  - Programación
+  - Software
+  - subversion
+  - trac
+slug: subversion-notificaciones-via-correo-electronico
+redirect_from: /archivos/2010/04/24/subversion-notificaciones-via-correo-electronico/
 ---
 
 Al darse un proceso de desarrollo colectivo es recomendable mantener una o varias listas de notificación acerca de los cambios hechos (_commits_) en el repositorio de código fuente. Para este tipo de actividades es muy útil emplear [`SVN::Notify`](http://search.cpan.org/dist/SVN-Notify/).

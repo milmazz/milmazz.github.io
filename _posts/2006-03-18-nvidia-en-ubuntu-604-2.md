@@ -1,19 +1,17 @@
 ---
-redirect_from: "/archivos/2006/03/18/nvidia-en-ubuntu-604-2/"
-author: chantanito
-comments: true
-date: 2006-03-18 11:10:17
-layout: post
-slug: nvidia-en-ubuntu-604-2
 title: nVIDIA en Ubuntu 6.04
+author: chantanito
+date: 2006-03-18 11:10:17
 categories:
-- GNU/Linux
-- Ubuntu
+  - GNU/Linux
+  - Ubuntu
 tags:
-- dapper
-- GNU/Linux
-- nvidia
-- Ubuntu
+  - dapper
+  - GNU/Linux
+  - nvidia
+  - Ubuntu
+slug: nvidia-en-ubuntu-604-2
+redirect_from: /archivos/2006/03/18/nvidia-en-ubuntu-604-2/
 ---
 
 Hace unos días actualicé mi [Ubuntu 5.10](http://www.ubuntu.com/news/release510) a una de sus últimas  versiones de _testing_: [Flight 5](http://www.ubuntu.com/testing/flight5). Debo admitir que quedé anonadado por lo cambios en la distribución, ya que con todas las mejoras que tiene parece que hubiera pasado, no sólo 6 meses sino años. El [Dapper Drake](http://cdimage.ubuntu.com/releases/dapper/flight-5/) (Flight 5, Ubuntu 6.04) es mucho mejor que sus antecesores. Pero la razón por la cual me  decidí a escribir éste artículo es otra: **la instalación de los drivers de mi tarjeta nVIDIA** y su puesta en funcionamiento a punto.

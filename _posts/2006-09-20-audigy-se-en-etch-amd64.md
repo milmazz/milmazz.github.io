@@ -1,17 +1,15 @@
 ---
-redirect_from: "/archivos/2006/09/20/audigy-se-en-etch-amd64/"
-author: chantanito
-comments: true
-date: 2006-09-20 02:29:28
-layout: post
-slug: audigy-se-en-etch-amd64
 title: Audigy SE en Etch AMD64
+author: chantanito
+date: 2006-09-20 02:29:28
 categories:
-- debian
-- GNU/Linux
+  - debian
+  - GNU/Linux
 tags:
-- debian
-- GNU/Linux
+  - debian
+  - GNU/Linux
+slug: audigy-se-en-etch-amd64
+redirect_from: /archivos/2006/09/20/audigy-se-en-etch-amd64/
 ---
 
 Hace días me hice con una tarjeta de sonido [Audigy SE](http://creative.com/products/product.asp?category=1&subcategory=205&product=14257) de la marca [Creative](http://www.creative.com/) y la verdad tuve que dar bastante golpes para dar con la configuración correcta. ¿Cómo lo logré? Muy fácil: Googleando :).

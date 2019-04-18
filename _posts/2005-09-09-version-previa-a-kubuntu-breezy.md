@@ -1,16 +1,14 @@
 ---
-author: milmazz
-comments: true
-date: 2005-09-09 01:01:19
-layout: post
-slug: version-previa-a-kubuntu-breezy
 title: Versión Previa a Kubuntu Breezy
+author: milmazz
+date: 2005-09-09 01:01:19
 categories:
-- GNU/Linux
+  - GNU/Linux
 tags:
-- Anuncios
-- GNU/Linux
-- Kubuntu
+  - Anuncios
+  - GNU/Linux
+  - Kubuntu
+slug: version-previa-a-kubuntu-breezy
 ---
 
 Una vez hecho el anuncio de la _versión previa_ a Ubuntu 5.10 (_Breezy Badger_), era de esperarse otro anuncio por parte del proyecto relacionado [Kubuntu](http://www.kubuntu.org/).

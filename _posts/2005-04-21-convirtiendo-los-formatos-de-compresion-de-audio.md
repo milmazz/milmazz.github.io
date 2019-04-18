@@ -1,13 +1,11 @@
 ---
-redirect_from: "/archivos/2005/04/21/convirtiendo-los-formatos-de-compresion-de-audio/"
-author: milmazz
-comments: true
-date: 2005-04-21 02:12:03
-layout: post
-slug: convirtiendo-los-formatos-de-compresion-de-audio
 title: Convirtiendo los formatos de compresión de audio
+author: milmazz
+date: 2005-04-21 02:12:03
 tags:
-- Scripts
+  - Scripts
+slug: convirtiendo-los-formatos-de-compresion-de-audio
+redirect_from: /archivos/2005/04/21/convirtiendo-los-formatos-de-compresion-de-audio/
 ---
 
 Siguiendo con la temática que propuse en el artículo [Convirtiendo formatos de

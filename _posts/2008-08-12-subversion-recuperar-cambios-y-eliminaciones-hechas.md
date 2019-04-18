@@ -1,17 +1,15 @@
 ---
-redirect_from: "/archivos/2008/08/12/subversion-recuperar-cambios-y-eliminaciones-hechas/"
-author: milmazz
-comments: true
-date: 2008-08-12 01:05:42
-layout: post
-slug: subversion-recuperar-cambios-y-eliminaciones-hechas
 title: 'subversion: Recuperar cambios y eliminaciones hechas'
+author: milmazz
+date: 2008-08-12 01:05:42
 categories:
-- subversion
+  - subversion
 tags:
-- Programación
-- subversion
-- tips
+  - Programación
+  - subversion
+  - tips
+slug: subversion-recuperar-cambios-y-eliminaciones-hechas
+redirect_from: /archivos/2008/08/12/subversion-recuperar-cambios-y-eliminaciones-hechas/
 ---
 
 Muchos compañeros de trabajo y amigos en general que recién comienzan con el manejo de sistemas de control de versiones centralizados, en particular _subversion_, regularmente tienen inquietudes en cuanto al proceso de recuperación de cambios una vez que han sido enviados al repositorio, así como también la recuperación de ficheros y directorios que fueron eliminados en el pasado. Trataré de explicar algunos casos en base a ejemplos para que se tenga una idea más clara del problema y su respectiva solución.

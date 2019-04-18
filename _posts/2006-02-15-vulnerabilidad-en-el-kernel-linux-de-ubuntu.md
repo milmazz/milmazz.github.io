@@ -1,19 +1,17 @@
 ---
-redirect_from: "/archivos/2006/02/15/vulnerabilidad-en-el-kernel-linux-de-ubuntu/"
-author: milmazz
-comments: true
-date: 2006-02-15 09:45:46
-layout: post
-slug: vulnerabilidad-en-el-kernel-linux-de-ubuntu
 title: Vulnerabilidad en el kernel Linux de ubuntu
+author: milmazz
+date: 2006-02-15 09:45:46
 categories:
-- Seguridad
-- Ubuntu
+  - Seguridad
+  - Ubuntu
 tags:
-- kernel
-- linux
-- Seguridad
-- Ubuntu
+  - kernel
+  - linux
+  - Seguridad
+  - Ubuntu
+slug: vulnerabilidad-en-el-kernel-linux-de-ubuntu
+redirect_from: /archivos/2006/02/15/vulnerabilidad-en-el-kernel-linux-de-ubuntu/
 ---
 
 Este problema de seguridad únicamente afecta a la distribución Ubuntu 5.10, [Breezy Badger](http://www.ubuntu.com/news/release510).

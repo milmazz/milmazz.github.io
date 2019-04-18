@@ -1,16 +1,14 @@
 ---
-redirect_from: "/archivos/2006/01/27/integridad-del-cd-de-ubuntu/"
-author: milmazz
-comments: true
-date: 2006-01-27 20:38:47
-layout: post
-slug: integridad-del-cd-de-ubuntu
 title: Integridad del CD de Ubuntu
+author: milmazz
+date: 2006-01-27 20:38:47
 categories:
-- Ubuntu
+  - Ubuntu
 tags:
-- linux
-- Ubuntu
+  - linux
+  - Ubuntu
+slug: integridad-del-cd-de-ubuntu
+redirect_from: /archivos/2006/01/27/integridad-del-cd-de-ubuntu/
 ---
 
 Recientemente un amigo (de ahora en adelante lo llamaré _pepito_)  al que le regalé un par de [CD's de Ubuntu](https://shipit.ubuntu.com/), me preguntó después de unos días lo siguiente: Milton, ¿cómo puedo verificar la integridad del CD de instalación de Ubuntu?.

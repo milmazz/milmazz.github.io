@@ -1,19 +1,17 @@
 ---
-redirect_from: "/archivos/2006/06/04/stardict-el-diccionario-que-buscaba/"
-author: milmazz
-comments: true
-date: 2006-06-04 04:25:41
-layout: post
-slug: stardict-el-diccionario-que-buscaba
 title: 'StarDict: El diccionario que buscaba'
+author: milmazz
+date: 2006-06-04 04:25:41
 categories:
-- Software
+  - Software
 tags:
-- debian
-- dictionary
-- Software
-- stardict
-- Ubuntu
+  - debian
+  - dictionary
+  - Software
+  - stardict
+  - Ubuntu
+slug: stardict-el-diccionario-que-buscaba
+redirect_from: /archivos/2006/06/04/stardict-el-diccionario-que-buscaba/
 ---
 
 Leyendo el [ejemplar #14](http://www.tuxmagazine.com/node/1000198) de la revista [Tux Magazine](http://www.tuxmagazine.com/) me encuentro con un interesante artículo, _Learning Foreign Languages with jVLT and StarDict_, la segunda aplicación descrita en dicho artículo, [StartDict](http://stardict.sourceforge.net), llamó mi atención, así que a continuación se dará una breve revisión de la aplicación en cuestión.

@@ -1,14 +1,11 @@
 ---
-redirect_from: "/archivos/2014/02/17/mongodb-university-m101p/"
-author: milmazz
-comments: true
-share: true
-date: 2014-02-17 08:00:00
-layout: post
-slug: mongodb-university-m101p
 title: 'MongoDB University: M101P'
+author: milmazz
+date: 2014-02-17 08:00:00
 tags:
-- mongodb
+  - mongodb
+slug: mongodb-university-m101p
+redirect_from: /archivos/2014/02/17/mongodb-university-m101p/
 ---
 
 A finales del año pasado finalice satisfactoriamente el curso en línea *M101P:

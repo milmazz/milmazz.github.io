@@ -1,19 +1,17 @@
 ---
-redirect_from: "/archivos/2006/05/24/maldito-spam-nos-invade/"
-author: milmazz
-comments: true
-date: 2006-05-24 04:02:32
-layout: post
-slug: 'maldito-spam-nos-invade'
 title: ¡Maldito Spam!, nos invade
+author: milmazz
+date: 2006-05-24 04:02:32
 categories:
-- WordPress
+  - WordPress
 tags:
-- akismet
-- bad-behavior
-- spam
-- spam-karma
-- WordPress
+  - akismet
+  - bad-behavior
+  - spam
+  - spam-karma
+  - WordPress
+slug: maldito-spam-nos-invade
+redirect_from: /archivos/2006/05/24/maldito-spam-nos-invade/
 ---
 
 Según las [estadísticas](http://akismet.com/stats/) del _plugin_ [Akismet](http://akismet.com/) para el día de hoy, solamente **7.961** de **523.708** son comentarios, _trackbacks_ o _pingbacks_ válidos, mientras que el resto es [Spam](http://es.wikipedia.org/wiki/Spam), eso quiere decir que aproximadamente el **1.5%** es aceptable, el resto es _escoria_.

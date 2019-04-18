@@ -1,18 +1,16 @@
 ---
-redirect_from: "/archivos/2006/04/02/ubuntu-dapper-drake-flight-6/"
-author: milmazz
-comments: true
-date: 2006-04-02 17:47:34
-layout: post
-slug: ubuntu-dapper-drake-flight-6
 title: Ubuntu Dapper Drake Flight 6
+author: milmazz
+date: 2006-04-02 17:47:34
 categories:
-- Ubuntu
+  - Ubuntu
 tags:
-- dapper
-- drake
-- testing
-- Ubuntu
+  - dapper
+  - drake
+  - testing
+  - Ubuntu
+slug: ubuntu-dapper-drake-flight-6
+redirect_from: /archivos/2006/04/02/ubuntu-dapper-drake-flight-6/
 ---
 
 _Flight 6_, es la última versión _alpha_ disponible de [Ubuntu](Ubuntu - Linux for Human Beings) Dapper Drake, esta versión ha sido probada razonablemente, pero recuerde que a pesar de ello todavía es una versión **alpha**, así que no se recomienda su uso en medios en producción. Esta versión puede descargarla desde:

@@ -1,20 +1,18 @@
 ---
-redirect_from: "/archivos/2006/05/29/feedjack-ya-esta-disponible/"
-author: milmazz
-comments: true
-date: 2006-05-29 03:59:43
-layout: post
-slug: feedjack-ya-esta-disponible
 title: 'FeedJack: Ya está disponible'
+author: milmazz
+date: 2006-05-29 03:59:43
 categories:
-- Python
-- Software
+  - Python
+  - Software
 tags:
-- django
-- feedjack
-- planet
-- Python
-- Software
+  - django
+  - feedjack
+  - planet
+  - Python
+  - Software
+slug: feedjack-ya-esta-disponible
+redirect_from: /archivos/2006/05/29/feedjack-ya-esta-disponible/
 ---
 
 Ya había comentado acerca de ésta aplicación en la entrada [FeedJack: Un Planet con esteroides](/article/2006/02/23/feedjack-un-planet-con-esteroides/), resulta que hace pocos días [Gustavo Picón](http://tabo.aurealsys.com/) [anunció la salida](http://tabo.aurealsys.com/archives/2006/05/27/release-feedjack-a-djangopython-powered-feed-aggregator/) de la versión [0.9.6](http://static.tabo.aureal.com.pe/code/Feedjack-0.9.6.tar.gz) bajo licencia **BSD**. Algunas de las características más resaltantes de esta aplicación son:

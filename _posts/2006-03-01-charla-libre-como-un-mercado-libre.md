@@ -1,18 +1,16 @@
 ---
-redirect_from: "/archivos/2006/03/01/charla-libre-como-un-mercado-libre/"
-author: milmazz
-comments: true
-date: 2006-03-01 22:41:07
-layout: post
-slug: charla-libre-como-un-mercado-libre
 title: 'Charla: Libre como un Mercado Libre'
+author: milmazz
+date: 2006-03-01 22:41:07
 categories:
-- Local
+  - Local
 tags:
-- Charlas
-- conocimiento+libre
-- Local
-- software+libre
+  - Charlas
+  - conocimiento+libre
+  - Local
+  - software+libre
+slug: charla-libre-como-un-mercado-libre
+redirect_from: /archivos/2006/03/01/charla-libre-como-un-mercado-libre/
 ---
 
 El [Consejo de Computación Académica](http://www.cca.ula.ve/), la [Corporación Parque Tecnológico de Mérida](http://www.cptm.ula.ve/) y el [Centro Nacional de Cálculo Científico](http://www.cecalc.ula.ve/) de la [Universidad de Los Andes](http://ula.ve/), invitan a la charla Libre como un Mercado Libre, cuyo ponente será el Profesor [Jacinto Dávila](http://webdelprofesor.ula.ve/ingenieria/jacinto/).

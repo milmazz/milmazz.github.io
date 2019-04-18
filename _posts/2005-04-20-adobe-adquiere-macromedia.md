@@ -1,15 +1,13 @@
 ---
-redirect_from: "/archivos/2005/04/20/adobe-adquiere-macromedia/"
-author: milmazz
-comments: true
-date: 2005-04-20 23:41:47
-layout: post
-slug: adobe-adquiere-macromedia
 title: Adobe adquiere Macromedia
+author: milmazz
+date: 2005-04-20 23:41:47
 categories:
-- Software
+  - Software
 tags:
-- Software
+  - Software
+slug: adobe-adquiere-macromedia
+redirect_from: /archivos/2005/04/20/adobe-adquiere-macromedia/
 ---
 
 [Adobe Systems Incorporated](http://www.adobe.com/) ha anunciado a través de un

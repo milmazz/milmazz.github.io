@@ -1,19 +1,17 @@
 ---
-redirect_from: "/archivos/2005/07/10/organizando-nuestros-proyectos-web/"
-author: milmazz
-comments: true
-date: 2005-07-10 23:53:01
-layout: post
-slug: organizando-nuestros-proyectos-web
 title: Organizando nuestros proyectos web
+author: milmazz
+date: 2005-07-10 23:53:01
 categories:
-- GNU/Linux
-- Software
-- Ubuntu
+  - GNU/Linux
+  - Software
+  - Ubuntu
 tags:
-- GNU/Linux
-- Software
-- Ubuntu
+  - GNU/Linux
+  - Software
+  - Ubuntu
+slug: organizando-nuestros-proyectos-web
+redirect_from: /archivos/2005/07/10/organizando-nuestros-proyectos-web/
 ---
 
 Antes de plantearme el rediseño de este sitio, pensé en organizar ciertas cosas para no complicarme la vida. En primera instancia procedi a instalar el servidor [Apache](http://apache.org/), el soporte del lenguaje [PHP](http://www.php.net/), el servidor de bases de datos [MySQL](http://www.mysql.com/) y finalmente el [phpMyAdmin](http://www.phpmyadmin.net/).

@@ -1,23 +1,21 @@
 ---
-redirect_from: "/archivos/2005/12/06/clientes-bittorrent/"
-author: milmazz
-comments: true
-date: 2005-12-06 17:41:36
-layout: post
-slug: clientes-bittorrent
 title: Clientes BitTorrent
+author: milmazz
+date: 2005-12-06 17:41:36
 categories:
-- Python
-- Software
-- Ubuntu
+  - Python
+  - Software
+  - Ubuntu
 tags:
-- azureus
-- bittorrent
-- freeloader
-- Python
-- rufus
-- Software
-- Ubuntu
+  - azureus
+  - bittorrent
+  - freeloader
+  - Python
+  - rufus
+  - Software
+  - Ubuntu
+slug: clientes-bittorrent
+redirect_from: /archivos/2005/12/06/clientes-bittorrent/
 ---
 
 Desde _mi punto de vista_ [Azureus](http://azureus.sourceforge.net/) es un cliente [BitTorrent](http://www.bittorrent.com/) que cae en los excesos, aparte de ello es demasiado lento y por si fuera poco consume una gran cantidad de recursos del sistema.

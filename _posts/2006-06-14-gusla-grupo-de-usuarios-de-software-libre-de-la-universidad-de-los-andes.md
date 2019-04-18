@@ -1,20 +1,18 @@
 ---
-redirect_from: "/archivos/2006/06/14/gusla-grupo-de-usuarios-de-software-libre-de-la-universidad-de-los-andes/"
-author: milmazz
-comments: true
-date: 2006-06-14 13:38:25
-layout: post
-slug: gusla-grupo-de-usuarios-de-software-libre-de-la-universidad-de-los-andes
 title: 'gUsLA: Grupo de Usuarios de Software Libre de la Universidad de Los Andes'
+author: milmazz
+date: 2006-06-14 13:38:25
 categories:
-- Local
-- Universidad
+  - Local
+  - Universidad
 tags:
-- Local
-- lug
-- software+libre
-- ula
-- Universidad
+  - Local
+  - lug
+  - software+libre
+  - ula
+  - Universidad
+slug: gusla-grupo-de-usuarios-de-software-libre-de-la-universidad-de-los-andes
+redirect_from: /archivos/2006/06/14/gusla-grupo-de-usuarios-de-software-libre-de-la-universidad-de-los-andes/
 ---
 
 Un grupo de compañeros de estudio y mi persona por fin hemos iniciado una serie de actividades para formar el _Grupo de Usuarios de Software Libre de la Universidad de Los Andes_.

@@ -1,18 +1,16 @@
 ---
-redirect_from: "/archivos/2006/06/13/el-algoritmo-de-dijkstra-en-perl/"
-author: milmazz
-comments: true
-date: 2006-06-13 17:10:22
-layout: post
-slug: el-algoritmo-de-dijkstra-en-perl
 title: El algoritmo de Dijkstra en Perl
+author: milmazz
+date: 2006-06-13 17:10:22
 categories:
-- Perl
+  - Perl
 tags:
-- dijkstra
-- graph
-- graphviz
-- Perl
+  - dijkstra
+  - graph
+  - graphviz
+  - Perl
+slug: el-algoritmo-de-dijkstra-en-perl
+redirect_from: /archivos/2006/06/13/el-algoritmo-de-dijkstra-en-perl/
 ---
 
 Hace ya algunos días nos fué asignado en la cátedra de _Redes de Computadoras_ encontrar el camino más corto entre dos vértices de un grafo dirigido que **no** tuviese costos negativos en sus arcos, para ello debíamos utilizar el [algoritmo de Dijkstra](http://en.wikipedia.org/wiki/Dijkstra%27s_algorithm). Además de ello, debía presentarse el grafo y la ruta más corta en una imagen, para visualizarlo de mejor manera.

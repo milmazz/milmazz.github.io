@@ -1,17 +1,15 @@
 ---
-author: milmazz
-comments: true
-date: 2005-09-17 17:31:28
-layout: post
-slug: registro-de-la-segunda-charla-en-el-canal-ubuntu-es
 title: 'Registro de la segunda charla en el canal #ubuntu-es'
+author: milmazz
+date: 2005-09-17 17:31:28
 categories:
-- GNU/Linux
-- Ubuntu
+  - GNU/Linux
+  - Ubuntu
 tags:
-- Charlas
-- GNU/Linux
-- Ubuntu
+  - Charlas
+  - GNU/Linux
+  - Ubuntu
+slug: registro-de-la-segunda-charla-en-el-canal-ubuntu-es
 ---
 
 Ya se encuentra disponible el registro de la segunda charla dada en el canal

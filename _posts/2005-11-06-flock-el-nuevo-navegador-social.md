@@ -1,17 +1,15 @@
 ---
-redirect_from: "/archivos/2005/11/06/flock-el-nuevo-navegador-social/"
-author: milmazz
-comments: true
-date: 2005-11-06 14:58:36
-layout: post
-slug: flock-el-nuevo-navegador-social
 title: Flock, el nuevo navegador social
+author: milmazz
+date: 2005-11-06 14:58:36
 categories:
-- Software
-- Ubuntu
+  - Software
+  - Ubuntu
 tags:
-- Software
-- Ubuntu
+  - Software
+  - Ubuntu
+slug: flock-el-nuevo-navegador-social
+redirect_from: /archivos/2005/11/06/flock-el-nuevo-navegador-social/
 ---
 
 [Flock](http://www.flock.com/), es un nuevo navegador que toma sus bases en

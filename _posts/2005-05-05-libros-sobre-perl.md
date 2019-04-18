@@ -1,14 +1,12 @@
 ---
-redirect_from: "/archivos/2005/05/05/libros-sobre-perl/"
-author: milmazz
-comments: true
-date: 2005-05-05 19:45:45
-layout: post
-slug: libros-sobre-perl
 title: Libros sobre Perl
+author: milmazz
+date: 2005-05-05 19:45:45
 tags:
-- Literatura
-- Recursos
+  - Literatura
+  - Recursos
+slug: libros-sobre-perl
+redirect_from: /archivos/2005/05/05/libros-sobre-perl/
 ---
 
 Victor Reyes, miembro de la lista de correos para [consultas

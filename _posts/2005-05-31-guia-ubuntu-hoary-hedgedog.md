@@ -1,15 +1,13 @@
 ---
-redirect_from: "/archivos/2005/05/31/guia-ubuntu-hoary-hedgedog/"
-author: milmazz
-comments: true
-date: 2005-05-31 08:30:25
-layout: post
-slug: guia-ubuntu-hoary-hedgedog
 title: Guía Ubuntu Hoary Hedgedog
+author: milmazz
+date: 2005-05-31 08:30:25
 categories:
-- Ubuntu
+  - Ubuntu
 tags:
-- Ubuntu
+  - Ubuntu
+slug: guia-ubuntu-hoary-hedgedog
+redirect_from: /archivos/2005/05/31/guia-ubuntu-hoary-hedgedog/
 ---
 
 [Sergio Blanco Cuaresma](http://marblestation.com/autobiografia/) (actual

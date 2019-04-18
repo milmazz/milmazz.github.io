@@ -1,20 +1,18 @@
 ---
-redirect_from: "/archivos/2006/03/01/campana-cnti-vs-software-libre/"
-author: milmazz
-comments: true
-date: 2006-03-01 15:24:29
-layout: post
-slug: campana-cnti-vs-software-libre
 title: Campaña CNTI vs. Software Libre
+author: milmazz
+date: 2006-03-01 15:24:29
 categories:
-- GIMP
+  - GIMP
 tags:
-- campaign
-- cnti
-- GIMP
-- Recursos
-- Scripts
-- software+libre
+  - campaign
+  - cnti
+  - GIMP
+  - Recursos
+  - Scripts
+  - software+libre
+slug: campana-cnti-vs-software-libre
+redirect_from: /archivos/2006/03/01/campana-cnti-vs-software-libre/
 ---
 
 [Javier E. Pérez P.](http://dvst.blogspot.com/) planteaba en el tema HOY MARTES debemos colocar los banners y escritos sobre el caso IBM y CNTI!!!! de la lista de correos de [Softwarelibre](http://solve.net.ve/cgi-bin/mailman/listinfo/softwarelibre) (_Lista General de Discusión Sobre Software Libre_) lo siguiente.

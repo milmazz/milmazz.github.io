@@ -1,20 +1,18 @@
 ---
-redirect_from: "/archivos/2006/02/28/femfox-una-campana-no-oficial-con-mucho-glamour/"
-author: milmazz
-comments: true
-date: 2006-02-28 18:11:13
-layout: post
-slug: femfox-una-campana-no-oficial-con-mucho-glamour
 title: 'Femfox: una campaña no oficial con mucho glamour'
+author: milmazz
+date: 2006-02-28 18:11:13
 tags:
-- browser
-- campaign
-- femfox
-- firefox
-- glamour
-- Internet
-- marketing
-- Ocio
+  - browser
+  - campaign
+  - femfox
+  - firefox
+  - glamour
+  - Internet
+  - marketing
+  - Ocio
+slug: femfox-una-campana-no-oficial-con-mucho-glamour
+redirect_from: /archivos/2006/02/28/femfox-una-campana-no-oficial-con-mucho-glamour/
 ---
 
 ![100 Million Firefox Downloads Celebration](http://blog.milmazz.com.ve/wp-content/uploads/2006/02/femfox1.png) Un pequeño grupo de  3 personas, una "modelo", un "fotógrafo" y un "programador", nos deleitan con una campaña no oficial que promueve el uso del premiado y conocido navegador [Firefox](http://www.mozilla.com/firefox/).

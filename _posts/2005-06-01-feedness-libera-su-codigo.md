@@ -1,15 +1,13 @@
 ---
-redirect_from: "/archivos/2005/06/01/feedness-libera-su-codigo/"
-author: milmazz
-comments: true
-date: 2005-06-01 09:00:29
-layout: post
-slug: feedness-libera-su-codigo
 title: Feedness libera su código
+author: milmazz
+date: 2005-06-01 09:00:29
 categories:
-- Software
+  - Software
 tags:
-- Software
+  - Software
+slug: feedness-libera-su-codigo
+redirect_from: /archivos/2005/06/01/feedness-libera-su-codigo/
 ---
 
 [Feedness](http://www.feedness.com/) es una aplicación que te permite gestionar tus canales o _feeds_, por lo cual podrás leer y gestionar los contenidos de las páginas que ofrecen sus artículos en XML. Esto implica que puedes manejar todos tus canales favoritos desde una misma aplicación, sin necesidad de visitar dichos sitios, lo cual optimiza el tiempo de lectura de tus noticias a diario manteniendote constante actualizado a través del notificador disponible.

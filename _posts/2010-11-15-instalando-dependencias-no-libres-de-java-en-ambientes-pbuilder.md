@@ -1,19 +1,17 @@
 ---
-redirect_from: "/archivos/2010/11/15/instalando-dependencias-no-libres-de-java-en-ambientes-pbuilder/"
-author: milmazz
-comments: true
-date: 2010-11-15 17:14:37
-layout: post
-slug: instalando-dependencias-no-libres-de-java-en-ambientes-pbuilder
 title: Instalando dependencias no-libres de JAVA en ambientes pbuilder
+author: milmazz
+date: 2010-11-15 17:14:37
 categories:
-- debian
-- Ubuntu
+  - debian
+  - Ubuntu
 tags:
-- debconf
-- debian
-- java
-- pbuilder
+  - debconf
+  - debian
+  - java
+  - pbuilder
+slug: instalando-dependencias-no-libres-de-java-en-ambientes-pbuilder
+redirect_from: /archivos/2010/11/15/instalando-dependencias-no-libres-de-java-en-ambientes-pbuilder/
 ---
 
 El día de hoy asumí la construcción de unos paquetes internos compatibles con

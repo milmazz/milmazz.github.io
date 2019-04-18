@@ -1,26 +1,24 @@
 ---
-redirect_from: "/archivos/2006/04/30/creando-listas-de-reproduccion-para-xmms-y-mplayer/"
-author: milmazz
-comments: true
-date: 2006-04-30 15:08:10
-layout: post
-slug: creando-listas-de-reproduccion-para-xmms-y-mplayer
 title: Creando listas de reproducción para XMMS y MPlayer
+author: milmazz
+date: 2006-04-30 15:08:10
 categories:
-- debian
-- GNU/Linux
-- Ubuntu
+  - debian
+  - GNU/Linux
+  - Ubuntu
 tags:
-- debian
-- find
-- GNU/Linux
-- mplayer
-- Scripts
-- Software
-- tips
-- trucos
-- Ubuntu
-- xmms
+  - debian
+  - find
+  - GNU/Linux
+  - mplayer
+  - Scripts
+  - Software
+  - tips
+  - trucos
+  - Ubuntu
+  - xmms
+slug: creando-listas-de-reproduccion-para-xmms-y-mplayer
+redirect_from: /archivos/2006/04/30/creando-listas-de-reproduccion-para-xmms-y-mplayer/
 ---
 
 Normalmente acostumbro a respaldar toda la información que pueda en medios de

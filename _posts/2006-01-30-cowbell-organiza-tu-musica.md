@@ -1,20 +1,18 @@
 ---
-redirect_from: "/archivos/2006/01/30/cowbell-organiza-tu-musica/"
-author: milmazz
-comments: true
-date: 2006-01-30 08:00:40
-layout: post
-slug: cowbell-organiza-tu-musica
 title: 'Cowbell: Organiza tu música'
+author: milmazz
+date: 2006-01-30 08:00:40
 categories:
-- Software
-- Ubuntu
+  - Software
+  - Ubuntu
 tags:
-- cowbell
-- linux
-- music
-- Software
-- Ubuntu
+  - cowbell
+  - linux
+  - music
+  - Software
+  - Ubuntu
+slug: cowbell-organiza-tu-musica
+redirect_from: /archivos/2006/01/30/cowbell-organiza-tu-musica/
 ---
 
 [Cowbell](http://more-cowbell.org/), es una aplicación que te permite organizar tus compilaciones musicales de una manera fácil y divertida, ya no tienes que aburrirte por horas al intentar organizar tus colección musical manualmente.

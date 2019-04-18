@@ -1,17 +1,15 @@
 ---
-redirect_from: "/archivos/2005/11/21/deskbar-applet-realiza-tus-busquedas-desde-el-escritorio/"
-author: milmazz
-comments: true
-date: 2005-11-21 02:33:19
-layout: post
-slug: deskbar-applet-realiza-tus-busquedas-desde-el-escritorio
 title: deskbar-applet, realiza tus búsquedas desde el escritorio
+author: milmazz
+date: 2005-11-21 02:33:19
 categories:
-- Software
-- Ubuntu
+  - Software
+  - Ubuntu
 tags:
-- Software
-- Ubuntu
+  - Software
+  - Ubuntu
+slug: deskbar-applet-realiza-tus-busquedas-desde-el-escritorio
+redirect_from: /archivos/2005/11/21/deskbar-applet-realiza-tus-busquedas-desde-el-escritorio/
 ---
 
 ![deskbar-applet en funcionamiento](http://blog.milmazz.com.ve/wp-content/deskbar-applet.png) `deskbar-applet` es una de esas aplicaciones que parecen no tener mucho sentido en un principio, pero desde el mismo momento en que comienzas a utilizarla se te facilitan muchas actividades cotidianas.

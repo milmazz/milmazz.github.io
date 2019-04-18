@@ -1,19 +1,17 @@
 ---
-redirect_from: "/archivos/2006/11/29/charla-desarrollo-web-en-python-usando-el-framework-django/"
-author: milmazz
-comments: true
-date: 2006-11-29 14:38:59
-layout: post
-slug: charla-desarrollo-web-en-python-usando-el-framework-django
 title: 'Charla: Desarrollo web en Python usando el framework Django'
+author: milmazz
+date: 2006-11-29 14:38:59
 categories:
-- Universidad
+  - Universidad
 tags:
-- Charlas
-- django
-- framework
-- Python
-- Universidad
+  - Charlas
+  - django
+  - framework
+  - Python
+  - Universidad
+slug: charla-desarrollo-web-en-python-usando-el-framework-django
+redirect_from: /archivos/2006/11/29/charla-desarrollo-web-en-python-usando-el-framework-django/
 ---
 
 El profesor [Jacinto Dávila](http://webdelprofesor.ula.ve/ingenieria/jacinto/), en el marco de actividades del **Jueves Libre**, me ha invitado a dar una charla sobre _Desarrollo web en Python usando el framework Django_ para el día de mañana, <del>20</del> 30 de noviembre de 2006,  el sitio de la charla será en el salón **OS-02** del edificio B de la facultad de ingeniería, sector _La Hechicera_, a partir de las 11:00 a.m.

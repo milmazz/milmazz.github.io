@@ -1,22 +1,20 @@
 ---
-redirect_from: "/archivos/2006/04/04/foro-software-libre-vs-software-privativo-en-el-gobierno-electronico/"
-author: milmazz
-comments: true
-date: 2006-04-04 02:21:24
-layout: post
-slug: foro-software-libre-vs-software-privativo-en-el-gobierno-electronico
 title: 'Foro: Software Libre vs. Software Privativo en el gobierno electrónico'
+author: milmazz
+date: 2006-04-04 02:21:24
 categories:
-- Local
-- Software
+  - Local
+  - Software
 tags:
-- foro
-- Local
-- Noticias
-- Software
-- software+libre
-- tecnologia
-- tecnologia+libre
+  - foro
+  - Local
+  - Noticias
+  - Software
+  - software+libre
+  - tecnologia
+  - tecnologia+libre
+slug: foro-software-libre-vs-software-privativo-en-el-gobierno-electronico
+redirect_from: /archivos/2006/04/04/foro-software-libre-vs-software-privativo-en-el-gobierno-electronico/
 ---
 
 El día de hoy se realizó en el Palacio Federal Legislativo de la Asamblea Nacional el foro Software Libre vs. Software Privativo en el gobierno electrónico, el cual fué organizado por los diputados de la Comisión Permanente de Ciencia, Tecnología y Medios de Comunicación del parlamento venezolano.

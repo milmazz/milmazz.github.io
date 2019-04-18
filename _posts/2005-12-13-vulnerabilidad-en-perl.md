@@ -1,18 +1,16 @@
 ---
-redirect_from: "/archivos/2005/12/13/vulnerabilidad-en-perl/"
-author: milmazz
-comments: true
-date: 2005-12-13 01:50:29
-layout: post
-slug: vulnerabilidad-en-perl
 title: Vulnerabilidad en Perl
+author: milmazz
+date: 2005-12-13 01:50:29
 categories:
-- Seguridad
-- Ubuntu
+  - Seguridad
+  - Ubuntu
 tags:
-- Perl
-- Seguridad
-- Ubuntu
+  - Perl
+  - Seguridad
+  - Ubuntu
+slug: vulnerabilidad-en-perl
+redirect_from: /archivos/2005/12/13/vulnerabilidad-en-perl/
 ---
 
 Las siguientes versiones se encuentran afectadas ante este fallo de seguridad:

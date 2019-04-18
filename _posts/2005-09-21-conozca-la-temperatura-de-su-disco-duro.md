@@ -1,18 +1,16 @@
 ---
-redirect_from: "/archivos/2005/09/21/conozca-la-temperatura-de-su-disco-duro/"
-author: milmazz
-comments: true
-date: 2005-09-21 00:13:30
-layout: post
-slug: conozca-la-temperatura-de-su-disco-duro
 title: Conozca la temperatura de su disco duro
+author: milmazz
+date: 2005-09-21 00:13:30
 categories:
-- GNU/Linux
-- Ubuntu
+  - GNU/Linux
+  - Ubuntu
 tags:
-- GNU/Linux
-- Recursos
-- Ubuntu
+  - GNU/Linux
+  - Recursos
+  - Ubuntu
+slug: conozca-la-temperatura-de-su-disco-duro
+redirect_from: /archivos/2005/09/21/conozca-la-temperatura-de-su-disco-duro/
 ---
 
 Si desea conocer cual es el valor en grados centígrados de la temperatura de su

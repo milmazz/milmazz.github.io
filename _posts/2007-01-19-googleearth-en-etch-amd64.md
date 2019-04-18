@@ -1,13 +1,11 @@
 ---
-redirect_from: "/archivos/2007/01/19/googleearth-en-etch-amd64/"
-author: chantanito
-comments: true
-date: 2007-01-19 10:39:14
-layout: post
-slug: googleearth-en-etch-amd64
 title: GoogleEarth en Etch AMD64
+author: chantanito
+date: 2007-01-19 10:39:14
 tags:
-- General
+  - General
+slug: googleearth-en-etch-amd64
+redirect_from: /archivos/2007/01/19/googleearth-en-etch-amd64/
 ---
 
 Hace días pude darme cuenta que el

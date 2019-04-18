@@ -1,12 +1,10 @@
 ---
-author: milmazz
-comments: false
-date: 2005-04-28 06:07:55
-layout: post
-slug: redisenando-nnl-newsletter-i
 title: Rediseñando NNL Newsletter I
+author: milmazz
+date: 2005-04-28 06:07:55
 tags:
-- (X)HTML
+  - (X)HTML
+slug: redisenando-nnl-newsletter-i
 ---
 
 Hace ya bastante tiempo que llevo siguiendo esta interesante lista de correo, orientada sobretodo al mundo IT, tambien se publican noticias relacionadas al mundo GNU/Linux, lo cual capto mi atencion de inmediato.

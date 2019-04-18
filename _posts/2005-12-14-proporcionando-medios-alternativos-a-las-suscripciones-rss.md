@@ -1,15 +1,13 @@
 ---
-redirect_from: "/archivos/2005/12/14/proporcionando-medios-alternativos-a-las-suscripciones-rss/"
-author: milmazz
-comments: true
-date: 2005-12-14 18:03:56
-layout: post
-slug: proporcionando-medios-alternativos-a-las-suscripciones-rss
 title: Proporcionando medios alternativos a las suscripciones RSS
+author: milmazz
+date: 2005-12-14 18:03:56
 tags:
-- Anuncios
-- Noticias
-- rss
+  - Anuncios
+  - Noticias
+  - rss
+slug: proporcionando-medios-alternativos-a-las-suscripciones-rss
+redirect_from: /archivos/2005/12/14/proporcionando-medios-alternativos-a-las-suscripciones-rss/
 ---
 
 Según un estudio de [Nielsen//NetRatings](http://www.nielsen-netratings.com./), quienes se dedican al estudio de mercados y medios en internet, afirma que apenas el **11%** de los lectores habituales de _blogs_, utilizan RSS (acrónimo de Sindicación Realmente Simple, _Really Simple Syndication_ en inglés) para clasificar la lectura de la gran cantidad de _blogs_ disponibles hoy día.

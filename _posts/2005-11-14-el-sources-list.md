@@ -1,17 +1,15 @@
 ---
-redirect_from: "/archivos/2005/11/14/el-sources-list/"
-author: chantanito
-comments: true
-date: 2005-11-14 14:15:54
-layout: post
-slug: el-sources-list
 title: El fichero sources.list
+author: chantanito
+date: 2005-11-14 14:15:54
 categories:
-- debian
-- Ubuntu
+  - debian
+  - Ubuntu
 tags:
-- debian
-- Ubuntu
+  - debian
+  - Ubuntu
+slug: el-sources-list
+redirect_from: /archivos/2005/11/14/el-sources-list/
 ---
 
 La mayoría de los entusiastas de sistemas Linux, tarde o temprano llegan a toparse con ésta interrogante. En una forma bastante general, podríamos definir a éste fichero como la lista de recursos de paquetes que es usada para localizar los ficheros del sistema de distribución de paquetes usado en el sistema. Este fichero de control está ubicado en la carpeta `/etc/apt/` de nuestro sistema. El fichero es un simple documento de texto sencillo que puede ser modificado con cualquier editor de textos.

@@ -1,14 +1,12 @@
 ---
-redirect_from: "/archivos/2012/11/12/python-como-puedo-comenzar/"
-author: milmazz
-comments: true
-date: 2012-11-12 08:30:07
-layout: post
-slug: python-como-puedo-comenzar-programar
 title: 'Python: ¿Cómo puedo comenzar a programar?'
+author: milmazz
+date: 2012-11-12 08:30:07
 categories:
-- Programación
-- Python
+  - Programación
+  - Python
+slug: python-como-puedo-comenzar
+redirect_from: /archivos/2012/11/12/python-como-puedo-comenzar/
 ---
 
 Hay mucha documentación sobre el lenguaje de programación Python, tal vez eso haya quedado claro en el [artículo

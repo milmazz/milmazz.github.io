@@ -1,22 +1,20 @@
 ---
-redirect_from: "/archivos/2006/02/19/hwinfo-detectando-el-hardware-actual/"
-author: milmazz
-comments: true
-date: 2006-02-19 02:20:49
-layout: post
-slug: hwinfo-detectando-el-hardware-actual
 title: 'hwinfo: Detectando el hardware actual'
+author: milmazz
+date: 2006-02-19 02:20:49
 categories:
-- GNU/Linux
-- Software
-- Ubuntu
+  - GNU/Linux
+  - Software
+  - Ubuntu
 tags:
-- GNU/Linux
-- hardware
-- hwinfo
-- linux
-- Software
-- Ubuntu
+  - GNU/Linux
+  - hardware
+  - hwinfo
+  - linux
+  - Software
+  - Ubuntu
+slug: hwinfo-detectando-el-hardware-actual
+redirect_from: /archivos/2006/02/19/hwinfo-detectando-el-hardware-actual/
 ---
 
 `hwinfo` es un programa que nos permite conocer rápidamente el _hardware_ detectado actualmente en nuestros ordenadores, por ejemplo, si deseamos obtener los datos de dispositivo SCSI, simplemente utilizamos el comando `hwinfo --scsi`.

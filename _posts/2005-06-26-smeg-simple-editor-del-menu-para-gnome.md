@@ -1,15 +1,13 @@
 ---
-redirect_from: "/archivos/2005/06/26/smeg-simple-editor-del-menu-para-gnome/"
-author: milmazz
-comments: true
-date: 2005-06-26 13:17:10
-layout: post
-slug: smeg-simple-editor-del-menu-para-gnome
 title: Smeg, simple editor del menú para GNOME
+author: milmazz
+date: 2005-06-26 13:17:10
 categories:
-- Ubuntu
+  - Ubuntu
 tags:
-- Ubuntu
+  - Ubuntu
+slug: smeg-simple-editor-del-menu-para-gnome
+redirect_from: /archivos/2005/06/26/smeg-simple-editor-del-menu-para-gnome/
 ---
 
 [Smeg](http://www.realistanew.com/projects/smeg/), es un simple

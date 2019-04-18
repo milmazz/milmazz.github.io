@@ -1,21 +1,19 @@
 ---
-redirect_from: "/archivos/2006/01/16/gnickr-gnome-flickr/"
-author: milmazz
-comments: true
-date: 2006-01-16 14:51:05
-layout: post
-slug: gnickr-gnome-flickr
 title: 'Gnickr: Gnome + Flickr '
+author: milmazz
+date: 2006-01-16 14:51:05
 categories:
-- Software
-- Ubuntu
+  - Software
+  - Ubuntu
 tags:
-- flickr
-- gnickr
-- gnome
-- linux
-- Software
-- Ubuntu
+  - flickr
+  - gnickr
+  - gnome
+  - linux
+  - Software
+  - Ubuntu
+slug: gnickr-gnome-flickr
+redirect_from: /archivos/2006/01/16/gnickr-gnome-flickr/
 ---
 
 [Gnickr](http://gnickr.sourceforge.net/) le permite manejar las fotos de su cuenta del sitio [Flickr](http://flickr.com/) como si fueran archivos locales de su escritorio [Gnome](http://gnome.org/). Todo lo anterior lo hace creando un sistema de ficheros virtual de su cuenta en Flickr.

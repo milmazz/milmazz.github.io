@@ -1,16 +1,14 @@
 ---
-redirect_from: "/archivos/2005/10/22/como-instalar-e17-desde-los-repositorios-de-shadoi-en-breezy/"
-author: milmazz
-comments: true
-date: 2005-10-22 13:55:41
-layout: post
-slug: como-instalar-e17-desde-los-repositorios-de-shadoi-en-breezy
 title: COMO instalar e17 desde los repositorios de shadoi en Breezy
+author: milmazz
+date: 2005-10-22 13:55:41
 categories:
-- Ubuntu
+  - Ubuntu
 tags:
-- Enlightenment
-- Ubuntu
+  - Enlightenment
+  - Ubuntu
+slug: como-instalar-e17-desde-los-repositorios-de-shadoi-en-breezy
+redirect_from: /archivos/2005/10/22/como-instalar-e17-desde-los-repositorios-de-shadoi-en-breezy/
 ---
 
 **Nota:** Antes que nada es importante resaltar que E17 está todavía en

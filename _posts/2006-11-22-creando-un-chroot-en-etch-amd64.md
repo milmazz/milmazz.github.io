@@ -1,17 +1,15 @@
 ---
-redirect_from: "/archivos/2006/11/22/creando-un-chroot-en-etch-amd64/"
-author: chantanito
-comments: true
-date: 2006-11-22 19:54:07
-layout: post
-slug: creando-un-chroot-en-etch-amd64
 title: Creando un chroot en Etch AMD64
+author: chantanito
+date: 2006-11-22 19:54:07
 categories:
-- debian
-- GNU/Linux
+  - debian
+  - GNU/Linux
 tags:
-- debian
-- GNU/Linux
+  - debian
+  - GNU/Linux
+slug: creando-un-chroot-en-etch-amd64
+redirect_from: /archivos/2006/11/22/creando-un-chroot-en-etch-amd64/
 ---
 
 Bien la cosa es que tratando de instalar el [Google Earth](http://earth.google.es/) en mi [Debian](http://www.debian.org) me he encontrado que no existe un paquete nativo para AMD64 (¿qué raro no?), por lo que me las he tenido que ingeniar para instalarlo. Nunca tuve la necesidad de hacer un chroot en el sistema ya que lo único que lo ameritaba era el Flash, pero no pensaba hacerme un chroot expresamente para el Flash y malgastar el espacio en mi disco, pero a la final siempre he tenido que hacerme uno!

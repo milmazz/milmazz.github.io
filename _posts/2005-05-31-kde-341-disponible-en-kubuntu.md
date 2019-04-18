@@ -1,14 +1,12 @@
 ---
-author: milmazz
-comments: true
-date: 2005-05-31 22:55:43
-layout: post
-slug: kde-341-disponible-en-kubuntu
 title: KDE 3.4.1 disponible en Kubuntu
+author: milmazz
+date: 2005-05-31 22:55:43
 categories:
-- Ubuntu
+  - Ubuntu
 tags:
-- Ubuntu
+  - Ubuntu
+slug: kde-341-disponible-en-kubuntu
 ---
 
 [KDE 3.4.1](http://dot.kde.org/1117548502) ahora está disponible en

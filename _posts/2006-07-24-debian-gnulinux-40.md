@@ -1,17 +1,15 @@
 ---
-redirect_from: "/archivos/2006/07/24/debian-gnulinux-40/"
-author: milmazz
-comments: true
-date: 2006-07-24 16:02:02
-layout: post
-slug: debian-gnulinux-40
 title: Debian GNU/Linux 4.0
+author: milmazz
+date: 2006-07-24 16:02:02
 categories:
-- debian
+  - debian
 tags:
-- debian
-- etch
-- linux
+  - debian
+  - etch
+  - linux
+slug: debian-gnulinux-40
+redirect_from: /archivos/2006/07/24/debian-gnulinux-40/
 ---
 
 Según puede verse en el sitio oficial del [Proyecto Debian](http://www.debian.org/), en una noticia aparecida el día de hoy, [Upcoming Release of Debian GNU/Linux 4.0](http://www.us.debian.org/News/2006/20060724), se confirma que el próximo mes de diciembre del presente año será la fecha de publicación de la siguiente versión 4.0 de Debian GNU/Linux, cuyo código nombre es "etch".

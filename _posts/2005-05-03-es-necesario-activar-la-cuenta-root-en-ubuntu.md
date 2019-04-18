@@ -1,15 +1,13 @@
 ---
-redirect_from: "/archivos/2005/05/03/es-necesario-activar-la-cuenta-root-en-ubuntu/"
-author: milmazz
-comments: true
-date: 2005-05-03 11:50:01
-layout: post
-slug: es-necesario-activar-la-cuenta-root-en-ubuntu
 title: ¿Es necesario activar la cuenta root en Ubuntu?
+author: milmazz
+date: 2005-05-03 11:50:01
 categories:
-- Ubuntu
+  - Ubuntu
 tags:
-- Ubuntu
+  - Ubuntu
+slug: es-necesario-activar-la-cuenta-root-en-ubuntu
+redirect_from: /archivos/2005/05/03/es-necesario-activar-la-cuenta-root-en-ubuntu/
 ---
 
 Los desarrolladores de [Ubuntu Linux](http://ubuntulinux.org/) en un principio querían que el proceso de instalación fuese lo más fácil posible, el hecho de desactivar de manera predeterminada la cuenta de usuario `root` permitía obviar algunos pasos en el proceso de instalación. Esto para muchos es un inconveniente, pues Ubuntu Linux "difiere" en cuanto al modelo de seguridad que se maneja comúnmente en sistemas GNU/Linux, el modelo que plantea Ubuntu Linux es simplemente no recomendar hacer uso extensivo del usuario `root` (por eso ha desactivado la cuenta). Debido a que esta distribución está orientada hacia usuarios que quizás no han tenido un contacto extenso con sistemas GNU/Linux, el modelo propuesto me parece bastante lógico.

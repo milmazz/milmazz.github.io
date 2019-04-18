@@ -1,19 +1,17 @@
 ---
-redirect_from: "/archivos/2008/02/05/haciendo-el-cambio-de-ipw3945-a-iwl3945/"
-author: milmazz
-comments: true
-date: 2008-02-05 05:35:01
-layout: post
-slug: haciendo-el-cambio-de-ipw3945-a-iwl3945
 title: Haciendo el cambio de ipw3945 a iwl3945
+author: milmazz
+date: 2008-02-05 05:35:01
 categories:
-- debian
+  - debian
 tags:
-- debian
-- intel
-- ipw3945
-- iwl3945
-- wireless
+  - debian
+  - intel
+  - ipw3945
+  - iwl3945
+  - wireless
+slug: haciendo-el-cambio-de-ipw3945-a-iwl3945
+redirect_from: /archivos/2008/02/05/haciendo-el-cambio-de-ipw3945-a-iwl3945/
 ---
 
 Si usted es de esas personas que cuenta con una tarjeta inalámbrica _Intel Corporation PRO/Wireless 3945_, seguramente sabrá que existen al menos dos proyectos que le dan soporte. El primero de ellos es [ipw3945](http://ipw3945.sourceforge.net/) y se encuentra **obsoleto**, el desarrollo pasó al proyecto [iwlwifi](http://intellinuxwireless.org/).

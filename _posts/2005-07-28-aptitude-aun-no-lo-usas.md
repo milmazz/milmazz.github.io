@@ -1,17 +1,15 @@
 ---
-redirect_from: "/archivos/2005/07/28/aptitude-aun-no-lo-usas/"
-author: milmazz
-comments: true
-date: 2005-07-28 01:09:35
-layout: post
-slug: aptitude-aun-no-lo-usas
 title: aptitude, ¿aún no lo usas?
+author: milmazz
+date: 2005-07-28 01:09:35
 categories:
-- Software
-- Ubuntu
+  - Software
+  - Ubuntu
 tags:
-- Software
-- Ubuntu
+  - Software
+  - Ubuntu
+slug: aptitude-aun-no-lo-usas
+redirect_from: /archivos/2005/07/28/aptitude-aun-no-lo-usas/
 ---
 
 Si usted es de los que piensa que aptitude por ser simplemente un [frontend](http://es.wikipedia.org/wiki/Frontend) de apt no puede aportar alguna ventaja al manejo óptimo de paquetes, trataré en lo posible en este artículo hacerle cambiar de parecer, o por lo menos mostrarle que en realidad aptitude si ofrece ciertas ventajas sobre apt.

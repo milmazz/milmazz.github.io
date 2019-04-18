@@ -1,22 +1,20 @@
 ---
-redirect_from: "/archivos/2006/01/30/instalinux-instalando-linux-de-manera-desatentida/"
-author: milmazz
-comments: true
-date: 2006-01-30 10:29:50
-layout: post
-slug: instalinux-instalando-linux-de-manera-desatentida
 title: 'Instalinux: Instalando Linux de manera desatentida'
+author: milmazz
+date: 2006-01-30 10:29:50
 categories:
-- GNU/Linux
+  - GNU/Linux
 tags:
-- debian
-- Distribuciones
-- fedora
-- GNU/Linux
-- instalinux
-- linux
-- suse
-- Ubuntu
+  - debian
+  - Distribuciones
+  - fedora
+  - GNU/Linux
+  - instalinux
+  - linux
+  - suse
+  - Ubuntu
+slug: instalinux-instalando-linux-de-manera-desatentida
+redirect_from: /archivos/2006/01/30/instalinux-instalando-linux-de-manera-desatentida/
 ---
 
 Instalar GNU/Linux de manera desatendida ahora es realmente fácil haciendo uso de [instalinux](http://www.instalinux.com/), esta interfaz web a través de unas preguntas acerca de como deseamos configurar nuestro sistema, nos permitirá crear una imagen que facilitará la instalación del sistema GNU/Linux de manera desatendida. Usted lo inserta, escribe _install_, y luego cuando regrese más tarde, tendrá un sistema GNU/Linux (la distribución de su escogencia) totalmente funcional esperando por usted.

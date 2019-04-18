@@ -1,17 +1,15 @@
 ---
-redirect_from: "/archivos/2006/01/16/ubuntu-dapper-drake-flight-3/"
-author: milmazz
-comments: true
-date: 2006-01-16 22:04:35
-layout: post
-slug: ubuntu-dapper-drake-flight-3
 title: Ubuntu (Dapper Drake) Flight 3
+author: milmazz
+date: 2006-01-16 22:04:35
 categories:
-- Ubuntu
+  - Ubuntu
 tags:
-- dapper
-- linux
-- Ubuntu
+  - dapper
+  - linux
+  - Ubuntu
+slug: ubuntu-dapper-drake-flight-3
+redirect_from: /archivos/2006/01/16/ubuntu-dapper-drake-flight-3/
 ---
 
 La tercera versión _alpha_ de Ubuntu 6.04 (Dapper Drake), continúa mostrando mejoras e incluye nuevo software.

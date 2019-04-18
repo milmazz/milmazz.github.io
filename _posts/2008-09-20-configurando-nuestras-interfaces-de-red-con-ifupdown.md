@@ -1,20 +1,18 @@
 ---
-redirect_from: "/archivos/2008/09/20/configurando-nuestras-interfaces-de-red-con-ifupdown/"
-author: milmazz
-comments: true
-date: 2008-09-20 02:34:32
-layout: post
-slug: configurando-nuestras-interfaces-de-red-con-ifupdown
 title: Configurando nuestras interfaces de red con ifupdown
+author: milmazz
+date: 2008-09-20 02:34:32
 categories:
-- GNU/Linux
+  - GNU/Linux
 tags:
-- debian
-- GNU/Linux
-- ifdown
-- ifup
-- Ubuntu
-- wireless
+  - debian
+  - GNU/Linux
+  - ifdown
+  - ifup
+  - Ubuntu
+  - wireless
+slug: configurando-nuestras-interfaces-de-red-con-ifupdown
+redirect_from: /archivos/2008/09/20/configurando-nuestras-interfaces-de-red-con-ifupdown/
 ---
 
 Si usted es de esas personas que suele mover su máquina portátil entre varias redes que no necesariamente proveen [DHCP](http://es.wikipedia.org/wiki/DHCP) y usualmente vuelve a configurar sus preferencias de conexión, seguramente este artículo llame su atención puesto que se explicará acerca de la configuración de diversos _perfiles de conexión_ vía línea de comandos.

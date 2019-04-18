@@ -1,17 +1,15 @@
 ---
-redirect_from: "/archivos/2005/09/25/cambiando-la-ubicacion-del-cache-de-apt/"
-author: milmazz
-comments: true
-date: 2005-09-25 05:12:58
-layout: post
-slug: cambiando-la-ubicacion-del-cache-de-apt
 title: Cambiando la ubicación del cache de apt
+author: milmazz
+date: 2005-09-25 05:12:58
 categories:
-- GNU/Linux
-- Ubuntu
+  - GNU/Linux
+  - Ubuntu
 tags:
-- GNU/Linux
-- Ubuntu
+  - GNU/Linux
+  - Ubuntu
+slug: cambiando-la-ubicacion-del-cache-de-apt
+redirect_from: /archivos/2005/09/25/cambiando-la-ubicacion-del-cache-de-apt/
 ---
 
 El día 21 de Septiembre _Jorge Villarreal_ preguntó en la entrada [Creando un

@@ -1,19 +1,17 @@
 ---
-redirect_from: "/archivos/2006/11/04/compilar-amsn-en-debian-etch-amd64/"
-author: chantanito
-comments: true
-date: 2006-11-04 15:21:43
-layout: post
-slug: compilar-amsn-en-debian-etch-amd64
 title: Compilar aMSN en Debian Etch AMD64
+author: chantanito
+date: 2006-11-04 15:21:43
 categories:
-- debian
-- GNU/Linux
-- Software
+  - debian
+  - GNU/Linux
+  - Software
 tags:
-- debian
-- GNU/Linux
-- Software
+  - debian
+  - GNU/Linux
+  - Software
+slug: compilar-amsn-en-debian-etch-amd64
+redirect_from: /archivos/2006/11/04/compilar-amsn-en-debian-etch-amd64/
 ---
 
 Bien, sin mucho preámbulo, lo primero que debemos hacer es [descargar el tarball](http://www.amsn-project.net/dlfile.php?file=amsn-0.96RC1.tar.bz2) de la [página de amsn](http://www.amsn-project.net/). Luego deberás descomprimirlo en la carpeta de tu preferencia, en mi caso está en ~/Sources/amsn-0.96RC1/. Una vez que lo descomprimes abre una terminal y obtén derechos de administrador (modo root); cuando tengas privilegios de root ubícate en el directorio donde descomprimiste el tarball y escribe lo siguiente:

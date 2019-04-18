@@ -1,13 +1,11 @@
 ---
-redirect_from: "/archivos/2005/04/20/viendo-tus-disenos-en-una-mac/"
-author: milmazz
-comments: true
-date: 2005-04-20 19:01:01
-layout: post
-slug: viendo-tus-disenos-en-una-mac
 title: Viendo tus diseños en una Mac
+author: milmazz
+date: 2005-04-20 19:01:01
 tags:
-- Recursos
+  - Recursos
+slug: viendo-tus-disenos-en-una-mac
+redirect_from: /archivos/2005/04/20/viendo-tus-disenos-en-una-mac/
 ---
 
 Para todas aquellas personas que no posean una [Mac](http://www.apple.com/),

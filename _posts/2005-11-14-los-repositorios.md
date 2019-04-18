@@ -1,17 +1,15 @@
 ---
-redirect_from: "/archivos/2005/11/14/los-repositorios/"
-author: chantanito
-comments: true
-date: 2005-11-14 14:33:59
-layout: post
-slug: los-repositorios
 title: Los Repositorios
+author: chantanito
+date: 2005-11-14 14:33:59
 categories:
-- debian
-- Ubuntu
+  - debian
+  - Ubuntu
 tags:
-- debian
-- Ubuntu
+  - debian
+  - Ubuntu
+slug: los-repositorios
+redirect_from: /archivos/2005/11/14/los-repositorios/
 ---
 
 ## Contenido:

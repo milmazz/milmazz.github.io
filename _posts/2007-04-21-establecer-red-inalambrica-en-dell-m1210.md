@@ -1,20 +1,18 @@
 ---
-redirect_from: "/archivos/2007/04/21/establecer-red-inalambrica-en-dell-m1210/"
-author: milmazz
-comments: true
-date: 2007-04-21 22:05:36
-layout: post
-slug: establecer-red-inalambrica-en-dell-m1210
 title: Establecer red inalámbrica en Dell m1210
+author: milmazz
+date: 2007-04-21 22:05:36
 categories:
-- debian
-- GNU/Linux
+  - debian
+  - GNU/Linux
 tags:
-- debian
-- dell
-- GNU/Linux
-- m1210
-- ndiswrapper
+  - debian
+  - dell
+  - GNU/Linux
+  - m1210
+  - ndiswrapper
+slug: establecer-red-inalambrica-en-dell-m1210
+redirect_from: /archivos/2007/04/21/establecer-red-inalambrica-en-dell-m1210/
 ---
 
 Hace ya algunos días [Ana](http://an1ta.wordpress.com) me comentaba que no le estaba funcionando la configuración que tenía para su red inalámbrica, eso ocurrió una vez que actualizó la versión del _kernel_ de _linux_, espero entrar en detalle acerca de los pasos que seguí para configurarle todo como se debe bajo [Debian Etch](http://www.us.debian.org/releases/etch/).

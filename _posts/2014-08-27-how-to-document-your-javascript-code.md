@@ -1,17 +1,13 @@
 ---
-redirect_from: "/archivos/2014/08/27/how-to-document-your-javascript-code/"
+title: How to document your Javascript code
 author: milmazz
-comments: true
-share: true
-date: 2014-08-27T12:00:00-05:00
-layout: post
-slug: how-to-document-your-javascript-code
-title: 'How to document your Javascript code'
-description: Someone that knows something about Java probably knows about JavaDoc. If you know something about Python you probably document your code following the rules defined for Sphinx. Or in C, you follow the rules defined for Doxygen. But, what happens when we are coding in JavaScript? How can we document our source code?
+date: '2014-08-27T12:00:00-05:00'
 tags:
-- jsdoc
-- javascript
-- programming
+  - jsdoc
+  - javascript
+  - programming
+slug: how-to-document-your-javascript-code
+redirect_from: /archivos/2014/08/27/how-to-document-your-javascript-code/
 ---
 
 Someone that knows something about Java probably knows about [JavaDoc][]. If you

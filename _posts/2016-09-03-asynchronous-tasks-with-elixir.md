@@ -1,14 +1,11 @@
 ---
+title: Asynchronous Tasks with Elixir
 author: milmazz
-comments: true
-share: true
 date: 2016-09-03 08:00:00
-layout: post
-slug: asynchronous-tasks-with-elixir
-title: 'Asynchronous Tasks with Elixir'
 tags:
-- elixir
-- programming
+  - elixir
+  - programming
+slug: asynchronous-tasks-with-elixir
 ---
 
 One of my firsts contributions into [ExDoc][], the tool used to produce HTML

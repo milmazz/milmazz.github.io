@@ -1,17 +1,15 @@
 ---
-redirect_from: "/archivos/2005/04/14/deborphan-eliminando-librerias-huerfanas/"
-author: milmazz
-comments: true
-date: 2005-04-14 16:30:39
-layout: post
-slug: deborphan-eliminando-librerias-huerfanas
 title: deborphan, eliminando librerias huérfanas
+author: milmazz
+date: 2005-04-14 16:30:39
 categories:
-- GNU/Linux
-- Ubuntu
+  - GNU/Linux
+  - Ubuntu
 tags:
-- GNU/Linux
-- Ubuntu
+  - GNU/Linux
+  - Ubuntu
+slug: deborphan-eliminando-librerias-huerfanas
+redirect_from: /archivos/2005/04/14/deborphan-eliminando-librerias-huerfanas/
 ---
 
 **deborphan** simplemente se encarga de buscar librerias huérfanas. Se mostrará un listado de paquetes que posiblemente no fueron desinstalados en su momento y que actualmente **no** son requeridas en el sistema por ningún otro paquete o aplicación. Esta aplicación es realmente útil para mantener "limpio" el sistema en caso de ser necesario.

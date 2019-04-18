@@ -1,24 +1,22 @@
 ---
-redirect_from: "/archivos/2010/11/13/presentaciones/"
-author: milmazz
-comments: true
-date: 2010-11-13 03:38:53
-layout: post
-slug: presentaciones
 title: Presentaciones
+author: milmazz
+date: 2010-11-13 03:38:53
 categories:
-- GNU/Linux
+  - GNU/Linux
 tags:
-- beamer
-- canaima
-- dbconfig-common
-- django
-- gnupg
-- latex
-- presentaciones
-- pylint
-- trac
-- turpial
+  - beamer
+  - canaima
+  - dbconfig-common
+  - django
+  - gnupg
+  - latex
+  - presentaciones
+  - pylint
+  - trac
+  - turpial
+slug: presentaciones
+redirect_from: /archivos/2010/11/13/presentaciones/
 ---
 
 Desde hace algunos meses he decidido recopilar y organizar algunas de las presentaciones que he dado hasta ahora en eventos de _Software Libre_, Universidades y empresas privadas.

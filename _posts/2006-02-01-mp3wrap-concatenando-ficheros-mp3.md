@@ -1,20 +1,18 @@
 ---
-redirect_from: "/archivos/2006/02/01/mp3wrap-concatenando-ficheros-mp3/"
-author: milmazz
-comments: true
-date: 2006-02-01 02:15:23
-layout: post
-slug: mp3wrap-concatenando-ficheros-mp3
 title: 'mp3wrap: Concatenando ficheros mp3'
+author: milmazz
+date: 2006-02-01 02:15:23
 categories:
-- Software
-- Ubuntu
+  - Software
+  - Ubuntu
 tags:
-- mp3
-- mp3splt
-- mp3wrap
-- Software
-- Ubuntu
+  - mp3
+  - mp3splt
+  - mp3wrap
+  - Software
+  - Ubuntu
+slug: mp3wrap-concatenando-ficheros-mp3
+redirect_from: /archivos/2006/02/01/mp3wrap-concatenando-ficheros-mp3/
 ---
 
 [mp3wrap](http://mp3wrap.sourceforge.net/) es una utilidad en línea de comando que nos permite fusionar o concatenar dos o más ficheros `mp3`, todo esto sin perder los nombres de ficheros y la información de los [ID3](http://www.id3.org/), estándar que permite la inclusión de metadatos en contenedores multimedia. También es posible añadir otros ficheros que no sean `mp3`, como por ejemplo, listas de reproducción, ficheros de información, imágenes de portada. Claro, este proceso es posible revertirlo gracias a [mp3splt](http://mp3splt.sourceforge.net/), el cual describiré en un próximo artículo.

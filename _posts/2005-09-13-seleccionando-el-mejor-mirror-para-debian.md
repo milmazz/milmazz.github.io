@@ -1,17 +1,15 @@
 ---
-redirect_from: "/archivos/2005/09/13/seleccionando-el-mejor-mirror-para-debian/"
-author: milmazz
-comments: true
-date: 2005-09-13 12:48:12
-layout: post
-slug: seleccionando-el-mejor-mirror-para-debian
 title: Seleccionando el mejor mirror para debian
+author: milmazz
+date: 2005-09-13 12:48:12
 categories:
-- debian
-- GNU/Linux
+  - debian
+  - GNU/Linux
 tags:
-- debian
-- GNU/Linux
+  - debian
+  - GNU/Linux
+slug: seleccionando-el-mejor-mirror-para-debian
+redirect_from: /archivos/2005/09/13/seleccionando-el-mejor-mirror-para-debian/
 ---
 
 El día de ayer decidí instalar [Debian](http://www.debian.org/)

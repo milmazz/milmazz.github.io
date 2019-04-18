@@ -1,14 +1,12 @@
 ---
-redirect_from: "/archivos/2005/12/08/programando-libre-2005/"
-author: milmazz
-comments: true
-date: 2005-12-08 13:23:08
-layout: post
-slug: programando-libre-2005
 title: Programando Libre 2005
+author: milmazz
+date: 2005-12-08 13:23:08
 tags:
-- Charlas
-- Noticias
+  - Charlas
+  - Noticias
+slug: programando-libre-2005
+redirect_from: /archivos/2005/12/08/programando-libre-2005/
 ---
 
 El Grupo de Usuarios GNU/Linux del Estado Aragua (Venezuela) ha organizado el evento **Programando Libre 2005**, el cual tiene como objetivo discutir acerca de algunos de los lenguajes de programación más importantes dentro del mundo del Software Libre, tales como:

@@ -1,17 +1,15 @@
 ---
-redirect_from: "/archivos/2005/05/04/imagemagick/"
-author: milmazz
-comments: true
-date: 2005-05-04 07:00:44
-layout: post
-slug: imagemagick
 title: ImageMagick
+author: milmazz
+date: 2005-05-04 07:00:44
 categories:
-- GNU/Linux
-- Software
+  - GNU/Linux
+  - Software
 tags:
-- GNU/Linux
-- Software
+  - GNU/Linux
+  - Software
+slug: imagemagick
+redirect_from: /archivos/2005/05/04/imagemagick/
 ---
 
 [ImageMagick](http://www.imagemagick.org/), es una _suite_ de software libre,

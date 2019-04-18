@@ -1,19 +1,17 @@
 ---
-redirect_from: "/archivos/2005/07/24/creando-un-repositorio-local/"
-author: milmazz
-comments: true
-date: 2005-07-24 17:31:55
-layout: post
-slug: creando-un-repositorio-local
 title: Creando un repositorio local
+author: milmazz
+date: 2005-07-24 17:31:55
 categories:
-- GNU/Linux
-- Software
-- Ubuntu
+  - GNU/Linux
+  - Software
+  - Ubuntu
 tags:
-- GNU/Linux
-- Software
-- Ubuntu
+  - GNU/Linux
+  - Software
+  - Ubuntu
+slug: creando-un-repositorio-local
+redirect_from: /archivos/2005/07/24/creando-un-repositorio-local/
 ---
 
 ## Planteamiento del Problema:

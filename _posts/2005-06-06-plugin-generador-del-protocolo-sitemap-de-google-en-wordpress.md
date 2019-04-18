@@ -1,15 +1,13 @@
 ---
-redirect_from: "/archivos/2005/06/06/plugin-generador-del-protocolo-sitemap-de-google-en-wordpress/"
-author: milmazz
-comments: true
-date: 2005-06-06 02:36:35
-layout: post
-slug: plugin-generador-del-protocolo-sitemap-de-google-en-wordpress
 title: Plugin generador del protocolo sitemap de Google en WordPress
+author: milmazz
+date: 2005-06-06 02:36:35
 categories:
-- WordPress
+  - WordPress
 tags:
-- WordPress
+  - WordPress
+slug: plugin-generador-del-protocolo-sitemap-de-google-en-wordpress
+redirect_from: /archivos/2005/06/06/plugin-generador-del-protocolo-sitemap-de-google-en-wordpress/
 ---
 
 El protocolo [Sitemap](http://www.google.com/webmasters/sitemaps/login) de [Google](http://www.google.com/) es un dialecto de XML para resumir la información relevante acerca de nuestras entradas, este sistema puede resultar una manera muy fácil de mejorar la cobertura de nuestras páginas en el índice de Google, por medio de Sitemaps informaremos cuando se realizan cambios o actualizaciones en nuestros medios. También se permite establecer de manera aproximada el tiempo que tardaremos en realizar cambios en las páginas incluidas.

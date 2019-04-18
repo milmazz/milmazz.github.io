@@ -1,23 +1,21 @@
 ---
-redirect_from: "/archivos/2006/05/12/primer-documental-de-software-libre-hecho-en-venezuela/"
-author: milmazz
-comments: true
-date: 2006-05-12 07:09:07
-layout: post
-slug: primer-documental-de-software-libre-hecho-en-venezuela
 title: Primer documental de Software Libre hecho en Venezuela
+author: milmazz
+date: 2006-05-12 07:09:07
 categories:
-- Software
+  - Software
 tags:
-- conac
-- cultura
-- documental
-- gnu
-- linux
-- Recursos
-- Software
-- software+libre
-- video
+  - conac
+  - cultura
+  - documental
+  - gnu
+  - linux
+  - Recursos
+  - Software
+  - software+libre
+  - video
+slug: primer-documental-de-software-libre-hecho-en-venezuela
+redirect_from: /archivos/2006/05/12/primer-documental-de-software-libre-hecho-en-venezuela/
 ---
 
 Para todos aquellos que aún no han tenido la oportunidad de ver el _primer_ documental sobre **Software Libre** realizado en Venezuela, Software Libre, Capítulo Venezuela, ahora pueden hacerlo gracias a la colaboración hecha por [Luigino Bracci Roa](http://lubrio.blogspot.com/), quien realizó la codificación del fichero.

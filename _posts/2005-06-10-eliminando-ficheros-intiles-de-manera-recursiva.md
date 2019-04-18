@@ -1,13 +1,11 @@
 ---
-redirect_from: "/archivos/2005/06/10/eliminando-ficheros-intiles-de-manera-recursiva/"
-author: milmazz
-comments: true
-date: 2005-06-10 13:37:35
-layout: post
-slug: eliminando-ficheros-intiles-de-manera-recursiva
 title: Eliminando ficheros inútiles de manera recursiva
+author: milmazz
+date: 2005-06-10 13:37:35
 tags:
-- Scripts
+  - Scripts
+slug: eliminando-ficheros-intiles-de-manera-recursiva
+redirect_from: /archivos/2005/06/10/eliminando-ficheros-intiles-de-manera-recursiva/
 ---
 
 En algunos casos mientras redactamos, codificamos o trabajamos en algunos editores de texto se van generando ficheros temporales que puede irse acumulando en nuestros directorios, estos suelen ser utiles en aquellos casos en los cuales las aplicaciones terminan de manera inesperada, seguramente podremos recuperar los ultimos cambios hechos al utilizar este tipo de ficheros, o en el caso de los ficheros `core`, nos pueden servir en aquellos casos en los cuales alguna funcion de nuestros programas no funciona como deberia y genera una _violacion de segmento_, los ficheros `core` nos pueden facilitar el analisis en la busqueda de los posibles errores en la funcion.

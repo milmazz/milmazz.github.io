@@ -1,21 +1,19 @@
 ---
-redirect_from: "/archivos/2006/02/19/charla-sobre-el-lenguaje-de-programacion-python/"
-author: milmazz
-comments: true
-date: 2006-02-19 20:01:27
-layout: post
-slug: charla-sobre-el-lenguaje-de-programacion-python
 title: Charla sobre el lenguaje de programación Python
+author: milmazz
+date: 2006-02-19 20:01:27
 categories:
-- Local
-- Python
+  - Local
+  - Python
 tags:
-- charla
-- Charlas
-- Local
-- merida
-- Programación
-- Python
+  - charla
+  - Charlas
+  - Local
+  - merida
+  - Programación
+  - Python
+slug: charla-sobre-el-lenguaje-de-programacion-python
+redirect_from: /archivos/2006/02/19/charla-sobre-el-lenguaje-de-programacion-python/
 ---
 
 La ingeniera Andrea Muñoz me notifica que el día _Jueves 23 de Febrero_ se estará llevando a cabo la charla Carpintería del Software Libre, un enfoque desde el lenguaje de programación Python, en donde el ponente será el profesor [Francisco Palm](http://ieac.faces.ula.ve/mapologo/), seguramente estará muy interesante.

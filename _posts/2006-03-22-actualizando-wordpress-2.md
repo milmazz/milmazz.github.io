@@ -1,19 +1,17 @@
 ---
-redirect_from: "/archivos/2006/03/22/actualizando-wordpress-2/"
-author: milmazz
-comments: true
-date: 2006-03-22 12:06:22
-layout: post
-slug: actualizando-wordpress-2
 title: Actualizando WordPress
+author: milmazz
+date: 2006-03-22 12:06:22
 categories:
-- WordPress
+  - WordPress
 tags:
-- Anuncios
-- blogging
-- k2
-- utw
-- WordPress
+  - Anuncios
+  - blogging
+  - k2
+  - utw
+  - WordPress
+slug: actualizando-wordpress-2
+redirect_from: /archivos/2006/03/22/actualizando-wordpress-2/
 ---
 
 Tenía cierto tiempo que no actualizaba la infraestructura que mantiene a [MilMazz](http://blog.milmazz.com.ve), el día de hoy he actualizado [WordPress](http://wordpress.org/) a su version [2.0.2](http://wordpress.org/development/2006/03/security-202/), este proceso como siempre es realmente sencillo, no hubo problema alguno.

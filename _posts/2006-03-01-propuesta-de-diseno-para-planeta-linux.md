@@ -1,26 +1,24 @@
 ---
-redirect_from: "/archivos/2006/03/01/propuesta-de-diseno-para-planeta-linux/"
-author: milmazz
-comments: true
-date: 2006-03-01 14:30:58
-layout: post
-slug: propuesta-de-diseno-para-planeta-linux
 title: Propuesta de diseño para Planeta Linux
+author: milmazz
+date: 2006-03-01 14:30:58
 categories:
-- GNU/Linux
+  - GNU/Linux
 tags:
-- (X)HTML
-- bluefish
-- CSS
-- design
-- gedit
-- GIMP
-- GNU/Linux
-- icons
-- inkscape
-- layout
-- planet
-- planetalinux
+  - (X)HTML
+  - bluefish
+  - CSS
+  - design
+  - gedit
+  - GIMP
+  - GNU/Linux
+  - icons
+  - inkscape
+  - layout
+  - planet
+  - planetalinux
+slug: propuesta-de-diseno-para-planeta-linux
+redirect_from: /archivos/2006/03/01/propuesta-de-diseno-para-planeta-linux/
 ---
 
 En estos últimos días he estado trabajando en [mi propuesta de diseño](http://www.ubuntuchannel.org/pruebas/planeta/) para [Planeta Linux](http://www.planetalinux.org), sitio del cual escribí previamente en la [entrada acerca de Planeta Linux](/article/2006/02/07/planeta-linux/), hasta ahora considero que está bastante avanzado el diseño.

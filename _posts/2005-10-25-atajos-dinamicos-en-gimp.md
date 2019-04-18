@@ -1,17 +1,15 @@
 ---
-redirect_from: "/archivos/2005/10/25/atajos-dinamicos-en-gimp/"
-author: milmazz
-comments: true
-date: 2005-10-25 03:33:48
-layout: post
-slug: atajos-dinamicos-en-gimp
 title: Atajos Dinámicos en GIMP
+author: milmazz
+date: 2005-10-25 03:33:48
 categories:
-- GIMP
-- Software
+  - GIMP
+  - Software
 tags:
-- GIMP
-- Software
+  - GIMP
+  - Software
+slug: atajos-dinamicos-en-gimp
+redirect_from: /archivos/2005/10/25/atajos-dinamicos-en-gimp/
 ---
 
 Muchas de las opciones en GIMP no ofrecen una combinación de teclas o atajo

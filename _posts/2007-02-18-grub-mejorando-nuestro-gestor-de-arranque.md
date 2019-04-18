@@ -1,20 +1,18 @@
 ---
-redirect_from: "/archivos/2007/02/18/grub-mejorando-nuestro-gestor-de-arranque/"
-author: milmazz
-comments: true
-date: 2007-02-18 00:22:38
-layout: post
-slug: grub-mejorando-nuestro-gestor-de-arranque
 title: 'GRUB: Mejorando nuestro gestor de arranque'
+author: milmazz
+date: 2007-02-18 00:22:38
 categories:
-- debian
-- GIMP
-- Seguridad
+  - debian
+  - GIMP
+  - Seguridad
 tags:
-- debian
-- GIMP
-- grub
-- Seguridad
+  - debian
+  - GIMP
+  - grub
+  - Seguridad
+slug: grub-mejorando-nuestro-gestor-de-arranque
+redirect_from: /archivos/2007/02/18/grub-mejorando-nuestro-gestor-de-arranque/
 ---
 
 Anteriormente había comentado en la primera entrega del artículo [Debian: Bienvenido al Sistema Operativo Universal](/article/2006/04/25/debian-bienvenido-al-sistema-operativo-universal-parte-i/) que por medidas de seguridad establezco las opciones de montaje `ro`, `nodev`, `nosuid`, `noexec` en la partición `/boot`, donde se encuentran los ficheros estáticos del gestor de arranque.

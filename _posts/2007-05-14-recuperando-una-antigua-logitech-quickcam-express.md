@@ -1,18 +1,16 @@
 ---
-redirect_from: "/archivos/2007/05/14/recuperando-una-antigua-logitech-quickcam-express/"
-author: milmazz
-comments: true
-date: 2007-05-14 21:45:53
-layout: post
-slug: recuperando-una-antigua-logitech-quickcam-express
 title: Recuperando una antigua Logitech Quickcam Express
+author: milmazz
+date: 2007-05-14 21:45:53
 categories:
-- debian
+  - debian
 tags:
-- debian
-- GNU/Linux
-- logitech
-- Ocio
+  - debian
+  - GNU/Linux
+  - logitech
+  - Ocio
+slug: recuperando-una-antigua-logitech-quickcam-express
+redirect_from: /archivos/2007/05/14/recuperando-una-antigua-logitech-quickcam-express/
 ---
 
 No se porque motivo o razón comencé a revisar en unas cajas de mi cuarto, cuando de repente me encontré con la primera cámara web que compre, de hecho, vino como accesorio a mi máquina de escritorio _Compaq Presario 5006LA_. Así que me pregunté, ¿será que todavía funciona esta reliquia?.

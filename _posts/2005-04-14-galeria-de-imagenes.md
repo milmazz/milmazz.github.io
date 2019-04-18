@@ -1,13 +1,11 @@
 ---
-author: milmazz
-comments: true
-date: 2005-04-14 18:34:15
-layout: post
-slug: galeria-de-imagenes
 title: Galería de Imágenes
+author: milmazz
+date: 2005-04-14 18:34:15
 tags:
-- (X)HTML
-- CSS
+  - (X)HTML
+  - CSS
+slug: galeria-de-imagenes
 ---
 
 En este artículo se describirá un método para implantar una galería de imágenes, esta guía será básica, se describirá la estructura (haciendo uso de XHTML) del documento, adicionalmente nos encargaremos de la presentación de la galería, haciendo uso de hojas de estilos en cascada o CSS. El tema del comportamiento de la galería lo dejaremos a criterio del usuario, ya que existen diversas formas para implantar este sistema, algunas más convenientes que otras.

@@ -1,23 +1,21 @@
 ---
-redirect_from: "/archivos/2007/03/16/beryl-y-emerald-en-debian-etch-amd64/"
-author: chantanito
-comments: true
-date: 2007-03-16 18:55:50
-layout: post
-slug: beryl-y-emerald-en-debian-etch-amd64
 title: Beryl y Emerald en Debian "Etch" AMD64
+author: chantanito
+date: 2007-03-16 18:55:50
 categories:
-- debian
-- GNU/Linux
-- Software
+  - debian
+  - GNU/Linux
+  - Software
 tags:
-- beryl
-- debian
-- emerald
-- General
-- GNU/Linux
-- Ocio
-- Software
+  - beryl
+  - debian
+  - emerald
+  - General
+  - GNU/Linux
+  - Ocio
+  - Software
+slug: beryl-y-emerald-en-debian-etch-amd64
+redirect_from: /archivos/2007/03/16/beryl-y-emerald-en-debian-etch-amd64/
 ---
 
 Sin mucho preámbulo, sólo tengo que decir que voy explicar cómo tener instalado éste famoso escritorio 3D ([Beryl](http://www.beryl-project.org/)) en nuestros sistemas [Debian](http://www.debian.org) AMD64. El proceso en general es muy fácil y se resume en unos pocos pasos. Antes que nada debo mencionar que la placa de video que uso es [nVIDIA](http://www.nvidia.com) y que para poder utilizar el Beryl hay que hacer [ciertas modificaciones](http://wiki.beryl-project.org/wiki/Install_Beryl_on_Debian#XORG.CONF) al **xorg.conf**.

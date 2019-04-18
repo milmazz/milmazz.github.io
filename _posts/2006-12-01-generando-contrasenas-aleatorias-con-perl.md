@@ -1,20 +1,18 @@
 ---
-redirect_from: "/archivos/2006/12/01/generando-contrasenas-aleatorias-con-perl/"
-author: milmazz
-comments: true
-date: 2006-12-01 00:25:06
-layout: post
-slug: generando-contrasenas-aleatorias-con-perl
 title: Generando contraseñas aleatorias con Perl
+author: milmazz
+date: 2006-12-01 00:25:06
 categories:
-- perl
-- Seguridad
+  - perl
+  - Seguridad
 tags:
-- cpan
-- mkpasswd
-- Perl
-- security
-- Seguridad
+  - cpan
+  - mkpasswd
+  - Perl
+  - security
+  - Seguridad
+slug: generando-contrasenas-aleatorias-con-perl
+redirect_from: /archivos/2006/12/01/generando-contrasenas-aleatorias-con-perl/
 ---
 
 El día de hoy se manifestó la necesidad de generar una serie de claves aleatorias para un proyecto en el que me he involucrado recientemente, la idea es que la entrada que tenemos corresponde más o menos al siguiente formato:

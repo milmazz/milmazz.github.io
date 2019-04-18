@@ -1,21 +1,19 @@
 ---
-redirect_from: "/archivos/2006/05/17/perl-primeras-experiencias/"
-author: milmazz
-comments: true
-date: 2006-05-17 04:10:29
-layout: post
-slug: perl-primeras-experiencias
 title: 'Perl: Primeras experiencias'
+author: milmazz
+date: 2006-05-17 04:10:29
 categories:
-- Perl
+  - Perl
 tags:
-- cpan
-- debian
-- entities
-- feed
-- html
-- Perl
-- scripting
+  - cpan
+  - debian
+  - entities
+  - feed
+  - html
+  - Perl
+  - scripting
+slug: perl-primeras-experiencias
+redirect_from: /archivos/2006/05/17/perl-primeras-experiencias/
 ---
 
 La noche del sábado pasado, después de terminar de estudiar con Ana la cátedra Programación Paralela y Distribuida, me dispuse a revisar las distintas instancias de [Planeta Linux](http://planetalinux.org), como normalmente hago, pero eso no fué suficiente, me puse a validar el _feed_ que se estaba generando en ese momento (en particular, el _feed_ de la [instancia venezolana](http://ve.planetalinux.org/)). Me percate de varios errores y advertencias, entre ellos me llamo la atención:

@@ -1,12 +1,10 @@
 ---
-author: milmazz
-comments: true
-date: 2005-09-02 03:20:32
-layout: post
-slug: cinco-razones-para-no-usar-linux
 title: Cinco razones para NO usar Linux
+author: milmazz
+date: 2005-09-02 03:20:32
 tags:
-- miniblog
+  - miniblog
+slug: cinco-razones-para-no-usar-linux
 ---
 
 [Traducción](http://capitanplaneta.blogspot.com/2005/08/cinco-razones-para-no-usar-linux.html)

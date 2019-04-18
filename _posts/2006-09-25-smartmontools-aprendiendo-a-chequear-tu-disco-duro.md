@@ -1,17 +1,15 @@
 ---
-redirect_from: "/archivos/2006/09/25/smartmontools-aprendiendo-a-chequear-tu-disco-duro/"
-author: chantanito
-comments: true
-date: 2006-09-25 01:39:50
-layout: post
-slug: smartmontools-aprendiendo-a-chequear-tu-disco-duro
 title: 'Smartmontools: aprendiendo a chequear tu disco duro...'
+author: chantanito
+date: 2006-09-25 01:39:50
 categories:
-- debian
-- GNU/Linux
+  - debian
+  - GNU/Linux
 tags:
-- debian
-- GNU/Linux
+  - debian
+  - GNU/Linux
+slug: smartmontools-aprendiendo-a-chequear-tu-disco-duro
+redirect_from: /archivos/2006/09/25/smartmontools-aprendiendo-a-chequear-tu-disco-duro/
 ---
 
 Los discos duros modernos (y no tan modernos) vienen equipados con una tecnología conocida como S.M.A.R.T., el cual le permite al disco monitorear de manera contínua su propio estado de "salud" y alertar al usuario si es detectada alguna anormalidad, para que luego pueda ser corregida.

@@ -1,26 +1,24 @@
 ---
-redirect_from: "/archivos/2006/03/28/breve-resena-del-flisol-2006-capitulo-merida-venezuela/"
-author: milmazz
-comments: true
-date: 2006-03-28 03:54:17
-layout: post
-slug: breve-resena-del-flisol-2006-capitulo-merida-venezuela
 title: Breve reseña del FLISOL 2006, Capítulo Mérida-Venezuela
+author: milmazz
+date: 2006-03-28 03:54:17
 categories:
-- debian
-- GNU/Linux
-- Local
-- Python
-- Ubuntu
+  - debian
+  - GNU/Linux
+  - Local
+  - Python
+  - Ubuntu
 tags:
-- debian
-- django
-- flisol
-- GNU/Linux
-- Local
-- Python
-- software+libre
-- Ubuntu
+  - debian
+  - django
+  - flisol
+  - GNU/Linux
+  - Local
+  - Python
+  - software+libre
+  - Ubuntu
+slug: breve-resena-del-flisol-2006-capitulo-merida-venezuela
+redirect_from: /archivos/2006/03/28/breve-resena-del-flisol-2006-capitulo-merida-venezuela/
 ---
 
 Al llegar a eso de las 9:30 a.m. (hora local) estaban transmitiendo el video [Trusted Computing](http://www.lafkon.net/tc/) ([subtítulos español](http://www.lafkon.net/tc/TrustedComputing.es.srt)), un excelente video en donde nos muestran cuan peligroso puede ser la "mala interpretación" que tiene la industria acerca del concepto "Trusted Computing", modelo en el cual la industria no le permite a los usuarios (_comunidad_) elegir entre lo que ellos consideran malo o nó, el problema es que ya deciden por tí, simplemente porque la industria no confía en nosotros.

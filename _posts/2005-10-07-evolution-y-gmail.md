@@ -1,17 +1,15 @@
 ---
-redirect_from: "/archivos/2005/10/07/evolution-y-gmail/"
-author: milmazz
-comments: true
-date: 2005-10-07 05:54:32
-layout: post
-slug: evolution-y-gmail
 title: Evolution y Gmail
+author: milmazz
+date: 2005-10-07 05:54:32
 categories:
-- GNU/Linux
-- Software
+  - GNU/Linux
+  - Software
 tags:
-- GNU/Linux
-- Software
+  - GNU/Linux
+  - Software
+slug: evolution-y-gmail
+redirect_from: /archivos/2005/10/07/evolution-y-gmail/
 ---
 
 Si desea configurar el cliente de correo

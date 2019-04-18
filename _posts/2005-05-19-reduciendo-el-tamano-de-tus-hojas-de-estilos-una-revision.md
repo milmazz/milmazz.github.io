@@ -1,14 +1,12 @@
 ---
-redirect_from: "/archivos/2005/05/19/reduciendo-el-tamano-de-tus-hojas-de-estilos-una-revision/"
-author: milmazz
-comments: true
-date: 2005-05-19 21:50:57
-layout: post
-slug: reduciendo-el-tamano-de-tus-hojas-de-estilos-una-revision
 title: Reduciendo el tamaño de tus hojas de estilos, una revisión
+author: milmazz
+date: 2005-05-19 21:50:57
 tags:
-- CSS
-- Recursos
+  - CSS
+  - Recursos
+slug: reduciendo-el-tamano-de-tus-hojas-de-estilos-una-revision
+redirect_from: /archivos/2005/05/19/reduciendo-el-tamano-de-tus-hojas-de-estilos-una-revision/
 ---
 
 Hace pocos días atrás comenté acerca de [la reducción en el tamaño en _bytes_ de

@@ -1,15 +1,12 @@
 ---
-redirect_from: "/archivos/2012/11/09/python-el-comienzo/"
-author: milmazz
-comments: true
-date: 2012-11-09 22:22:20
-last_modified_at: 2014-02-07
-layout: post
-slug: python-el-comienzo
 title: 'Python: El comienzo'
+author: milmazz
+date: 2012-11-09 22:22:20
 categories:
-- Programación
-- Python
+  - Programación
+  - Python
+slug: python-el-comienzo
+redirect_from: /archivos/2012/11/09/python-el-comienzo/
 ---
 
 ### ¿Qué es Python?

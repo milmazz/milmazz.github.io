@@ -1,15 +1,13 @@
 ---
-redirect_from: "/archivos/2005/04/14/renombrando-ficheros-con-rename/"
-author: milmazz
-comments: true
-date: 2005-04-14 02:04:15
-layout: post
-slug: renombrando-ficheros-con-rename
 title: Renombrando ficheros con rename
+author: milmazz
+date: 2005-04-14 02:04:15
 categories:
-- GNU/Linux
+  - GNU/Linux
 tags:
-- GNU/Linux
+  - GNU/Linux
+slug: renombrando-ficheros-con-rename
+redirect_from: /archivos/2005/04/14/renombrando-ficheros-con-rename/
 ---
 
 Si ud. es una de esas personas que al igual que yo le gusta ahorrar tiempo en

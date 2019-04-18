@@ -1,13 +1,11 @@
 ---
-redirect_from: "/archivos/2005/04/16/convirtiendo-formatos-de-audio-ogg-a-mp3/"
-author: milmazz
-comments: true
-date: 2005-04-16 18:54:31
-layout: post
-slug: convirtiendo-formatos-de-audio-ogg-a-mp3
 title: Convirtiendo formatos de audio OGG a MP3
+author: milmazz
+date: 2005-04-16 18:54:31
 tags:
-- Scripts
+  - Scripts
+slug: convirtiendo-formatos-de-audio-ogg-a-mp3
+redirect_from: /archivos/2005/04/16/convirtiendo-formatos-de-audio-ogg-a-mp3/
 ---
 
 Por todos es bien sabido la superioridad que presenta el formato de  compresión

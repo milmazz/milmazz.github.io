@@ -1,15 +1,13 @@
 ---
-author: milmazz
-comments: true
-date: 2005-10-14 19:10:36
-layout: post
-slug: programacion-extrema
 title: Programación Extrema
+author: milmazz
+date: 2005-10-14 19:10:36
 categories:
-- Software
+  - Software
 tags:
-- Ingeniería del Software
-- Software
+  - Ingeniería del Software
+  - Software
+slug: programacion-extrema
 ---
 
 La _Programación Extrema_ es ideal en aquellos proyectos en donde se requiere un

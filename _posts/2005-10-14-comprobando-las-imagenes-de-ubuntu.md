@@ -1,15 +1,13 @@
 ---
-redirect_from: "/archivos/2005/10/14/comprobando-las-imagenes-de-ubuntu/"
-author: milmazz
-comments: true
-date: 2005-10-14 22:03:26
-layout: post
-slug: comprobando-las-imagenes-de-ubuntu
 title: Comprobando las imágenes de ubuntu
+author: milmazz
+date: 2005-10-14 22:03:26
 categories:
-- Ubuntu
+  - Ubuntu
 tags:
-- Ubuntu
+  - Ubuntu
+slug: comprobando-las-imagenes-de-ubuntu
+redirect_from: /archivos/2005/10/14/comprobando-las-imagenes-de-ubuntu/
 ---
 
 Si usted es de las personas que ha descargado la última versión de

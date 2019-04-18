@@ -1,15 +1,13 @@
 ---
-redirect_from: "/archivos/2005/11/21/ctrl-alt-supr-en-ubuntu/"
-author: milmazz
-comments: true
-date: 2005-11-21 22:56:44
-layout: post
-slug: ctrl-alt-supr-en-ubuntu
 title: Ctrl + Alt + Supr en Ubuntu
+author: milmazz
+date: 2005-11-21 22:56:44
 categories:
-- Ubuntu
+  - Ubuntu
 tags:
-- Ubuntu
+  - Ubuntu
+slug: ctrl-alt-supr-en-ubuntu
+redirect_from: /archivos/2005/11/21/ctrl-alt-supr-en-ubuntu/
 ---
 
 Si usted alguna vez llegó a preguntarse como lograr abrir el **Monitor del Sistema** al presionar las teclas Ctrl + Alt + Supr, comportamiento similar bajo sistemas Windows, en el [Blog de Bairsairk](http://bairsairk.org/) responden dicha inquietud.

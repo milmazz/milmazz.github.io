@@ -1,16 +1,14 @@
 ---
-redirect_from: "/archivos/2006/06/13/xxxii-aniversario-eisula/"
-author: milmazz
-comments: true
-date: 2006-06-13 23:23:01
-layout: post
-slug: xxxii-aniversario-eisula
 title: XXXII Aniversario EISULA
+author: milmazz
+date: 2006-06-13 23:23:01
 categories:
-- Local
+  - Local
 tags:
-- Local
-- ula
+  - Local
+  - ula
+slug: xxxii-aniversario-eisula
+redirect_from: /archivos/2006/06/13/xxxii-aniversario-eisula/
 ---
 
 Según lo manifiesta la profesora Flor Narciso en un comunicado, el día de mañana, 14/06/2006, se celebrará una misa conmemorativa del **XXXII Aniversario de la Escuela de Ingeniería de Sistemas** a las 9:00 a.m. en la Sala de Reuniones de la Escuela.

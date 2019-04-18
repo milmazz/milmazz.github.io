@@ -1,16 +1,14 @@
 ---
-author: milmazz
-comments: true
-date: 2005-09-25 13:52:57
-layout: post
-slug: repositorios-de-ubuntu
 title: Repositorios de Ubuntu
+author: milmazz
+date: 2005-09-25 13:52:57
 categories:
-- GNU/Linux
-- Ubuntu
+  - GNU/Linux
+  - Ubuntu
 tags:
-- GNU/Linux
-- Ubuntu
+  - GNU/Linux
+  - Ubuntu
+slug: repositorios-de-ubuntu
 ---
 
 Desde hace unas horas hasta hace poco el servidor principal que mantiene los

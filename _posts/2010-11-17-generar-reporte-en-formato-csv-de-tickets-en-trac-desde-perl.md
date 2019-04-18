@@ -1,19 +1,17 @@
 ---
-redirect_from: "/archivos/2010/11/17/generar-reporte-en-formato-csv-de-tickets-en-trac-desde-perl/"
-author: milmazz
-comments: true
-date: 2010-11-17 17:12:06
-layout: post
-slug: generar-reporte-en-formato-csv-de-tickets-en-trac-desde-perl
 title: Generar reporte en formato CSV de tickets en Trac desde Perl
+author: milmazz
+date: 2010-11-17 17:12:06
 categories:
-- Perl
-- Programación
+  - Perl
+  - Programación
 tags:
-- csv
-- Perl
-- Programación
-- trac
+  - csv
+  - Perl
+  - Programación
+  - trac
+slug: generar-reporte-en-formato-csv-de-tickets-en-trac-desde-perl
+redirect_from: /archivos/2010/11/17/generar-reporte-en-formato-csv-de-tickets-en-trac-desde-perl/
 ---
 
 El día de hoy recibí una llamada telefónica de un compañero de labores en donde

@@ -1,14 +1,12 @@
 ---
-redirect_from: "/archivos/2005/12/18/audioconverter-v031/"
-author: milmazz
-comments: true
-date: 2005-12-18 02:35:48
-layout: post
-slug: audioconverter-v031
 title: audioconverter v0.3.1
+author: milmazz
+date: 2005-12-18 02:35:48
 tags:
-- audioconverter
-- Scripts
+  - audioconverter
+  - Scripts
+slug: audioconverter-v031
+redirect_from: /archivos/2005/12/18/audioconverter-v031/
 ---
 
 El día de hoy me comentaba Fernando Arenas, quien me contacto vía correo electrónico, que se había percatado de un pequeño _[bug](http://es.wikipedia.org/wiki/Error_de_software)_ en el _script_ `audioconverter`, específicamente cuando se realizaba la conversión del formato `.wma` a `.mp3`.

@@ -1,14 +1,12 @@
 ---
-redirect_from: "/archivos/2013/09/23/erlang-primeras-impresiones/"
-author: milmazz
-comments: true
-date: 2013-09-23 22:22:20
-last_modified_at: 2014-02-07
-layout: page
-slug: elixir-primeras-impresiones
 title: 'Elixir: Primeras impresiones'
-tags: [programming, elixir]
-share: true
+author: milmazz
+date: 2013-09-23 22:22:20
+tags:
+  - programming
+  - elixir
+slug: elixir-primeras-impresiones
+redirect_from: /archivos/2013/09/23/erlang-primeras-impresiones/
 ---
 
 ### Elixir: Primeras impresiones

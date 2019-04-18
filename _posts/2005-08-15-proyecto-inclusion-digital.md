@@ -1,14 +1,12 @@
 ---
-author: milmazz
-comments: true
-date: 2005-08-15 21:55:01
-layout: post
-slug: proyecto-inclusion-digital
 title: Proyecto Inclusión Digital
+author: milmazz
+date: 2005-08-15 21:55:01
 categories:
-- Ubuntu
+  - Ubuntu
 tags:
-- Ubuntu
+  - Ubuntu
+slug: proyecto-inclusion-digital
 ---
 
 ![Logo del proyecto Inclusión

@@ -1,17 +1,15 @@
 ---
-redirect_from: "/archivos/2010/12/02/construyendo-de-manera-efectiva-y-rapida-imagenes-iso-de-debian-con-jigdo/"
-author: milmazz
-comments: true
-date: 2010-12-02 14:04:39
-layout: post
-slug: construyendo-de-manera-efectiva-y-rapida-imagenes-iso-de-debian-con-jigdo
 title: Construyendo de manera efectiva y rápida imágenes ISO de Debian con jigdo
+author: milmazz
+date: 2010-12-02 14:04:39
 categories:
-- debian
+  - debian
 tags:
-- debian
-- iso
-- jigdo
+  - debian
+  - iso
+  - jigdo
+slug: construyendo-de-manera-efectiva-y-rapida-imagenes-iso-de-debian-con-jigdo
+redirect_from: /archivos/2010/12/02/construyendo-de-manera-efectiva-y-rapida-imagenes-iso-de-debian-con-jigdo/
 ---
 
 Si usted desea el conjunto de CD o DVD para instalar Debian, tiene muchas

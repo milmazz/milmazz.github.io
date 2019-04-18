@@ -1,20 +1,18 @@
 ---
-redirect_from: "/archivos/2006/03/12/vulnerabilidad-grave-corregida-en-ubuntu/"
-author: milmazz
-comments: true
-date: 2006-03-12 21:33:19
-layout: post
-slug: vulnerabilidad-grave-corregida-en-ubuntu
 title: Vulnerabilidad grave corregida en ubuntu
+author: milmazz
+date: 2006-03-12 21:33:19
 categories:
-- Seguridad
-- Ubuntu
+  - Seguridad
+  - Ubuntu
 tags:
-- bug
-- root
-- security
-- Seguridad
-- Ubuntu
+  - bug
+  - root
+  - security
+  - Seguridad
+  - Ubuntu
+slug: vulnerabilidad-grave-corregida-en-ubuntu
+redirect_from: /archivos/2006/03/12/vulnerabilidad-grave-corregida-en-ubuntu/
 ---
 
 La vulnerabilidad en ubuntu donde [cualquiera con acceso al shell podía ver la contraseña del instalador del sistema](https://launchpad.net/distros/ubuntu/+bug/34606) ha sido reparada.

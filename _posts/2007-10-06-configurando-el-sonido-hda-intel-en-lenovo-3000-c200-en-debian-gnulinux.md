@@ -1,24 +1,22 @@
 ---
-redirect_from: "/archivos/2007/10/06/configurando-el-sonido-hda-intel-en-lenovo-3000-c200-en-debian-gnulinux/"
-author: chantanito
-comments: true
-date: 2007-10-06 21:14:58
-layout: post
-slug: configurando-el-sonido-hda-intel-en-lenovo-3000-c200-en-debian-gnulinux
 title: Configurando el sonido (HDA Intel) en Lenovo 3000 c200 en Debian GNU/Linux
+author: chantanito
+date: 2007-10-06 21:14:58
 categories:
-- debian
-- GNU/Linux
-- Software
-- Ubuntu
+  - debian
+  - GNU/Linux
+  - Software
+  - Ubuntu
 tags:
-- alsa
-- debian
-- General
-- GNU/Linux
-- lenovo
-- Software
-- Ubuntu
+  - alsa
+  - debian
+  - General
+  - GNU/Linux
+  - lenovo
+  - Software
+  - Ubuntu
+slug: configurando-el-sonido-hda-intel-en-lenovo-3000-c200-en-debian-gnulinux
+redirect_from: /archivos/2007/10/06/configurando-el-sonido-hda-intel-en-lenovo-3000-c200-en-debian-gnulinux/
 ---
 
 La situación poco común se presentó con un portátil [Lenovo](http://www.lenovo.com), específicamente un 3000 c200; el computador en cuestión mostraba la tarjeta funcionando, como si estuviera todo normal, pero sucede que **no había sonido en lo absoluto** por más altos que estuvieran los indicadores gráficos del volumen. Indagando por [Google](http://www.google.com) me encontré que ya han habido muchos casos similares, no solamente para laptops Lenovo, sino para la mayoría que incluye ese tipo de tarjetas y me encontré con una solución en un [foro](http://help.ubuntu.com/community/HdaIntelSoundHowto) que me funcionó perfecto. Acá voy a tratar de explicar paso a paso todo lo que hice para que funcionara como debe ser.

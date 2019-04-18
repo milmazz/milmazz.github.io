@@ -1,18 +1,16 @@
 ---
-redirect_from: "/archivos/2010/03/12/consideraciones-para-el-envio-de-cambios-en-subversion/"
-author: milmazz
-comments: true
-date: 2010-03-12 01:48:02
-layout: post
-slug: consideraciones-para-el-envio-de-cambios-en-subversion
 title: Consideraciones para el envío de cambios en Subversion
+author: milmazz
+date: 2010-03-12 01:48:02
 categories:
-- Programación
-- subversion
+  - Programación
+  - subversion
 tags:
-- Ingeniería del Software
-- Programación
-- subversion
+  - Ingeniería del Software
+  - Programación
+  - subversion
+slug: consideraciones-para-el-envio-de-cambios-en-subversion
+redirect_from: /archivos/2010/03/12/consideraciones-para-el-envio-de-cambios-en-subversion/
 ---
 
 Hoy día pareciese que los sistemas de control de versiones centralizados están pasando de moda ante la aparición de sistemas de control de versiones descentralizados poderosos como [Git](http://git-scm.com/), del cual espero poder escribir en próximos artículos. Sin embargo, puede que la adopción de estos sistemas descentralizados tarden en controlar el mundo de los SCM, al menos por ahora las métricas de [ohloh.net](http://www.ohloh.net) indican que [Subversion](http://subversion.tigris.org/) sigue siendo bastante empleado, mayor detalle en el artículo [Subversion - As Strong As Ever](http://blogs.open.collab.net/svn/2009/11/subversion-as-strong-as-ever.html).

@@ -1,18 +1,13 @@
 ---
-redirect_from: "/archivos/2014/06/28/grunt-javascript-task-manager/"
-author: milmazz
-comments: true
-share: true
-date: 2014-06-28T16:00:00-05:00
-layout: post
-slug: grunt-javascript-task-manager
 title: 'Grunt: The Javascript Task Manager'
-description: When you play the Web Developer role, sometimes you may have to endure some repetitive tasks like minification, unit testing, compilation, linting, beautify or unpack JavaScript code and so on. To solve this problems, and in the meantime, try to keep your mental health in a good shape, you desperately need to find a way to automate this tasks. [Grunt][] offers you an easy way to accomplish this kind of automation.
-excerpt_separator: <!--more-->
+author: milmazz
+date: '2014-06-28T16:00:00-05:00'
 tags:
-- grunt
-- javascript
-- programming
+  - grunt
+  - javascript
+  - programming
+slug: grunt-javascript-task-manager
+redirect_from: /archivos/2014/06/28/grunt-javascript-task-manager/
 ---
 
 When you play the Web Developer role, sometimes you may have to endure some

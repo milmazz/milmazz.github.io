@@ -1,17 +1,13 @@
 ---
-redirect_from: "/archivos/2014/02/25/jquery-best-practices/"
+title: jQuery best practices
 author: milmazz
-comments: true
-share: true
 date: 2014-02-25 00:20:00
-layout: post
-slug: jquery-best-practices
-title: 'jQuery best practices'
-excerpt_separator: <!--more-->
 tags:
-- jquery
-- javascript
-- programming
+  - jquery
+  - javascript
+  - programming
+slug: jquery-best-practices
+redirect_from: /archivos/2014/02/25/jquery-best-practices/
 ---
 
 After some time working with C programming language in a \*NIX like operating

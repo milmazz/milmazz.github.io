@@ -1,13 +1,11 @@
 ---
-date: 2018-11-23T19:40:31Z
-layout: post
 title: Elixir's MIME library review
-slug: elixir-mime-library-review
-share: true
 author: milmazz
+date: '2018-11-23T19:40:31Z'
 tags:
-- programming
-- elixir
+  - programming
+  - elixir
+slug: elixir-mime-library-review
 ---
 
 Elixir's [MIME][] is a read-only and immutable library that embeds the [MIME

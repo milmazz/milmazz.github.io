@@ -1,14 +1,12 @@
 ---
-author: milmazz
-comments: true
-date: 2005-08-22 21:02:34
-layout: post
-slug: ubuntu-lightweight
 title: Ubuntu lightweight
+author: milmazz
+date: 2005-08-22 21:02:34
 categories:
-- Ubuntu
+  - Ubuntu
 tags:
-- Ubuntu
+  - Ubuntu
+slug: ubuntu-lightweight
 ---
 
 Si usted es de esas personas que le gusta obtener el mayor rendimiento, con la

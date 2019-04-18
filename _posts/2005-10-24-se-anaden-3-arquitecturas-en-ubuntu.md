@@ -1,15 +1,13 @@
 ---
-redirect_from: "/archivos/2005/10/24/se-anaden-3-arquitecturas-en-ubuntu/"
-author: milmazz
-comments: true
-date: 2005-10-24 01:50:19
-layout: post
-slug: se-anaden-3-arquitecturas-en-ubuntu
 title: Se añaden 3 arquitecturas en ubuntu
+author: milmazz
+date: 2005-10-24 01:50:19
 categories:
-- Ubuntu
+  - Ubuntu
 tags:
-- Ubuntu
+  - Ubuntu
+slug: se-anaden-3-arquitecturas-en-ubuntu
+redirect_from: /archivos/2005/10/24/se-anaden-3-arquitecturas-en-ubuntu/
 ---
 
 El mismo día 13 de Octubre, día del lanzamiento de

@@ -1,21 +1,19 @@
 ---
-redirect_from: "/archivos/2007/02/07/identificar-el-hardware-de-tu-pc-en-debian-gnulinux/"
-author: chantanito
-comments: true
-date: 2007-02-07 18:16:45
-layout: post
-slug: identificar-el-hardware-de-tu-pc-en-debian-gnulinux
 title: Identificar el Hardware de tu PC en Debian GNU/Linux
+author: chantanito
+date: 2007-02-07 18:16:45
 categories:
-- debian
-- GNU/Linux
-- Software
+  - debian
+  - GNU/Linux
+  - Software
 tags:
-- debian
-- General
-- GNU/Linux
-- Recursos
-- Software
+  - debian
+  - General
+  - GNU/Linux
+  - Recursos
+  - Software
+slug: identificar-el-hardware-de-tu-pc-en-debian-gnulinux
+redirect_from: /archivos/2007/02/07/identificar-el-hardware-de-tu-pc-en-debian-gnulinux/
 ---
 
 Bien, lo que vamos a hacer a continuación es muy fácil, tán fácil como instalar un paquete, luego ejecutarlo y leer la información que él nos "escupe" (me encanta como suena :) ). Como sabrán, soy usuario de [Debian GNU/Linux](http://www.debian.org) en su versión Etch para la arquitectura AMD64, pero ésto en realidad no es tan relevante ya que el paquete se encuentra tanto en Testing como en Stable para la mayoría de las arquitecturas y en la sección main de los repositorios.

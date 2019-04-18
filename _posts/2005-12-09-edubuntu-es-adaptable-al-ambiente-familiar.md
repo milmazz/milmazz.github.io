@@ -1,16 +1,14 @@
 ---
-redirect_from: "/archivos/2005/12/09/edubuntu-es-adaptable-al-ambiente-familiar/"
-author: milmazz
-comments: true
-date: 2005-12-09 20:44:49
-layout: post
-slug: edubuntu-es-adaptable-al-ambiente-familiar
 title: edubuntu es adaptable al ambiente familiar?
+author: milmazz
+date: 2005-12-09 20:44:49
 categories:
-- Ubuntu
+  - Ubuntu
 tags:
-- edubuntu
-- Ubuntu
+  - edubuntu
+  - Ubuntu
+slug: edubuntu-es-adaptable-al-ambiente-familiar
+redirect_from: /archivos/2005/12/09/edubuntu-es-adaptable-al-ambiente-familiar/
 ---
 
 Es importante hacer notar que el objetivo primordial de [edubuntu](http://www.edubuntu.org/) es ofrecer una **alternativa** para el _ambiente escolar_ (puede ser igualmente usable por los niños en casa), ofreciendo dos modos de instalación (_servidor_ y _estación de trabajo_), el primero de los modos de instalación es ideal para ambientes escolares donde existen laboratorios, se provee [LTSP](http://ltsp.org/) (_Linux Terminal Server Project_), el cual permite que otros ordenadores (los cuales fungen como _clientes_) se conecten al _servidor_ y utilicen los recursos de éste para ejecutar sus aplicaciones de escritorio.

@@ -1,14 +1,12 @@
 ---
-redirect_from: "/archivos/2005/05/05/csscompiler-reduce-el-tamano-de-tus-hojas-de-estilos/"
-author: milmazz
-comments: true
-date: 2005-05-05 00:20:59
-layout: post
-slug: csscompiler-reduce-el-tamano-de-tus-hojas-de-estilos
 title: CSScompiler, reduce el tamaño de tus hojas de estilos
+author: milmazz
+date: 2005-05-05 00:20:59
 tags:
-- CSS
-- Recursos
+  - CSS
+  - Recursos
+slug: csscompiler-reduce-el-tamano-de-tus-hojas-de-estilos
+redirect_from: /archivos/2005/05/05/csscompiler-reduce-el-tamano-de-tus-hojas-de-estilos/
 ---
 
 [Daniel Mota](http://www.danielmota.com/) recientemente ha lanzado [CSScompiler

@@ -1,15 +1,13 @@
 ---
-redirect_from: "/archivos/2006/04/25/debian-bienvenido-al-sistema-operativo-universal-parte-i/"
-author: milmazz
-comments: true
-date: 2006-04-25 15:04:46
-layout: post
-slug: debian-bienvenido-al-sistema-operativo-universal-parte-i
 title: 'Debian: Bienvenido al Sistema Operativo Universal (Parte I)'
+author: milmazz
+date: 2006-04-25 15:04:46
 categories:
-- debian
+  - debian
 tags:
-- debian
+  - debian
+slug: debian-bienvenido-al-sistema-operativo-universal-parte-i
+redirect_from: /archivos/2006/04/25/debian-bienvenido-al-sistema-operativo-universal-parte-i/
 ---
 
 Desde el día ayer tengo en mi ordenador de escritorio **solo** [Debian](http://www.debian.org/), anteriormente tenía las tres versiones actuales de [Ubuntu](http://www.ubuntu.com/) (_warty_, _hoary_ y _breezy_), las cuales compartían la misma particion /home, sentía que estaba desperdiciando espacio, aunque siempre trataba de usar las tres versiones de Ubuntu, una buena excusa que encontre para arreglar las cosas fué la noticia en la que se anunciaba que el [período de soporte para Ubuntu 4.10 (_Warty Hedgehog_) estaba llegando a su fín](http://www.ubuntu.com/news/410eol), después del día 30 de Abril de 2006, no se incluirá información acerca de las actualizaciones de seguridad en los paquetes de Ubuntu 4.10.
