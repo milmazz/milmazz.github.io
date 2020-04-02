@@ -17,10 +17,10 @@ remote_theme: "mmistakes/so-simple-theme"
 read_time: true
 words_per_minute: 200
 mathjax: false
-google_analytics: UA-40488366-1
 search_full_content: false
 paginate: 5
 paginate_path: /page:num/
+excerpt_separator: <!--more-->
 
 # taxonomy pages
 tag_archive_path: "/tags/#"
