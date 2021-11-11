@@ -23,7 +23,7 @@ I will share through this _blog_ my experiences as a programmer and
 write about a variety of topics about different technologies. In the past I was
 a system administrator, so, maybe I'll include some articles about that as well.
 
-If you prefer you can contact me on my personal e-mail: `me at milmaz.uno`
+If you prefer you can contact me on my personal e-mail: `me at milmazz.uno`
 or you can follow me on Twitter at [@milmazz][]
 
 [LinkedIn]: https://www.linkedin.com/in/milmazz
