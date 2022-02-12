@@ -19,7 +19,7 @@ read Patrik's post, first, let us clarify what is _function currying_.
 arguments (_arity_) into a function that takes _only one_ argument and returns
 another function if any arguments are still required. When the last required
 argument is given, the function automatically executes and computes the result.
-
+<!--more-->
 As a first step, let us apply _function currying_ manually:
 
 ```elixir

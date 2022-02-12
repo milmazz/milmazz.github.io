@@ -8,14 +8,14 @@ tags:
 slug: asynchronous-tasks-with-elixir
 ---
 
-One of my firsts contributions into [ExDoc][], the tool used to produce HTML
+One of my first contributions into [ExDoc][], the tool used to produce HTML
 documentation for Elixir projects, was to improve the documentation build
 process performance. My first approach for this was to build each module page
 concurrently, manually sending and receiving messages between processes. Then,
 as you can see in the Pull Request details, [Eric Meadows-Jönsson][@ericmj]
 pointed out that I should look at the [Task][] module. In this article, I'll try
 to show you the path that I followed to do that contribution.
-
+<!--more-->
 The original source code was something like this:
 
 ```elixir

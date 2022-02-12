@@ -15,7 +15,7 @@ and includes nice features, which I'll try to explain in case you're not
 familiar with the library. Then, I'll focus on MIME's internals or how was
 built, and also how MIME illustrates in an elegant way so many features of
 Elixir itself.
-
+<!--more-->
 One of the goals, maybe the main one, of this library is to offer a _performant
 lookup_ of the MIME database at runtime, that's why new MIME types can only be
 added at compile-time via configuration, but we'll talk about this option
