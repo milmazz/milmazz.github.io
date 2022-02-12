@@ -1,6 +1,6 @@
 ---
-title: Oban, job processing library for Elixir
-author: Milton Mazzarri
+title: "Oban: job processing library for Elixir"
+author: milmazz
 date: 2022-02-11T18:27:31Z
 tags:
   - programming
@@ -555,8 +555,8 @@ If you have reached this point, you undoubtedly noticed that I have _enjoyed_ wo
 
 In the same vein as the previous section, there are a few things that I would like to see in Oban:
 
-* Autoload regulation, suppose that your deployment in production shares the API server with your Oban Workers; these processes will compete with each other for resources. With a regulation framework built-in, your queues could be constrained a bit more if the load in your nodes is too high. If you don't have a rate limit in your queue, you could automatically increase the _concurrency limit_ if the load in the node is low. An excellent reference to this topic can be found in the paper [Generic Load Regulation Framework for Erlang][regulator] by Ulf Wiger.
-* A callback in the `{Fixed,Dynamic}Pruner` plugins; that way, before proceeding with the deletion, you can store or transfer those records into cold storage or somewhere else.
+* Autoload regulation, suppose that your deployment in production shares the API server with your Oban Workers; these processes will compete with each other for resources. With a regulation framework built-in, your queues could be constrained a bit more if the load in your nodes is too high. If you don't have a rate limit in your queue, you could automatically increase the _concurrency limit_ if the load in the node is low. An excellent reference to this topic can be found in the paper [Generic Load Regulation Framework for Erlang][regulator] by Ulf Wiger. As far as I can tell, this feature is already in the _roadmap_.
+* A callback in the `{Fixed,Dynamic}Pruner` plugins; that way, before proceeding with the deletion, you can store or transfer those records into cold storage or somewhere else. I recently [opened an issue](https://github.com/sorentwo/oban/issues/633) about this feature.
 
 Do you have things that you would like to see in Oban? If that's the case, and you want to share those wishes with me, you can reach me at [`@milmazz`][milmazz] on Twitter, or you can find me in the `#oban` channel on the [Elixir Slack][slack].
 
@@ -579,6 +579,12 @@ license][license], keep in mind that when you buy the license, you're helping
 features for the open-source release of [Oban][].
 
 If you have any pattern that you follow when you use Oban and you want to share that with me, you can reach me at [`@milmazz`][milmazz] on Twitter, or you can find me in the `#oban` channel on the [Elixir Slack][slack].
+
+That’s all folks! Thanks for reading.
+
+## Acknowledgments
+
+Thank you Parker Selbert for reviewing drafts of this post.
 
 [Batch]: https://hexdocs.pm/oban/batch.html
 [Chunk]: https://hexdocs.pm/oban/chunk.html
