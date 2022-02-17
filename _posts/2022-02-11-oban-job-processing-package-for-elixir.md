@@ -424,8 +424,8 @@ This will produce a lot of roundtrips to the database, instead, you should use `
 
 ```elixir
 my_data_stream
-|> Stream.map(&MyApp.MyWorker.new(%{asset_id: &1.id})
-|> Enum.map(&Oban.insert_all/1)
+|> Enum.map(&MyApp.MyWorker.new(%{asset_id: &1.id}))
+|> Oban.insert_all()
 ```
 
 While the previous approach avoids doing many roundtrips to the database, you can have problems depending on the number of jobs you're trying to insert
