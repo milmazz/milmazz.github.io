@@ -16,7 +16,7 @@ with Oban Web and complex workflow management with Oban Pro.
 
 This article is the first of a series; later we will explore other important topics such as:
 
-* Oban: Testing your Workers and Configuration
+* [Oban: Testing your Workers and Configuration](/article/2022/02/21/oban-testing-your-workers-and-configuration)
 * Oban in production
 
 Stay tuned!
