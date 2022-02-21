@@ -14,12 +14,23 @@ permalink: /article/:year/:month/:day/:title/
 markdown: kramdown
 highlighter: rouge
 remote_theme: "mmistakes/so-simple-theme"
+skin: "/assets/css/skins/dark.css"
+
+## read time
 read_time: true
 words_per_minute: 200
+
+## mathematics
 mathjax: false
-search_full_content: false
+
+## Pagination
 paginate: 5
 paginate_path: /page:num/
+
+## Full Text Search support
+# Disabled, it could affect page load performance
+search_full_content: false
+
 excerpt_separator: <!--more-->
 
 # taxonomy pages
@@ -61,6 +72,7 @@ defaults:
       comments: false
       share: true
 
+## Google Fonts
 google_fonts:
   - name: "Source Sans Pro"
     weights: "400,400i,700,700i"
@@ -102,6 +114,9 @@ footer_links:
   - title: GitHub
     url: https://github.com/milmazz
     icon: fab fa-github-square
+  - title: LinkedIn
+    url: https://linkedin.com/in/milmazz
+    icon: fab fa-linkedin
   - title: Feed
     url: atom.xml
     icon: fas fa-rss-square
