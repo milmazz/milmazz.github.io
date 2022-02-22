@@ -15,15 +15,15 @@ This article is the second one of a series about Oban, an Elixir library for
 background job processing:
 
 * [Oban: job processing library for Elixir](/article/2022/02/11/oban-job-processing-package-for-elixir/)
-* Oban: Testing your Workers and Configuration (you are here)
+* **Oban: Testing your Workers and Configuration (you are here)**
 * Oban in production
 
 ## Testing the implementation of the Oban.Worker behaviour
 
 Before implementing an Oban Worker, I start writing the unit test that will
-insert and execute the job, these tests are usually short because your workers
+insert and execute the job; these tests are usually short because your workers
 should be as lean as possible, I tend to treat `Workers` as `Resolvers` or
-`Controllers` that orchestrate a series of actions that most of the time,
+`Controllers` that orchestrate a series of actions that, most of the time,
 execute functions that are already being tested and are part of the business
 logic layer. It would also help validate that the job is running the side
 effects in these unit tests.
@@ -101,7 +101,7 @@ defmodule MyApp.ObanConfigTest do
       Enum.map(["config/config.exs", "config/prod.exs"], fn path ->
         path
         |> Config.Reader.read!(imports: [], env: :prod, target: :host)
-        |> get_in([:core, Oban])
+        |> get_in([:my_app, Oban])
       end)
 
     assert %Oban.Config{plugins: _plugins} =
@@ -112,12 +112,38 @@ defmodule MyApp.ObanConfigTest do
 end
 ```
 
-But, for the previous unit test to make sense, you need to know a bit of the
-internal implementation of Oban, well, the gist is this, when you try to start
+_NOTE: In the previous test, I merged the Oban config that comes from
+`config/config.exs` and `config/prod.exs`; you should adapt this test based on
+your scenario._
+
+But, for the previous unit test to make sense, you need to know a bit about the
+internal implementation of Oban. Well, the gist is this, when you try to start
 the _supervision tree_ for Oban, it first tries to create an `Oban.Config`
 struct via
 [`Oban.Config.new/1`](https://github.com/sorentwo/oban/blob/fec80cdbafe59b0fba13c0f67ed1739c1f86e703/lib/oban/config.ex#L44-L63),
-and if you supply a wrong configuration, it will blow up.
+and if you supply the wrong configuration, it will blow up.
+
+For example, let's assume you made a typo in the `repo` option:
+
+```console
+$ mix test test/my_app/oban_config_test.exs
+
+1) test check oban configuration (MyApp.ObanConfigTest)
+   test/my_app/oban_config_test.exs:4
+   ** (ArgumentError) expected :repo to be an Ecto.Repo, got: MyApp.Rep0
+   code: |> Oban.Config.new()
+   stacktrace:
+     ...
+```
+
+Once you fix the typo, you get:
+
+```console
+$ mix test test/my_app/oban_config_test.exs
+.
+Finished in 0.02 seconds (0.02s async, 0.00s sync)
+1 test, 0 failures
+```
 
 It is important to note that the `Oban.Config.new/1` function doesn't validate
 the _internal configuration_ for the plugins; it only validates that the given
@@ -144,9 +170,8 @@ end
 
 So, if you want to go further and validate the given options to the
 `Oban.Plugins.Cron` plugin, for example, you need to know a bit about the
-internal implementation and use a combination of
-`Oban.Plugins.Cron.validate!/1` and `Oban.Plugins.Cron.init/1` and then assert
-that the returned `{:ok, state, _}` is what you expect.
+internal implementation and use `Oban.Plugins.Cron.validate!/1` and assert that
+the returned value is `:ok`.
 
 I like to validate the `cron` plugin configuration because it constantly
 evolves, and it's easy to catch typos in the cron worker module names also
@@ -158,25 +183,48 @@ assert %Oban.Config{plugins: plugins} =
          |> Keyword.merge(prod)
          |> Oban.Config.new()
 
-assert :ok = Oban.Plugins.Cron.validate!(cron_opts)
+{_, cron_opts} = Enum.find(plugins, &match?({Oban.Plugins.Cron, _}, &1))
 
-assert {:ok, _state, {:continue, :start}} = Oban.Plugins.Cron.init(cron_opts)
+assert :ok = Oban.Plugins.Cron.validate!(cron_opts)
 ```
 
-A word of caution about the previous unit test segment, regardless that
-`Oban.Plugins.Cron.validate!/1` is a public function, it has a `@doc false`,
+A word of caution about the previous unit test segment, regardless of that
+`Oban.Plugins.Cron.validate!/1` is a public function; it has a `@doc false`,
 which usually means that function is for internal use. There could be
 unannounced breaking changes in the future, but you gain the following checks:
 
 * that the value for the `crontab` option is a list.
 * if you use the `timezone` option, it checks that the given value it's a known timezone
 
-Regarding the usage of `Oban.Plugins.Cron.init/1`, you need to know that every
-Oban plugin must implement an `init/1` function. Most of the time, the plugins
-follow the `GenServer` behaviour, and in the specific case of the cron plugin,
-the `init/1` parse the crontab expressions; if an expression is invalid, the
-server initialization via `init/1` will fail. But, on the other hand, it also
-validates that the given worker is valid, so this will catch possible typos.
+For example, let's assume that you're using an invalid timezone:
+
+```console
+$ mix test test/my_app/oban_config_test.exs
+
+1) test check oban configuration (MyApp.ObanConfigTest)
+   test/my_app/oban_config_test.exs:4
+   ** (ArgumentError) expected :timezone to be a known timezone
+   code: assert :ok = Oban.Plugins.Cron.validate!(cron_opts)
+   stacktrace:
+     ...
+```
+
+In the specific case of the cron plugin, the `validate!/1` function also parses
+the crontab expressions; if a term is invalid, the validation will fail.
+But on the other hand, it also validates that the given module is loaded and
+implements the `perform/1` callback, so this will catch possible typos.
+
+```console
+$ mix test test/my_app/oban_config_test.exs
+
+1) test check oban configuration (MyApp.ObanConfigTest)
+   test/my_app/oban_config_test.exs:4
+   ** (ArgumentError) MyApp.DailWorker not found or can't be loaded
+   code: assert :ok = Oban.Plugins.Cron.validate!(cron_opts)
+```
+
+In the previous test, you can see that we tried to load a `MyApp.DialWorker`,
+but in this case, the correct name for that module is `MyApp.DailyWorker`.
 
 I think it is worth taking the risk of using a _non-documented public function_
 in this case; you gain more in your daily routine because it will allow you to
@@ -248,8 +296,8 @@ defmodule MyApp.MyBatchWorkerTest do
 end
 ```
 
-Here we're testing the "bulk" of the worker. Now, let's test one of the handler
-callbacks as a unit:
+Here we're testing the "bulk" of the worker. Now, let's check one of the
+handler callbacks as a unit:
 
 ```elixir
   use Oban.Testing, repo: MyApp.Repo
@@ -269,8 +317,9 @@ internally. That's why I ended up using: `perform_job/3`, passing the `meta`
 option. But please, be aware that `perform_job/3` will not complain if your
 handle callback last expression returns things like `{:ok, value}`, `{:error,
 value}`, etc. Please remember that the handle callbacks contract specifies that
-you must return `:ok`. A possible solution that is being considered is to
-include a `perform_callback/3` helper under the `Oban.Pro.Testing` module.
+you must return `:ok`. To fix this issue, a possible solution that is being
+considered is to include a `perform_callback/3` helper under the
+`Oban.Pro.Testing` module.
 
 Now, let's assume that we want to go further in our test and check the whole
 cycle. In that case, we do:
@@ -371,7 +420,7 @@ Here, with the help of [`start_supervised!/2`][start_supervised], which comes
 with [ExUnit][], we're setting up an Oban supervisor with some default options;
 the essential thing in the previous snippet is the plugins. So first,
 `Oban.Pro.Plugins.BatchManager` is needed because that's the plugin that will
-track the execution of the Oban jobs within a batch, and it will also enqueue
+track the execution of the Oban jobs within a batch and enqueue
 the callback jobs. So, yes, the callbacks are also Oban Jobs.
 
 Then, we have the [`Oban.Plugins.Repeater`][Repeater] plugin, which will poll
@@ -428,8 +477,7 @@ side-effects produced by your callback.
 But wait, something is missing in our previous `start_supervised_oban!/1`
 helper. Do you remember that I mentioned before that the _plugins_ implement
 the [GenServer](https://hexdocs.pm/elixir/GenServer.html) behaviour? Also, in
-the `test` environment, we're using
-[`Ecto.Adapters.SQL.Sandbox`](https://hexdocs.pm/ecto_sql/Ecto.Adapters.SQL.Sandbox.html#module-collaborating-processes)
+the `test` environment, we're using [`Ecto.Adapters.SQL.Sandbox`](https://hexdocs.pm/ecto_sql/Ecto.Adapters.SQL.Sandbox.html#module-collaborating-processes)
 to allow concurrent transactional tests. So we need to enable collaboration
 from Oban processes to run these tests successfully for these conditions. All
 these processes should use the same connection, so they all belong to the same
@@ -441,13 +489,18 @@ From the `Ecto.Adapters.SQL.Sandbox` documentation, we have the following:
 >
 > `** (DBConnection.OwnershipError) cannot find ownership process for #PID<0.35.0>`
 >
-> That's because the `setup` block is checking out the connection only for the test process. Once the worker attempts to perform a query, there is no connection assigned to it and it will fail.
+> That's because the `setup` block is checking out the connection only for the
+> test process. Once the worker attempts to perform a query, there is no
+> connection assigned to it and it will fail.
 >
-> The sandbox module provides two ways of doing so, via allowances or by running in shared mode.
+> The sandbox module provides two ways of doing so, via allowances or by
+> running in shared mode.
 
 And also, we have:
 
-> The idea behind allowances is that you can explicitly tell a process which checked out connection it should use, allowing multiple processes to collaborate over the same connection.
+> The idea behind allowances is that you can explicitly tell a process which
+> checked out connection it should use, allowing multiple processes to
+> collaborate over the same connection.
 
 So, we need to include this allowance in our `start_supervised_oban!/1` helper.
 Thankfully, Parker recently shared in the `#oban` channel the following gist to
@@ -519,9 +572,15 @@ opinion, the plugins should have a uniform way to test their configuration. As
 I mentioned in this [issue](https://github.com/sorentwo/oban/issues/632), a
 possible solution could be:
 
-> A public test helper to validate the Oban configuration, including plugins. I think it's also worth normalizing the _plugins_ under a contract or behavior; Oban now enforces defining an `init/1` function for plugins, but I think the behaviour should also include a `validate!/1` function. At least the `validate!/1` should help with the _testing experience_.
+> A public test helper to validate the Oban configuration, including plugins. I
+> think it's also worth normalizing the _plugins_ under a contract or behavior;
+> Oban now enforces defining an `init/1` function for plugins, but I think the
+> behaviour should also include a `validate!/1` function. At least the
+> `validate!/1` should help with the _testing experience_.
 >
-> There are also plugins in the Pro package that could include complex configurations, like the `Oban.Pro.Plugins.DynamicPruner`. So, I think it's worth it to offer a unified way to validate these configs.
+> There are also plugins in the Pro package that could include complex
+> configurations, like the `Oban.Pro.Plugins.DynamicPruner`. So, I think it's
+> worth it to offer a unified way to validate these configs.
 
 I hope you find this article helpful, and you have a better idea of how to test
 your Oban Workers and your Oban Configuration.
@@ -555,7 +614,6 @@ Ek](https://andrewek.github.io) for reviewing drafts of this post.
 [oban-talk]: https://www.youtube.com/watch?v=PZ48omi0NKU
 [oban-web]: https://getoban.pro/oban
 [partial-index]: https://www.postgresql.org/docs/current/indexes-partial.html
-[regulator]: https://github.com/uwiger/jobs/blob/master/doc/erlang07g-wiger.pdf
 [slack]: https://elixir-slackin.herokuapp.com/
 [sorentwo]: https://sorentwo.com
 [start_supervised]: https://hexdocs.pm/ex_unit/ExUnit.Callbacks.html#start_supervised!/2o
